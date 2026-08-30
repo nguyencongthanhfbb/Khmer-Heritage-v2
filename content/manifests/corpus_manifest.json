@@ -1,0 +1,19 @@
+{
+  "manifestVersion": "2.0.0",
+  "task": "KH-020",
+  "description": "Khmer Heritage Multi-Institution Authentic Museum Corpus Manifest",
+  "institutions": [
+    "The Metropolitan Museum of Art",
+    "Smithsonian National Museum of Asian Art",
+    "Library of Congress",
+    "Bảo tàng Quốc gia Campuchia / Wikimedia Commons",
+    "Internet Archive & EFEO"
+  ],
+  "totalObjects": 73,
+  "licenseBreakdown": {
+    "CC0": 64,
+    "Public Domain": 6,
+    "CC BY": 1,
+    "CC BY-SA": 2
+  }
+}

@@ -15,11 +15,15 @@ export const MUSEUM_COLLECTIONS: MuseumCollection[] = [
     objectIds: [
       'kh-met-38451',
       'kh-met-38304',
+      'kh-si-f1992-51',
+      'kh-si-f1993-18',
+      'kh-si-f1998-74',
+      'kh-nmc-west-mebon-vishnu',
       'kh-met-38450',
       'kh-met-38297',
       'kh-met-38158',
     ],
-    provenanceContext: 'Nguồn tư liệu đối chiếu: The Metropolitan Museum of Art Open Access (CC0) & Bảo tàng Quốc gia Campuchia.',
+    provenanceContext: 'Nguồn tư liệu đối chiếu: The Metropolitan Museum of Art (CC0), Smithsonian National Museum of Asian Art & Bảo tàng Quốc gia Campuchia.',
   },
   {
     id: 'col-sacred-temples',
@@ -33,12 +37,14 @@ export const MUSEUM_COLLECTIONS: MuseumCollection[] = [
     category: 'Sacred Architecture',
     theme: 'Đền Núi & Cấu Kiện Điêu Khắc',
     objectIds: [
+      'kh-loc-2004667825',
+      'kh-loc-2017648325',
       'kh-met-65095',
       'kh-met-38303',
       'kh-met-38162',
       'kh-met-38451',
     ],
-    provenanceContext: 'Hồ sơ nghiên cứu & khảo sát: The Metropolitan Museum of Art (Department of Asian Art).',
+    provenanceContext: 'Hồ sơ nghiên cứu & khảo sát: The Met, Library of Congress Prints & Photographs Division & EFEO.',
   },
   {
     id: 'col-pre-angkor-heritage',
@@ -53,12 +59,13 @@ export const MUSEUM_COLLECTIONS: MuseumCollection[] = [
     theme: 'Nguồn Gốc & Sự Định Hình Văn Minh',
     objectIds: [
       'kh-met-38160',
+      'kh-ins-stele-k904',
       'kh-met-38620',
       'kh-met-44965',
       'kh-met-39772',
       'kh-met-39221',
     ],
-    provenanceContext: 'Bản quyền & Tư liệu khảo cổ: The Metropolitan Museum of Art Open Access (CC0).',
+    provenanceContext: 'Bản quyền & Tư liệu khảo cổ: The Metropolitan Museum of Art Open Access (CC0) & Bảo tàng Quốc gia Campuchia.',
   },
   {
     id: 'col-living-traditions',
@@ -72,12 +79,14 @@ export const MUSEUM_COLLECTIONS: MuseumCollection[] = [
     category: 'Bronze & Ritual Objects',
     theme: 'Nghệ Thuật Luyện Kim & Nghi Lễ Hoàng Gia',
     objectIds: [
+      'kh-si-f1992-52',
+      'kh-tex-khmer-silk-pidan',
       'kh-met-38304',
       'kh-met-38903',
       'kh-met-38908',
       'kh-met-38162',
     ],
-    provenanceContext: 'Hồ sơ kiểm kê: The Metropolitan Museum of Art Collection Database.',
+    provenanceContext: 'Hồ sơ kiểm kê: The Metropolitan Museum of Art, Smithsonian National Museum of Asian Art & Asian Traditional Textile Museum.',
   },
   {
     id: 'col-ancient-epigraphy',
@@ -91,12 +100,14 @@ export const MUSEUM_COLLECTIONS: MuseumCollection[] = [
     category: 'Epigraphy & Manuscripts',
     theme: 'Sử Ký Khắc Đá & Tôn Giáo Hoàng Gia',
     objectIds: [
+      'kh-ins-stele-k904',
+      'kh-loc-2021669412',
+      'kh-ia-manuscript-coedes-inscriptions',
       'kh-met-38451',
       'kh-met-38160',
       'kh-met-65095',
-      'kh-met-38304',
     ],
-    provenanceContext: 'Đối chiếu học thuật: EFEO Corpus des inscriptions du Cambodge (George Cœdès) & Met Museum Open Access.',
+    provenanceContext: 'Đối chiếu học thuật: EFEO Corpus des inscriptions du Cambodge (George Cœdès), Library of Congress & Internet Archive.',
   },
   {
     id: 'col-traditional-music',
@@ -110,12 +121,14 @@ export const MUSEUM_COLLECTIONS: MuseumCollection[] = [
     category: 'Intangible Heritage & Musical Instruments',
     theme: 'Âm Thanh Linh Thiêng & Vũ Đạo Cung Đình',
     objectIds: [
+      'kh-art-roneat-ek-pinpeat',
+      'kh-ia-audio-pinpeat-sathukar',
       'kh-met-38451',
       'kh-met-38304',
       'kh-met-38903',
       'kh-met-38908',
     ],
-    provenanceContext: 'Tư liệu di sản phi vật thể UNESCO & Viện Âm nhạc Hoàng gia Campuchia.',
+    provenanceContext: 'Tư liệu di sản phi vật thể UNESCO, Internet Archive Audio Collection & Viện Âm nhạc Hoàng gia Campuchia.',
   },
 ];
 

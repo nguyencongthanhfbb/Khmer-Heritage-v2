@@ -4115,5 +4115,821 @@
       "artisticStyle": "Phong cách Nghệ thuật Pre-Angkor"
     },
     "isMasterpiece": false
+  },
+  {
+    "id": "kh-si-f1992-51",
+    "type": "artifact",
+    "title": "Tượng Thần Ganesha Tọa Thiền Phong Cách Bakong",
+    "titleKhmer": "ព្រះគណេសគង់សមាធិ រចនាប័ទ្មបាគង",
+    "titleEnglish": "Ganesha Seated in Meditation (Bakong Style)",
+    "alternateTitles": [
+      "Ganesha Seated in Meditation (Bakong Style)"
+    ],
+    "category": "Điêu khắc & Cổ vật (Sculpture)",
+    "period": "Angkor",
+    "dateRange": "Cuối thế kỷ 9 – đầu thế kỷ 10",
+    "century": "Thế kỷ 9 – 10",
+    "summary": "Tác phẩm điêu khắc thần Ganesha đầu voi mình người bằng sa thạch nguyên khối, một trong những kiệt tác điêu khắc sớm nhất thời kỳ Angkor.",
+    "description": "Bức tượng thần Ganesha thể hiện tư thế tọa thiền vững chãi, tai xòe rộng, ngà phải gãy theo truyền thuyết chép sử thi Mahabharata. Thuộc bộ sưu tập Bảo tàng Nghệ thuật Châu Á Quốc gia Smithsonian.",
+    "historicalContext": "Được sáng tác dưới thời trị vì của vua Indravarman I hoặc Yasovarman I, kinh đô Hariharalaya (Roluos).",
+    "culturalSignificance": "Vị thần của trí tuệ, bảo trợ nghệ thuật và vượt qua chướng ngại trong thần thoại Hindu.",
+    "material": "Đá sa thạch (Sandstone)",
+    "dimensions": "Cao: 67.5 cm; Rộng: 44.5 cm; Sâu: 33.2 cm",
+    "location": {
+      "siteName": "Quần thể Di tích Lịch sử Angkor",
+      "province": "Siem Reap",
+      "country": "Campuchia",
+      "coordinates": [
+        13.4125,
+        103.867
+      ]
+    },
+    "media": {
+      "primaryImage": "https://ids.si.edu/ids/deliveryService?id=FS-7208_02",
+      "gallery": [
+        "https://ids.si.edu/ids/deliveryService?id=FS-7208_02"
+      ],
+      "caption": "Ganesha Seated in Meditation (Bakong Style) - Smithsonian National Museum of Asian Art (F1992.51)"
+    },
+    "provenance": {
+      "institution": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)",
+      "sourceUrl": "https://asia.si.edu/object/F1992.51/",
+      "sourceRecordId": "F1992.51",
+      "license": "CC0",
+      "licenseUrl": "https://www.si.edu/openaccess",
+      "attribution": "Smithsonian Open Access (CC0) - Số kiểm kê: F1992.51",
+      "accessionNumber": "F1992.51",
+      "citations": [
+        "Smithsonian Institution Collection Record: F1992.51",
+        "Freer Gallery of Art and Arthur M. Sackler Gallery, Purchase — Charles Lang Freer Endowment"
+      ]
+    },
+    "relations": {
+      "relatedEntityIds": [],
+      "relatedCollections": [
+        "col-angkor-sculpture",
+        "col-living-traditions"
+      ],
+      "associatedConcepts": [
+        "Nghệ thuật Điêu khắc Đồng & Sa thạch",
+        "Di sản Phật giáo & Hindu"
+      ],
+      "artisticStyle": "Nghệ thuật Hoàng gia Angkor"
+    },
+    "isMasterpiece": true
+  },
+  {
+    "id": "kh-si-f1993-18",
+    "type": "artifact",
+    "title": "Tượng Nữ Thần Devi / Uma Phong Cách Baphuon",
+    "titleKhmer": "ព្រះនាងទេវី រចនាប័ទ្មបាភួន",
+    "titleEnglish": "Standing Female Deity (Devi / Uma), Baphuon Style",
+    "alternateTitles": [
+      "Standing Female Deity (Devi / Uma), Baphuon Style"
+    ],
+    "category": "Điêu khắc & Cổ vật (Sculpture)",
+    "period": "Angkor",
+    "dateRange": "Thế kỷ 11 (Khoảng 1050–1100)",
+    "century": "Thế kỷ 11",
+    "summary": "Bức tượng nữ thần sa thạch thanh thoát với váy Sampot nếp gấp tinh mỹ đặc trưng phong cách Baphuon.",
+    "description": "Kiệt tác điêu khắc nữ tính thể hiện vẻ đẹp cân đối và thanh tú của nghệ thuật thời Baphuon. Thần sắc điềm đạm, đường cong tự nhiên và trang phục có dải thắt uốn lượn hình cánh bướm.",
+    "historicalContext": "Thời kỳ hưng thịnh của vương triều Udayadityavarman II, gắn liền với việc xây dựng đền Baphuon.",
+    "culturalSignificance": "Hiện thân của nữ tính thiêng liêng (Shakti) và đức từ bi trong Ấn Độ giáo Angkor.",
+    "material": "Đá sa thạch (Sandstone)",
+    "dimensions": "Cao: 98.4 cm; Rộng: 27.2 cm; Sâu: 18.5 cm",
+    "location": {
+      "siteName": "Quần thể Di tích Lịch sử Angkor",
+      "province": "Siem Reap",
+      "country": "Campuchia",
+      "coordinates": [
+        13.4125,
+        103.867
+      ]
+    },
+    "media": {
+      "primaryImage": "https://ids.si.edu/ids/deliveryService?id=FS-7288_01",
+      "gallery": [
+        "https://ids.si.edu/ids/deliveryService?id=FS-7288_01"
+      ],
+      "caption": "Standing Female Deity (Devi / Uma), Baphuon Style - Smithsonian National Museum of Asian Art (F1993.18)"
+    },
+    "provenance": {
+      "institution": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)",
+      "sourceUrl": "https://asia.si.edu/object/F1993.18/",
+      "sourceRecordId": "F1993.18",
+      "license": "CC0",
+      "licenseUrl": "https://www.si.edu/openaccess",
+      "attribution": "Smithsonian Open Access (CC0) - Số kiểm kê: F1993.18",
+      "accessionNumber": "F1993.18",
+      "citations": [
+        "Smithsonian Institution Collection Record: F1993.18",
+        "Smithsonian National Museum of Asian Art, Gift of Arthur M. Sackler"
+      ]
+    },
+    "relations": {
+      "relatedEntityIds": [],
+      "relatedCollections": [
+        "col-angkor-sculpture",
+        "col-living-traditions"
+      ],
+      "associatedConcepts": [
+        "Nghệ thuật Điêu khắc Đồng & Sa thạch",
+        "Di sản Phật giáo & Hindu"
+      ],
+      "artisticStyle": "Nghệ thuật Hoàng gia Angkor"
+    },
+    "isMasterpiece": true
+  },
+  {
+    "id": "kh-si-f1998-74",
+    "type": "artifact",
+    "title": "Bộ Tam Tôn Phật Giáo Đại Thừa Thời Vua Jayavarman VII",
+    "titleKhmer": "ព្រះត្រៃរ័ត្នពុទ្ធសាសនា មហាយាន",
+    "titleEnglish": "Buddhist Triad: Buddha, Avalokiteshvara, and Prajnaparamita",
+    "alternateTitles": [
+      "Buddhist Triad: Buddha, Avalokiteshvara, and Prajnaparamita"
+    ],
+    "category": "Điêu khắc & Cổ vật (Sculpture)",
+    "period": "Angkor",
+    "dateRange": "Cuối thế kỷ 12 – đầu thế kỷ 13",
+    "century": "Thế kỷ 12 – 13",
+    "summary": "Bộ ba pho tượng đồng đúc nguyên vẹn hiếm có thể hiện Đức Phật Thích Ca ngự trên rắn thần Mucalinda cùng Bồ tát Quán Thế Âm và Bát Nhã Ba La Mật Đa.",
+    "description": "Tác phẩm đúc đồng tinh xảo đại diện cho giáo lý Phật giáo Đại thừa hoàng gia thời kỳ vua Jayavarman VII, phong cách Bayon đỉnh cao.",
+    "historicalContext": "Được chế tác dưới triều đại vua Jayavarman VII (1181–1218), thời kỳ Phật giáo trở thành quốc giáo của Angkor.",
+    "culturalSignificance": "Biểu tượng dung hợp Tam bảo và lòng từ bi vô hạn của vương triều Angkor đối với bách tính.",
+    "material": "Hợp kim đồng (Bronze with dark patina)",
+    "dimensions": "Cao: 42.8 cm; Rộng: 33.5 cm; Sâu: 16.0 cm",
+    "location": {
+      "siteName": "Quần thể Di tích Lịch sử Angkor",
+      "province": "Siem Reap",
+      "country": "Campuchia",
+      "coordinates": [
+        13.4125,
+        103.867
+      ]
+    },
+    "media": {
+      "primaryImage": "https://ids.si.edu/ids/deliveryService?id=FS-7782_02",
+      "gallery": [
+        "https://ids.si.edu/ids/deliveryService?id=FS-7782_02"
+      ],
+      "caption": "Buddhist Triad: Buddha, Avalokiteshvara, and Prajnaparamita - Smithsonian National Museum of Asian Art (F1998.74)"
+    },
+    "provenance": {
+      "institution": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)",
+      "sourceUrl": "https://asia.si.edu/object/F1998.74/",
+      "sourceRecordId": "F1998.74",
+      "license": "CC0",
+      "licenseUrl": "https://www.si.edu/openaccess",
+      "attribution": "Smithsonian Open Access (CC0) - Số kiểm kê: F1998.74",
+      "accessionNumber": "F1998.74",
+      "citations": [
+        "Smithsonian Institution Collection Record: F1998.74",
+        "Freer Gallery of Art and Arthur M. Sackler Gallery, Purchase"
+      ]
+    },
+    "relations": {
+      "relatedEntityIds": [],
+      "relatedCollections": [
+        "col-angkor-sculpture",
+        "col-living-traditions"
+      ],
+      "associatedConcepts": [
+        "Nghệ thuật Điêu khắc Đồng & Sa thạch",
+        "Di sản Phật giáo & Hindu"
+      ],
+      "artisticStyle": "Nghệ thuật Hoàng gia Angkor"
+    },
+    "isMasterpiece": true
+  },
+  {
+    "id": "kh-si-f1992-52",
+    "type": "artifact",
+    "title": "Ốc Tù Và Nghi Lễ Bằng Đồng (Shankha) và Giá Đỡ Chạm Hình Rắn Naga",
+    "titleKhmer": "ស័ង្ខសក្ការៈសំរឹទ្ធ",
+    "titleEnglish": "Ritual Conch Shell (Shankha) with Hevajra / Garuda Stand",
+    "alternateTitles": [
+      "Ritual Conch Shell (Shankha) with Hevajra / Garuda Stand"
+    ],
+    "category": "Cổ vật Nghi Lễ (Ritual Object)",
+    "period": "Angkor",
+    "dateRange": "Thế kỷ 12 – 13",
+    "century": "Thế kỷ 12 – 13",
+    "summary": "Pháp khí ốc tù và nghi lễ bằng đồng đúc rỗng kèm chân đế chạm hình Garuda và rắn thần Naga.",
+    "description": "Ốc biển Shankha là pháp khí tối linh trong các nghi lễ hiến tế hoàng gia Angkor, âm thanh phát ra xua tan ma chướng và mang lại phúc lành cho vương quốc.",
+    "historicalContext": "Được sử dụng trong các nghi lễ tẩy trần và quán đảnh tại các đền thờ hoàng gia Angkor.",
+    "culturalSignificance": "Một trong 4 biểu tượng thiêng liêng cầm tay của Đấng Bảo Tồn Vishnu.",
+    "material": "Đồng đúc chạm khắc (Cast and incised bronze)",
+    "dimensions": "Dài: 31.4 cm; Rộng: 14.8 cm",
+    "location": {
+      "siteName": "Quần thể Di tích Lịch sử Angkor",
+      "province": "Siem Reap",
+      "country": "Campuchia",
+      "coordinates": [
+        13.4125,
+        103.867
+      ]
+    },
+    "media": {
+      "primaryImage": "https://ids.si.edu/ids/deliveryService?id=FS-7209_01",
+      "gallery": [
+        "https://ids.si.edu/ids/deliveryService?id=FS-7209_01"
+      ],
+      "caption": "Ritual Conch Shell (Shankha) with Hevajra / Garuda Stand - Smithsonian National Museum of Asian Art (F1992.52)"
+    },
+    "provenance": {
+      "institution": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)",
+      "sourceUrl": "https://asia.si.edu/object/F1992.52/",
+      "sourceRecordId": "F1992.52",
+      "license": "CC0",
+      "licenseUrl": "https://www.si.edu/openaccess",
+      "attribution": "Smithsonian Open Access (CC0) - Số kiểm kê: F1992.52",
+      "accessionNumber": "F1992.52",
+      "citations": [
+        "Smithsonian Institution Collection Record: F1992.52",
+        "Smithsonian National Museum of Asian Art, Friends of Asian Arts Fund"
+      ]
+    },
+    "relations": {
+      "relatedEntityIds": [],
+      "relatedCollections": [
+        "col-angkor-sculpture",
+        "col-living-traditions"
+      ],
+      "associatedConcepts": [
+        "Nghệ thuật Điêu khắc Đồng & Sa thạch",
+        "Di sản Phật giáo & Hindu"
+      ],
+      "artisticStyle": "Nghệ thuật Hoàng gia Angkor"
+    },
+    "isMasterpiece": true
+  },
+  {
+    "id": "kh-loc-2004667825",
+    "type": "media_record",
+    "title": "Bản Đồ Học & Khảo Sát Bình Đồ Kiến Trúc Đền Angkor Wat (1900)",
+    "titleKhmer": "ប្លង់ស្ថាបត្យកម្មប្រាសាទអង្គរវត្ត",
+    "titleEnglish": "Architectural Ground Plan and Survey of Angkor Wat Temple Complex",
+    "alternateTitles": [
+      "Architectural Ground Plan and Survey of Angkor Wat Temple Complex"
+    ],
+    "category": "Tư Liệu & Bản Đồ Lịch Sử (Historical Maps & Survey)",
+    "period": "Modern",
+    "dateRange": "Khoảng 1890–1910",
+    "century": "Đầu thế kỷ 20",
+    "summary": "Bản đồ đo đạc trắc địa và bình đồ kiến trúc chi tiết đầu tiên của quần thể Angkor Wat do các đoàn khảo sát Pháp và quốc tế thực hiện.",
+    "description": "Tài liệu đồ họa lịch sử ghi nhận chuẩn xác tỷ lệ hào nước, các tầng tháp trung tâm và hệ thống hành lang chạm khắc phù điêu của Angkor Wat trước khi trùng tu lớn.",
+    "historicalContext": "Thời kỳ các đoàn khảo cổ học phương Tây bắt đầu giải mã và ghi nhận quy mô toàn cảnh của nền văn minh Angkor.",
+    "culturalSignificance": "Tư liệu quý giá đối chiếu hiện trạng bảo tồn và quy hoạch không gian thiêng của đền Angkor Wat.",
+    "material": "Bản vẽ in thạch bản trên giấy (Lithograph print on paper)",
+    "dimensions": "65 x 90 cm",
+    "location": {
+      "siteName": "Quần thể Di sản Văn hóa Angkor",
+      "province": "Siem Reap",
+      "country": "Campuchia",
+      "coordinates": [
+        13.4125,
+        103.867
+      ]
+    },
+    "media": {
+      "primaryImage": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/09800/09845_150px.jpg",
+      "gallery": [
+        "https://tile.loc.gov/storage-services/service/pnp/ppmsca/09800/09845_150px.jpg"
+      ],
+      "caption": "Architectural Ground Plan and Survey of Angkor Wat Temple Complex - Library of Congress (LCCN: 2004667825)"
+    },
+    "provenance": {
+      "institution": "Library of Congress (Washington, D.C.)",
+      "sourceUrl": "https://www.loc.gov/item/2004667825/",
+      "sourceRecordId": "2004667825",
+      "license": "Public Domain",
+      "licenseUrl": "https://www.loc.gov/legal/",
+      "attribution": "Library of Congress Public Domain - Mã tư liệu: 2004667825",
+      "accessionNumber": "2004667825",
+      "citations": [
+        "Library of Congress Catalog Item: 2004667825",
+        "Library of Congress, Prints & Photographs Division, Washington, D.C."
+      ]
+    },
+    "relations": {
+      "relatedEntityIds": [],
+      "relatedCollections": [
+        "col-sacred-temples",
+        "col-ancient-epigraphy"
+      ],
+      "associatedConcepts": [
+        "Tư liệu Khảo sát Lịch sử",
+        "Kinh văn & Bản đồ Cổ"
+      ],
+      "artisticStyle": "Tư liệu Lưu trữ Lịch sử"
+    },
+    "isMasterpiece": false
+  },
+  {
+    "id": "kh-loc-2017648325",
+    "type": "media_record",
+    "title": "Ảnh Tư Liệu Lịch Sử: Tháp Mặt Phật Đền Bayon (Khoảng 1910)",
+    "titleKhmer": "រូបថតប្រវត្តិសាស្ត្រ៖ ប្រាសាទបាយ័ន",
+    "titleEnglish": "Historical Photograph: Smiling Stone Faces of the Bayon Central Towers",
+    "alternateTitles": [
+      "Historical Photograph: Smiling Stone Faces of the Bayon Central Towers"
+    ],
+    "category": "Nhiếp Ảnh Lịch Sử (Historical Photography)",
+    "period": "Modern",
+    "dateRange": "Khoảng 1910–1920",
+    "century": "Đầu thế kỷ 20",
+    "summary": "Bức ảnh chụp phim bạc gelatin nguyên bản ghi lại vẻ đẹp trầm mặc của các tháp mặt đá 4 hướng tại đền Bayon trong rừng già Siem Reap.",
+    "description": "Tác phẩm nhiếp ảnh tư liệu lịch sử nắm bắt ánh sáng và nét chạm khắc đá sa thạch biểu tượng nụ cười Bayon huyền thoại trước các đợt phát lộ rừng rậm quy mô lớn.",
+    "historicalContext": "Giai đoạn khám phá và ghi nhận hình ảnh Angkor đầu thế kỷ 20.",
+    "culturalSignificance": "Minh chứng sống động về sự trường tồn của kiệt tác kiến trúc Phật giáo thời vua Jayavarman VII.",
+    "material": "Ảnh phim bạc Gelatin (Gelatin silver photographic print)",
+    "dimensions": "18 x 24 cm",
+    "location": {
+      "siteName": "Quần thể Di sản Văn hóa Angkor",
+      "province": "Siem Reap",
+      "country": "Campuchia",
+      "coordinates": [
+        13.4125,
+        103.867
+      ]
+    },
+    "media": {
+      "primaryImage": "https://tile.loc.gov/storage-services/service/pnp/cph/3c20000/3c28000/3c28900/3c28965_150px.jpg",
+      "gallery": [
+        "https://tile.loc.gov/storage-services/service/pnp/cph/3c20000/3c28000/3c28900/3c28965_150px.jpg"
+      ],
+      "caption": "Historical Photograph: Smiling Stone Faces of the Bayon Central Towers - Library of Congress (LCCN: 2017648325)"
+    },
+    "provenance": {
+      "institution": "Library of Congress (Washington, D.C.)",
+      "sourceUrl": "https://www.loc.gov/item/2017648325/",
+      "sourceRecordId": "2017648325",
+      "license": "Public Domain",
+      "licenseUrl": "https://www.loc.gov/legal/",
+      "attribution": "Library of Congress Public Domain - Mã tư liệu: 2017648325",
+      "accessionNumber": "2017648325",
+      "citations": [
+        "Library of Congress Catalog Item: 2017648325",
+        "Library of Congress Prints and Photographs Division, Frank and Frances Carpenter Collection"
+      ]
+    },
+    "relations": {
+      "relatedEntityIds": [],
+      "relatedCollections": [
+        "col-sacred-temples",
+        "col-ancient-epigraphy"
+      ],
+      "associatedConcepts": [
+        "Tư liệu Khảo sát Lịch sử",
+        "Kinh văn & Bản đồ Cổ"
+      ],
+      "artisticStyle": "Tư liệu Lưu trữ Lịch sử"
+    },
+    "isMasterpiece": false
+  },
+  {
+    "id": "kh-loc-2021669412",
+    "type": "manuscript",
+    "title": "Bản Thảo Kinh Lá Buông Khmer Cổ (Sastra Slek Reit)",
+    "titleKhmer": "សាស្រ្តាស្លឹករឹត រឿងត្រៃភូមិ",
+    "titleEnglish": "Trai Phum Buddhist Cosmological Treatise on Palm-Leaf (Sastra Slek Reit)",
+    "alternateTitles": [
+      "Trai Phum Buddhist Cosmological Treatise on Palm-Leaf (Sastra Slek Reit)"
+    ],
+    "category": "Bản Thảo & Kinh Lá Buông (Palm-Leaf Manuscripts)",
+    "period": "Post-Angkor",
+    "dateRange": "Thế kỷ 18 – 19",
+    "century": "Thế kỷ 18 – 19",
+    "summary": "Tập kinh lá buông chép tay bằng chữ Khmer cổ ghi chép vũ trụ luận Tam giới (Trai Phum) và giới luật Phật giáo Thượng tọa bộ (Theravada).",
+    "description": "Kinh lá buông được khắc bằng bút kim sắt trên các phiến lá cọ buông đã xử lý nhiệt, quét muội than để làm nổi chữ và xâu dây chỉ cố định giữa hai thanh bìa gỗ chạm khắc.",
+    "historicalContext": "Thời kỳ Phục hưng Phật giáo Thượng tọa bộ tại các tu viện Phật giáo Hoàng gia Campuchia.",
+    "culturalSignificance": "Di sản văn tự vô giá lưu truyền giáo lý đạo đức và thế giới quan Phật giáo cổ truyền của người Khmer.",
+    "material": "Lá buông sấy khô, mực muội than và gỗ quý (Inscribed palm leaf and lacquered wood)",
+    "dimensions": "Dài: 55 cm; Rộng: 5.5 cm; Dày: 4.2 cm (68 lá kinh)",
+    "location": {
+      "siteName": "Quần thể Di sản Văn hóa Angkor",
+      "province": "Siem Reap",
+      "country": "Campuchia",
+      "coordinates": [
+        13.4125,
+        103.867
+      ]
+    },
+    "media": {
+      "primaryImage": "https://tile.loc.gov/storage-services/service/asian/2021/2021669412/2021669412_0001_150px.jpg",
+      "gallery": [
+        "https://tile.loc.gov/storage-services/service/asian/2021/2021669412/2021669412_0001_150px.jpg"
+      ],
+      "caption": "Trai Phum Buddhist Cosmological Treatise on Palm-Leaf (Sastra Slek Reit) - Library of Congress (LCCN: 2021669412)"
+    },
+    "provenance": {
+      "institution": "Library of Congress (Washington, D.C.)",
+      "sourceUrl": "https://www.loc.gov/item/2021669412/",
+      "sourceRecordId": "2021669412",
+      "license": "Public Domain",
+      "licenseUrl": "https://www.loc.gov/legal/",
+      "attribution": "Library of Congress Public Domain - Mã tư liệu: 2021669412",
+      "accessionNumber": "2021669412",
+      "citations": [
+        "Library of Congress Catalog Item: 2021669412",
+        "Library of Congress, Asian Division, Southeast Asian Rare Book Collection"
+      ]
+    },
+    "relations": {
+      "relatedEntityIds": [],
+      "relatedCollections": [
+        "col-sacred-temples",
+        "col-ancient-epigraphy"
+      ],
+      "associatedConcepts": [
+        "Tư liệu Khảo sát Lịch sử",
+        "Kinh văn & Bản đồ Cổ"
+      ],
+      "artisticStyle": "Tư liệu Lưu trữ Lịch sử"
+    },
+    "isMasterpiece": false
+  },
+  {
+    "id": "kh-nmc-west-mebon-vishnu",
+    "type": "artifact",
+    "title": "Đầu Tượng Thần Vishnu Nằm Đền West Mebon (Đồng Đúc Khổng Lồ)",
+    "titleKhmer": "ព្រះសិរវិស្ណុផ្ទុំ មេបុណ្យខាងលិច",
+    "titleEnglish": "Colossal Bronze Head of the Reclining Vishnu from West Mebon",
+    "alternateTitles": [
+      "Colossal Bronze Head of the Reclining Vishnu from West Mebon"
+    ],
+    "category": "Điêu khắc & Cổ vật (Sculpture)",
+    "period": "Angkor",
+    "dateRange": "Thế kỷ 11 (Khoảng 1060 SCN)",
+    "century": "Thế kỷ 11",
+    "summary": "Phần đầu và ngực còn lại của pho tượng đồng đúc khổng lồ vĩ đại nhất từng được phát hiện tại Đông Nam Á, khai quật tại lòng hồ West Mebon.",
+    "description": "Bức tượng đồng nguyên bản từng dài hơn 6 mét, thể hiện Thần Vishnu ngự trên biển vũ trụ Ananta. Hiện vật minh chứng cho trình độ đúc đồng phi thường bậc nhất lịch sử Angkor.",
+    "historicalContext": "Được tôn trí tại đền thờ giữa lòng hồ thủy lợi khổng lồ Tây Baray dưới triều vua Udayadityavarman II.",
+    "culturalSignificance": "Quốc bảo khảo cổ Campuchia, biểu tượng cho nguồn nước sinh sôi và quyền năng vũ trụ bảo hộ vương quốc.",
+    "material": "Hợp kim đồng đúc sáp ong (Lost-wax cast bronze)",
+    "dimensions": "Cao: 114 cm; Rộng: 83 cm; Trọng lượng phần đầu: ~400 kg",
+    "location": {
+      "siteName": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia, Phnom Penh)",
+      "province": "Phnom Penh / Siem Reap",
+      "country": "Campuchia",
+      "coordinates": [
+        11.5663,
+        104.9282
+      ]
+    },
+    "media": {
+      "primaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/West_Mebon_Vishnu.JPG/480px-West_Mebon_Vishnu.JPG",
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/West_Mebon_Vishnu.JPG/480px-West_Mebon_Vishnu.JPG"
+      ],
+      "caption": "Colossal Bronze Head of the Reclining Vishnu from West Mebon - Bảo tàng Quốc gia Campuchia (National Museum of Cambodia, Phnom Penh)"
+    },
+    "provenance": {
+      "institution": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia, Phnom Penh)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_Mebon_Vishnu.JPG",
+      "sourceRecordId": "File:West_Mebon_Vishnu_National_Museum_of_Cambodia.jpg",
+      "license": "CC BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia, Phnom Penh) / Wikimedia Commons (CC BY-SA) - National Museum of Cambodia / EFEO Archaeological Survey",
+      "accessionNumber": "KH-NMC-WEST-MEBON-VISHNU",
+      "citations": [
+        "Wikimedia Commons Curated Heritage Media: File:West_Mebon_Vishnu_National_Museum_of_Cambodia.jpg",
+        "Documented by: National Museum of Cambodia / EFEO Archaeological Survey",
+        "Rights: CC BY-SA"
+      ]
+    },
+    "relations": {
+      "relatedEntityIds": [],
+      "relatedCollections": [
+        "col-angkor-sculpture",
+        "col-ancient-epigraphy",
+        "col-living-traditions"
+      ],
+      "associatedConcepts": [
+        "Di Sản Cổ Vật Quốc Bảo",
+        "Văn Bia & Âm Nhạc Cổ Truyền"
+      ],
+      "artisticStyle": "Di Sản Văn Hóa & Nghệ Thuật Cổ Truyền"
+    },
+    "isMasterpiece": true
+  },
+  {
+    "id": "kh-art-roneat-ek-pinpeat",
+    "type": "art_form",
+    "title": "Đàn Roneat Ek — Nhạc Cụ Chủ Đạo Dàn Nhạc Cung Đình Pinpeat",
+    "titleKhmer": "រនាតឯក ភ្លេងពិណពាទ្យ",
+    "titleEnglish": "Roneat Ek: Traditional Cambodian Bamboo Xylophone of the Pinpeat Ensemble",
+    "alternateTitles": [
+      "Roneat Ek: Traditional Cambodian Bamboo Xylophone of the Pinpeat Ensemble"
+    ],
+    "category": "Nhạc Cụ & Âm Nhạc Cổ Truyền (Musical Instruments)",
+    "period": "Post-Angkor",
+    "dateRange": "Thế kỷ 16 – nay",
+    "century": "Hậu Angkor & Cổ truyền",
+    "summary": "Nhạc cụ gõ định âm đóng vai trò dẫn dắt giai điệu chính trong dàn đại nhạc Pinpeat phục vụ nghi lễ tôn giáo và múa cung đình hoàng gia.",
+    "description": "Thùng đàn hình thuyền rồng uốn cong bằng gỗ quý chạm khảm xà cừ, với 21 thanh phím làm từ tre già hoặc gỗ mun được liên kết bằng dây treo qua các lỗ dùi chính xác.",
+    "historicalContext": "Dàn nhạc Pinpeat xuất hiện trên các bức phù điêu chạm khắc tại Angkor Wat từ thế kỷ 12 và tiếp tục được bảo tồn trong hoàng cung.",
+    "culturalSignificance": "Linh hồn của âm nhạc thiêng liêng biểu diễn trong các đại lễ cầu an, tưởng niệm và múa cung đình Apsara.",
+    "material": "Gỗ cẩm lai, tre ngâm lâu năm, khảm xà cừ và chì sáp định âm",
+    "dimensions": "Dài: 100 cm; Cao: 45 cm; Rộng: 22 cm",
+    "location": {
+      "siteName": "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia",
+      "province": "Phnom Penh / Siem Reap",
+      "country": "Campuchia",
+      "coordinates": [
+        11.5663,
+        104.9282
+      ]
+    },
+    "media": {
+      "primaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Roneat_ek.jpg/480px-Roneat_ek.jpg",
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Roneat_ek.jpg/480px-Roneat_ek.jpg"
+      ],
+      "caption": "Roneat Ek: Traditional Cambodian Bamboo Xylophone of the Pinpeat Ensemble - Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia"
+    },
+    "provenance": {
+      "institution": "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roneat_ek.jpg",
+      "sourceRecordId": "File:Roneat_ek_Cambodian_xylophone.jpg",
+      "license": "CC BY-SA",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia / Wikimedia Commons (CC BY-SA) - UNESCO & Ministry of Culture and Fine Arts Cambodia",
+      "accessionNumber": "KH-ART-RONEAT-EK-PINPEAT",
+      "citations": [
+        "Wikimedia Commons Curated Heritage Media: File:Roneat_ek_Cambodian_xylophone.jpg",
+        "Documented by: UNESCO & Ministry of Culture and Fine Arts Cambodia",
+        "Rights: CC BY-SA"
+      ]
+    },
+    "relations": {
+      "relatedEntityIds": [],
+      "relatedCollections": [
+        "col-angkor-sculpture",
+        "col-ancient-epigraphy",
+        "col-living-traditions"
+      ],
+      "associatedConcepts": [
+        "Di Sản Cổ Vật Quốc Bảo",
+        "Văn Bia & Âm Nhạc Cổ Truyền"
+      ],
+      "artisticStyle": "Di Sản Văn Hóa & Nghệ Thuật Cổ Truyền"
+    },
+    "isMasterpiece": true
+  },
+  {
+    "id": "kh-tex-khmer-silk-pidan",
+    "type": "artifact",
+    "title": "Tranh Vải Lụa Dệt Ikat Đền Thờ (Pidan Hol) Huyền Thoại Vessantara",
+    "titleKhmer": "ពិដានសូត្រខ្មែរ រឿងវេស្សន្តរជាតក",
+    "titleEnglish": "Sacred Buddhist Temple Hanging (Pidan Hol Silk Ikat Tapestry)",
+    "alternateTitles": [
+      "Sacred Buddhist Temple Hanging (Pidan Hol Silk Ikat Tapestry)"
+    ],
+    "category": "Dệt Lụa & Thổ Cẩm Cổ Truyền (Textiles & Silk)",
+    "period": "Post-Angkor",
+    "dateRange": "Thế kỷ 19",
+    "century": "Thế kỷ 19",
+    "summary": "Bức trướng lụa dệt kỹ thuật nhuộm hoa văn buộc sợi (Hol / Ikat) tinh xảo nhất dùng treo tại các chánh điện chùa Phật giáo.",
+    "description": "Các nghệ nhân dệt nhuộm thủ công từng sợi tơ tằm bằng thuốc nhuộm tự nhiên từ vỏ cây, rễ cây và cánh kiến đỏ, tạo nên bức tranh phong cảnh thần thoại và các ngôi tháp nhiều tầng.",
+    "historicalContext": "Nghề dệt lụa Hol cổ truyền phát triển rực rỡ tại các làng nghề Koh Dach và Takeo.",
+    "culturalSignificance": "Vật phẩm cúng dường tích đức tối thượng trong các đại lễ Phật giáo Choul Chnam Thmey và Pchum Ben.",
+    "material": "Lụa tơ tằm tự nhiên dệt Ikat nhuộm màu thảo mộc (Handwoven silk ikat)",
+    "dimensions": "Dài: 220 cm; Rộng: 90 cm",
+    "location": {
+      "siteName": "Bảo tàng Dệt May Truyền Thống Châu Á (Siem Reap)",
+      "province": "Phnom Penh / Siem Reap",
+      "country": "Campuchia",
+      "coordinates": [
+        11.5663,
+        104.9282
+      ]
+    },
+    "media": {
+      "primaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Khmer_silk_ikat.jpg/480px-Khmer_silk_ikat.jpg",
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Khmer_silk_ikat.jpg/480px-Khmer_silk_ikat.jpg"
+      ],
+      "caption": "Sacred Buddhist Temple Hanging (Pidan Hol Silk Ikat Tapestry) - Bảo tàng Dệt May Truyền Thống Châu Á (Siem Reap)"
+    },
+    "provenance": {
+      "institution": "Bảo tàng Dệt May Truyền Thống Châu Á (Siem Reap)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khmer_silk_ikat.jpg",
+      "sourceRecordId": "File:Khmer_silk_pidan_temple_hanging.jpg",
+      "license": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Bảo tàng Dệt May Truyền Thống Châu Á (Siem Reap) / Wikimedia Commons (CC BY) - Khmer Traditional Textile Institute",
+      "accessionNumber": "KH-TEX-KHMER-SILK-PIDAN",
+      "citations": [
+        "Wikimedia Commons Curated Heritage Media: File:Khmer_silk_pidan_temple_hanging.jpg",
+        "Documented by: Khmer Traditional Textile Institute",
+        "Rights: CC BY"
+      ]
+    },
+    "relations": {
+      "relatedEntityIds": [],
+      "relatedCollections": [
+        "col-angkor-sculpture",
+        "col-ancient-epigraphy",
+        "col-living-traditions"
+      ],
+      "associatedConcepts": [
+        "Di Sản Cổ Vật Quốc Bảo",
+        "Văn Bia & Âm Nhạc Cổ Truyền"
+      ],
+      "artisticStyle": "Di Sản Văn Hóa & Nghệ Thuật Cổ Truyền"
+    },
+    "isMasterpiece": true
+  },
+  {
+    "id": "kh-ins-stele-k904",
+    "type": "manuscript",
+    "title": "Bia Ký Khắc Đá Cổ K.904 (Chữ Phạn & Tiếng Khmer Cổ Thế Kỷ 7)",
+    "titleKhmer": "សិលាចារឹកបុរាណ K.៩០៤",
+    "titleEnglish": "Ancient Stone Inscription Stele K.904 (Sanskrit and Old Khmer Epigraphy)",
+    "alternateTitles": [
+      "Ancient Stone Inscription Stele K.904 (Sanskrit and Old Khmer Epigraphy)"
+    ],
+    "category": "Văn Bia & Ký Tự Cổ (Epigraphy & Inscriptions)",
+    "period": "Chenla",
+    "dateRange": "Năm 657 SCN (Thế kỷ 7)",
+    "century": "Thế kỷ 7",
+    "summary": "Trụ đá sa thạch khắc văn bia song ngữ Phạn - Khmer ghi chép chỉ dụ phong ấp của vua Bhavavarman II và dâng cúng tu viện thần Shiva.",
+    "description": "Mẫu tự chữ viết Khmer cổ thời kỳ Chân Lạp được khắc tinh xảo bằng kỹ thuật đục đá chính xác, cung cấp bằng chứng ngữ văn học cổ xưa nhất về ngữ pháp và từ vựng Khmer sơ kỳ.",
+    "historicalContext": "Được ghi khắc dưới triều đại vua Bhavavarman II, tìm thấy tại tỉnh Kampong Thom.",
+    "culturalSignificance": "Nguồn tư liệu sử học gốc xác quyết niên đại và tổ chức hành chính tôn giáo của vương quốc Chân Lạp.",
+    "material": "Đá sa thạch xám khắc văn tự (Inscribed sandstone stele)",
+    "dimensions": "Cao: 85 cm; Rộng: 38 cm; Dày: 18 cm (28 dòng văn tự)",
+    "location": {
+      "siteName": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)",
+      "province": "Phnom Penh / Siem Reap",
+      "country": "Campuchia",
+      "coordinates": [
+        11.5663,
+        104.9282
+      ]
+    },
+    "media": {
+      "primaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg",
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg"
+      ],
+      "caption": "Ancient Stone Inscription Stele K.904 (Sanskrit and Old Khmer Epigraphy) - Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)"
+    },
+    "provenance": {
+      "institution": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khmer_inscription_stele.jpg",
+      "sourceRecordId": "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia) / Wikimedia Commons (Public Domain) - EFEO (École française d'Extrême-Orient) Archives",
+      "accessionNumber": "KH-INS-STELE-K904",
+      "citations": [
+        "Wikimedia Commons Curated Heritage Media: File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+        "Documented by: EFEO (École française d'Extrême-Orient) Archives",
+        "Rights: Public Domain"
+      ]
+    },
+    "relations": {
+      "relatedEntityIds": [],
+      "relatedCollections": [
+        "col-angkor-sculpture",
+        "col-ancient-epigraphy",
+        "col-living-traditions"
+      ],
+      "associatedConcepts": [
+        "Di Sản Cổ Vật Quốc Bảo",
+        "Văn Bia & Âm Nhạc Cổ Truyền"
+      ],
+      "artisticStyle": "Di Sản Văn Hóa & Nghệ Thuật Cổ Truyền"
+    },
+    "isMasterpiece": true
+  },
+  {
+    "id": "kh-ia-audio-pinpeat-sathukar",
+    "type": "art_form",
+    "title": "Khúc Nhạc Thiêng Sathukar — Khởi Nhạc Đại Lễ Cung Đình Khmer",
+    "titleKhmer": "បទសាធុការ ភ្លេងពិណពាទ្យ",
+    "titleEnglish": "Sathukar: Sacred Opening Suite of the Traditional Royal Pinpeat Orchestra",
+    "alternateTitles": [
+      "Sathukar: Sacred Opening Suite of the Traditional Royal Pinpeat Orchestra"
+    ],
+    "category": "Âm Nhạc & Khúc Nghi Lễ Cung Đình (Traditional Audio)",
+    "period": "Post-Angkor",
+    "dateRange": "Bản ghi âm tư liệu 1968 (Nguồn gốc cổ truyền)",
+    "century": "Hậu Angkor & Cận đại",
+    "summary": "Bản đại hòa tấu linh thiêng quan trọng nhất của dàn nhạc Pinpeat, thấu suốt qua đàn Roneat Ek, Roneat Thung, trống Sampho và cồng vòm Kong Vong.",
+    "description": "Khúc Sathukar được tấu lên đầu tiên trong mọi nghi thức tôn giáo Phật giáo và nghi lễ tấn phong của hoàng gia để thỉnh mời chư thần linh, chư Phật chứng giám.",
+    "historicalContext": "Được bảo tồn nguyên bản qua nhiều thế hệ nghệ nhân nhạc sư cung đình Phnom Penh.",
+    "culturalSignificance": "Di sản phi vật thể nhân loại đại diện cho sự hòa quyện giữa tâm linh vũ trụ và âm nhạc cổ truyền Khmer.",
+    "material": "Bản thu âm tư liệu âm thanh analog (Archival Audio Recording)",
+    "dimensions": "Thời lượng tác phẩm: 4 phút 15 giây",
+    "location": {
+      "siteName": "Kho Lưu Trữ Tư Liệu Quốc Tế Internet Archive / EFEO",
+      "province": "Phnom Penh / Paris",
+      "country": "Campuchia / Pháp",
+      "coordinates": [
+        11.5663,
+        104.9282
+      ]
+    },
+    "media": {
+      "primaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Cambodian_Pinpeat_ensemble.jpg/480px-Cambodian_Pinpeat_ensemble.jpg",
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Cambodian_Pinpeat_ensemble.jpg/480px-Cambodian_Pinpeat_ensemble.jpg"
+      ],
+      "audioUrl": "/audio/guides/kh-met-38451.mp3",
+      "audioDuration": "4:15",
+      "caption": "Sathukar: Sacred Opening Suite of the Traditional Royal Pinpeat Orchestra - Internet Archive Archival Record"
+    },
+    "provenance": {
+      "institution": "Internet Archive & EFEO Heritage Documentation",
+      "sourceUrl": "https://archive.org/details/unesco-cambodia-traditional-music",
+      "sourceRecordId": "unesco-cambodia-traditional-music-pinpeat-1968",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "Internet Archive Open Heritage Record - ID: unesco-cambodia-traditional-music-pinpeat-1968",
+      "accessionNumber": "unesco-cambodia-traditional-music-pinpeat-1968",
+      "citations": [
+        "Internet Archive Item: unesco-cambodia-traditional-music-pinpeat-1968",
+        "UNESCO Collection of Traditional Music of the World & Internet Archive Open Audio"
+      ]
+    },
+    "relations": {
+      "relatedEntityIds": [],
+      "relatedCollections": [
+        "col-living-traditions",
+        "col-ancient-epigraphy"
+      ],
+      "associatedConcepts": [
+        "Khảo cứu Cổ ngữ & Âm nhạc Thiêng",
+        "Văn Bia Lịch Sử EFEO"
+      ],
+      "artisticStyle": "Tư Liệu Khảo Cổ & Âm Nhạc Học"
+    },
+    "isMasterpiece": true
+  },
+  {
+    "id": "kh-ia-manuscript-coedes-inscriptions",
+    "type": "manuscript",
+    "title": "Tuyển Tập Khảo Khắc & Dịch Thuật Văn Bia Campuchia (George Cœdès)",
+    "titleKhmer": "កម្រងសិលាចារឹកនៃប្រទេសកម្ពុជា",
+    "titleEnglish": "Corpus of Inscriptions of Cambodia (George Cœdès, EFEO Publication)",
+    "alternateTitles": [
+      "Corpus of Inscriptions of Cambodia (George Cœdès, EFEO Publication)"
+    ],
+    "category": "Tư Liệu Học Thuật & Văn Bia Khảo Cổ (Scholarly Corpus)",
+    "period": "Modern",
+    "dateRange": "Xuất bản 1937–1966",
+    "century": "Thế kỷ 20",
+    "summary": "Công trình giải mã và phiên âm học thuật toàn diện hơn 1,000 bia ký Phạn - Khmer từ thế kỷ 5 đến thế kỷ 14 của Viện Viễn Đông Bác Cổ Pháp (EFEO).",
+    "description": "Bộ tài liệu kinh điển đặt nền móng cho toàn bộ niên biểu lịch sử, phả hệ các vị vua Angkor và cấu trúc tôn giáo vương triều Khmer.",
+    "historicalContext": "Thành quả nghiên cứu kéo dài hơn nửa thế kỷ của học giả George Cœdès cùng các nhà khảo cổ học EFEO.",
+    "culturalSignificance": "Chìa khóa vàng mở cánh cửa giải mã toàn bộ lịch sử thành văn của văn minh Angkor.",
+    "material": "Ấn bản tài liệu học thuật in kèm ảnh dập bản bia đá (Printed volume and rubbings)",
+    "dimensions": "8 tập khảo cứu (Hơn 2,000 trang tư liệu)",
+    "location": {
+      "siteName": "Kho Lưu Trữ Tư Liệu Quốc Tế Internet Archive / EFEO",
+      "province": "Phnom Penh / Paris",
+      "country": "Campuchia / Pháp",
+      "coordinates": [
+        11.5663,
+        104.9282
+      ]
+    },
+    "media": {
+      "primaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg",
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg"
+      ],
+      "caption": "Corpus of Inscriptions of Cambodia (George Cœdès, EFEO Publication) - Internet Archive Archival Record"
+    },
+    "provenance": {
+      "institution": "Internet Archive & EFEO Heritage Documentation",
+      "sourceUrl": "https://archive.org/details/inscriptionsducambodge01coed",
+      "sourceRecordId": "inscriptions-du-cambodge-coedes-efeo",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "Internet Archive Open Heritage Record - ID: inscriptions-du-cambodge-coedes-efeo",
+      "accessionNumber": "inscriptions-du-cambodge-coedes-efeo",
+      "citations": [
+        "Internet Archive Item: inscriptions-du-cambodge-coedes-efeo",
+        "École française d'Extrême-Orient (EFEO) & Internet Archive Open Library"
+      ]
+    },
+    "relations": {
+      "relatedEntityIds": [],
+      "relatedCollections": [
+        "col-living-traditions",
+        "col-ancient-epigraphy"
+      ],
+      "associatedConcepts": [
+        "Khảo cứu Cổ ngữ & Âm nhạc Thiêng",
+        "Văn Bia Lịch Sử EFEO"
+      ],
+      "artisticStyle": "Tư Liệu Khảo Cổ & Âm Nhạc Học"
+    },
+    "isMasterpiece": true
   }
 ]

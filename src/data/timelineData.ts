@@ -63,6 +63,10 @@ export const TIMELINE_EPOCHS: TimelineEpoch[] = [
     representativeArtStyle: 'Kulen, Koh Ker, Banteay Srei, Angkor Wat, Bayon Styles',
     bannerImage: 'https://images.metmuseum.org/CRDImages/as/web-large/36_96_5_F.JPG',
     relatedObjectIds: [
+      'kh-si-f1992-51',
+      'kh-si-f1993-18',
+      'kh-si-f1998-74',
+      'kh-nmc-west-mebon-vishnu',
       'kh-met-38451',
       'kh-met-38304',
       'kh-met-38450',
@@ -88,7 +92,13 @@ export const TIMELINE_EPOCHS: TimelineEpoch[] = [
     iconicMonuments: ['Kinh đô Oudong', 'Wat Phnom', 'Chùa Bạc (Wat Preah Keo Morakot)'],
     representativeArtStyle: 'Phong cách Nghệ thuật Hậu Angkor & Tượng Phật Đồng',
     bannerImage: 'https://images.metmuseum.org/CRDImages/as/web-large/38.90.3.jpg',
-    relatedObjectIds: ['kh-met-38903', 'kh-met-38908'],
+    relatedObjectIds: [
+      'kh-loc-2021669412',
+      'kh-tex-khmer-silk-pidan',
+      'kh-art-roneat-ek-pinpeat',
+      'kh-met-38903',
+      'kh-met-38908'
+    ],
   },
   {
     id: 'epoch-modern',
@@ -107,6 +117,13 @@ export const TIMELINE_EPOCHS: TimelineEpoch[] = [
     iconicMonuments: ['Bảo tàng Quốc gia Campuchia (Phnom Penh)', 'Bảo tàng Quốc gia Angkor (Siem Reap)'],
     representativeArtStyle: 'Bảo tồn Di sản Quốc tế & Số hóa 3D',
     bannerImage: 'https://images.metmuseum.org/CRDImages/as/web-large/DT5215.jpg',
-    relatedObjectIds: ['kh-met-38451', 'kh-met-38304'],
+    relatedObjectIds: [
+      'kh-loc-2004667825',
+      'kh-loc-2017648325',
+      'kh-ia-manuscript-coedes-inscriptions',
+      'kh-ia-audio-pinpeat-sathukar',
+      'kh-met-38451',
+      'kh-met-38304'
+    ],
   }
 ];

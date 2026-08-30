@@ -43,12 +43,23 @@ export const ObjectDirectory: React.FC<ObjectDirectoryProps> = ({
     { id: 'Post-Angkor', label: 'Hậu Angkor' },
   ];
 
+  const institutions: { id: string; label: string }[] = [
+    { id: 'all', label: 'Tất Cả Viện Bảo Tàng' },
+    { id: 'Metropolitan', label: 'The Met (New York)' },
+    { id: 'Smithsonian', label: 'Smithsonian (Washington)' },
+    { id: 'Library of Congress', label: 'Thư Viện Quốc Hội Mỹ (LOC)' },
+    { id: 'Wikimedia', label: 'Wikimedia Commons / NMC' },
+    { id: 'National Museum of Cambodia', label: 'Bảo Tàng Quốc Gia Campuchia' },
+    { id: 'Internet Archive', label: 'Internet Archive / EFEO' }
+  ];
+
   const types: { id: string; label: string }[] = [
     { id: 'all', label: 'Tất Cả Thể Loại' },
     { id: 'artifact', label: 'Tượng & Điêu Khắc' },
     { id: 'place', label: 'Đền Đài & Di Tích' },
     { id: 'art_form', label: 'Di Sản Phi Vật Thể' },
     { id: 'manuscript', label: 'Kinh Lá Buông & Bia Ký' },
+    { id: 'media_record', label: 'Tư Liệu & Bản Đồ' },
   ];
 
   const filteredObjects = useMemo(() => {
@@ -164,6 +175,18 @@ export const ObjectDirectory: React.FC<ObjectDirectoryProps> = ({
             >
               {types.map((t) => (
                 <option key={t.id} value={t.id}>{t.label}</option>
+              ))}
+            </select>
+
+            {/* Institution selector */}
+            <select
+              id="filter-institution-select"
+              value={selectedInstitution}
+              onChange={(e) => setSelectedInstitution(e.target.value)}
+              className="px-3.5 py-2 rounded-xl bg-stone-950 border border-stone-800 text-stone-200 text-xs font-mono focus:outline-none focus:border-amber-500/60"
+            >
+              {institutions.map((inst) => (
+                <option key={inst.id} value={inst.id}>{inst.label}</option>
               ))}
             </select>
 

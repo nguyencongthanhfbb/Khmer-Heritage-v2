@@ -43,7 +43,9 @@ export const QuickSearchModal: React.FC<QuickSearchModalProps> = ({
           o.titleEnglish.toLowerCase().includes(q) ||
           o.summary.toLowerCase().includes(q) ||
           o.category.toLowerCase().includes(q) ||
-          o.period.toLowerCase().includes(q)
+          o.period.toLowerCase().includes(q) ||
+          (o.provenance.institution && o.provenance.institution.toLowerCase().includes(q)) ||
+          (o.provenance.accessionNumber && o.provenance.accessionNumber.toLowerCase().includes(q))
         );
       })
     : objects.slice(0, 5);

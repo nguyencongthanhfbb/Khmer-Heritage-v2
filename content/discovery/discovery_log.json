@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-08-30T09:10:21.216Z",
+  "task": "KH-020",
+  "totalDiscovered": 73,
+  "sourcesDiscovered": [
+    {
+      "name": "The Metropolitan Museum of Art",
+      "count": 60,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "Smithsonian National Museum of Asian Art",
+      "count": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "Library of Congress",
+      "count": 3,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "Wikimedia Commons / National Museum of Cambodia",
+      "count": 4,
+      "status": "VERIFIED"
+    },
+    {
+      "name": "Internet Archive / EFEO",
+      "count": 2,
+      "status": "VERIFIED"
+    }
+  ]
+}

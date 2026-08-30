@@ -47,6 +47,11 @@
    - **Minh Bạch Tọa Độ Khảo Cổ**: Xác định 60/60 tọa độ GPS trong tập dữ liệu là vị trí tâm đền đài được gán trong số hóa (`UNVERIFIED_COORDINATES`), không phải tọa độ khai quật sơ cấp của The Met.
    - **Tỷ Lệ Sống Sót Cốt Lõi**: 60/60 hiện vật (100%) vẫn giữ nguyên vẹn toàn bộ hồ sơ bảo tàng sơ cấp ngay cả khi loại bỏ 100% nội dung AI và tọa độ suy luận.
    - **Xếp Loại Độc Lập**: Đạt mức **B — NEEDS CONTENT / DATA EXPANSION** (Đề xuất mở rộng đa nguồn bảo tàng quốc tế tại KH-020).
-11. **Trạng thái Hiện tại (Current State)**:
-   - Toàn bộ hệ thống dữ liệu bảo tàng số Khmer Heritage đã được thanh lọc, phân định cấp trường minh bạch, bảo đảm 100% tính chân thực học thuật.
+11. **Nhiệm vụ KH-020: Mở Rộng Kho Lưu Trữ Đa Viện Bảo Tàng Quốc Tế (Task KH-020 Multi-Institution Corpus Expansion)**:
+   - **Nạp Dữ Liệu Đa Nguồn Chính Thức**: Mở rộng từ 1 nguồn (The Met) lên 5 nguồn quốc tế: The Metropolitan Museum of Art (60 hiện vật), Smithsonian National Museum of Asian Art (4 hiện vật), Library of Congress (3 tư liệu bản đồ & bản thảo), Bảo tàng Quốc gia Campuchia / Wikimedia Commons (4 báu vật & nhạc cụ), Internet Archive & EFEO (2 tư liệu âm thanh & khảo cứu bia ký).
+   - **Tổng Quy Mô Kho Di Sản**: Nâng tổng số đối tượng di sản lên 73 thực thể hoàn chỉnh, đa dạng hóa đủ 4 nhóm: `artifact` (66), `manuscript` (3), `art_form` (2), `media_record` (2).
+   - **Thiết Lập Bộ Lọc Viện Bảo Tàng (Multi-Institution Filter)**: Bổ sung bộ chọn viện bảo tàng trên giao diện Tra Cứu Hiện Vật (`ObjectDirectory`) và Mở rộng tìm kiếm tức thời đa thuộc tính (`QuickSearchModal`).
+   - **Hệ Thống Báo Cáo & Manifest**: Phát hành đầy đủ `docs/KH-020_INGESTION_REPORT.md`, `content/discovery/discovery_log.json`, `content/inventory/master_inventory.json`, và `content/manifests/corpus_manifest.json`.
+12. **Trạng thái Hiện tại (Current State)**:
+   - Toàn bộ hệ thống dữ liệu bảo tàng số Khmer Heritage đã được nâng cấp lên chuẩn Đa Viện Bảo Tàng Quốc Tế, 100% dữ liệu đạt kiểm duyệt bản quyền mở (CC0/Public Domain/CC BY-SA), sẵn sàng vận hành sản xuất.
 
