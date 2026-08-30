@@ -156,6 +156,7 @@ export default function App() {
             savedIds={savedIds}
             onToggleSave={handleToggleSave}
             onOpenCuratorWithContext={handleOpenCuratorWithContext}
+            onNavigateTab={handleTabChange}
           />
         ) : (
           /* Render Active View Tab */

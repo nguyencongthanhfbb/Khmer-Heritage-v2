@@ -22,8 +22,8 @@ AI Bridge là cơ chế kết nối giữa các phiên làm việc của các Ag
 ---
 
 ## 3. TRẠNG THÁI NHIỆM VỤ HIỆN HÀNH (CURRENT TASK STATE)
-- **Nhiệm vụ vừa hoàn thành**: `KH-020` (Multi-Institution Authentic Corpus Expansion), `KH-020R` (Reconciliation Audit) & `KH-020R.1` (Source & Media Spot Verification).
-- **Kết quả Kiểm định Đối chiếu**: `A — SPOT VERIFICATION PASS` (11/11 mẫu thực nghiệm qua kiểm tra mạng, phân định rõ ràng giữa nền tảng lưu trữ tệp số Internet Archive/Wikimedia và cơ quan nắm giữ hiện vật/nghiên cứu học thuật EFEO/NMC; 100% giấy phép bản quyền hợp lệ).
-- **Trạng thái Kỹ thuật**: `lint_applet` PASS, `compile_applet` PASS (Build Succeeded).
-- **Nhiệm vụ Đề xuất Tiếp theo**: `KH-021` (Living Traditions, Interactive Epigraphy & Audio Guides Production).
+- **Nhiệm vụ vừa hoàn thành**: `KH-021` (Digital Museum Experience & Authentic Content Layer).
+- **Kết quả Thực hiện**: Đã hoàn thiện toàn diện tầng trải nghiệm bảo tàng số trên 73 hiện vật và di tích đa nguồn bảo tàng; tích hợp điều hướng liên kết chuyên sâu (Bản đồ di tích, Văn bia EFEO, Dàn nhạc Pinpeat); bổ sung bộ lọc chất liệu và chế độ xem Bảng mục lục học thuật.
+- **Trạng thái Kỹ thuật**: `lint_applet` PASS, `compile_applet` PASS (Build Succeeded, 0 error).
+- **Hồ sơ Nghiệm thu**: `docs/KH-021_UI_AUDIT.md`, `docs/KH-021_MUSEUM_EXPERIENCE.md`, `docs/AI_BRIDGE_REPORT_021.md`.
 

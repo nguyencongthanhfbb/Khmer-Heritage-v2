@@ -33,6 +33,7 @@ interface HeritageObjectDetailProps {
   savedIds: string[];
   onToggleSave: (id: string) => void;
   onOpenCuratorWithContext: (id: string) => void;
+  onNavigateTab?: (tab: string) => void;
 }
 
 export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
@@ -43,6 +44,7 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
   savedIds,
   onToggleSave,
   onOpenCuratorWithContext,
+  onNavigateTab,
 }) => {
   const [selectedImage, setSelectedImage] = useState<string>(object.media.primaryImage);
   const [isPlayingAudio, setIsPlayingAudio] = useState<boolean>(false);
@@ -578,6 +580,118 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
                     {object.location.historicalRegion || 'Yashodharapura'}
                   </span>
                 </div>
+              </div>
+
+              {onNavigateTab && (
+                <div className="pt-2 flex justify-end">
+                  <button
+                    onClick={() => onNavigateTab('map')}
+                    className="px-4 py-2 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/30 text-xs font-mono flex items-center space-x-2 transition-all cursor-pointer"
+                  >
+                    <MapPin className="w-3.5 h-3.5" />
+                    <span>Định Vị Trên Bản Đồ Di Tích Toàn Cảnh →</span>
+                  </button>
+                </div>
+              )}
+            </section>
+          )}
+
+          {/* DEDICATED PANEL: ARCHITECTURE & MONUMENT SPECIFICS */}
+          {object.type === 'place' && (
+            <section className="rounded-3xl bg-stone-900/90 border border-stone-800 p-6 sm:p-8 space-y-4">
+              <div className="flex items-center justify-between border-b border-stone-800 pb-3">
+                <div className="flex items-center space-x-2 text-amber-400">
+                  <Landmark className="w-5 h-5" />
+                  <h3 className="font-serif text-xl font-bold text-stone-100">
+                    Đặc Điểm Kiến Trúc & Quy Hoạch Không Gian Thiêng
+                  </h3>
+                </div>
+                <span className="text-[10px] font-mono uppercase px-2.5 py-1 rounded-full bg-stone-800 text-stone-300 border border-stone-700">
+                  Di Tích Kiến Trúc Quần Thể
+                </span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+                <div className="p-4 rounded-2xl bg-stone-950/70 border border-stone-800 space-y-2">
+                  <span className="font-mono text-amber-400 font-semibold uppercase block">Bố Cục Đền Núi (Temple Mountain):</span>
+                  <p className="text-stone-300 leading-relaxed">
+                    Mô phỏng ngọn núi thiêng Meru trung tâm vũ trụ luận Ấn Độ giáo với hệ thống tháp trung tâm 5 đỉnh (Quincunx), hành lang bao quanh và hồ nước thiêng bao bọc.
+                  </p>
+                </div>
+                <div className="p-4 rounded-2xl bg-stone-950/70 border border-stone-800 space-y-2">
+                  <span className="font-mono text-amber-400 font-semibold uppercase block">Chất Liệu Xây Dựng:</span>
+                  <p className="text-stone-300 leading-relaxed">
+                    Sa thạch xám/hồng nguyên khối kết hợp lõi đá ong (Laterite) chịu lực và kỹ thuật ghép mộng đá không dùng vữa đặc trưng của nghệ nhân Khmer cổ đại.
+                  </p>
+                </div>
+              </div>
+            </section>
+          )}
+
+          {/* DEDICATED PANEL: EPIGRAPHY & ANCIENT SCRIPT */}
+          {(object.type === 'manuscript' || object.category.toLowerCase().includes('văn bia') || object.category.toLowerCase().includes('bia ký') || object.category.toLowerCase().includes('kinh')) && (
+            <section className="rounded-3xl bg-stone-900/90 border border-stone-800 p-6 sm:p-8 space-y-4">
+              <div className="flex items-center justify-between border-b border-stone-800 pb-3">
+                <div className="flex items-center space-x-2 text-amber-400">
+                  <FileText className="w-5 h-5" />
+                  <h3 className="font-serif text-xl font-bold text-stone-100">
+                    Khảo Cứu Văn Tự & Văn Bia Cổ Đại
+                  </h3>
+                </div>
+                <span className="text-[10px] font-mono uppercase px-2.5 py-1 rounded-full bg-amber-950 text-amber-300 border border-amber-500/30">
+                  Hồ Sơ Văn Bia EFEO
+                </span>
+              </div>
+              <div className="space-y-3 text-xs">
+                <div className="p-4 rounded-2xl bg-stone-950 border border-stone-800 space-y-2">
+                  <span className="font-mono text-amber-400 font-semibold block">Phân Loại Văn Tự:</span>
+                  <p className="text-stone-300">
+                    Chữ Khmer Cổ (Old Khmer) và Phạn ngữ (Sanskrit) khắc trên đá sa thạch hoặc ghi chép trên lá buông (Olan) với thể thơ thiêng (Sloka).
+                  </p>
+                </div>
+                {onNavigateTab && (
+                  <div className="pt-2 flex justify-end">
+                    <button
+                      onClick={() => onNavigateTab('epigraphy')}
+                      className="px-4 py-2 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/30 text-xs font-mono flex items-center space-x-2 transition-all cursor-pointer"
+                    >
+                      <FileText className="w-3.5 h-3.5" />
+                      <span>Chuyển Sang Trình Giải Mã Văn Bia Cổ →</span>
+                    </button>
+                  </div>
+                )}
+              </div>
+            </section>
+          )}
+
+          {/* DEDICATED PANEL: LIVING TRADITIONS & MUSIC */}
+          {(object.type === 'art_form' || object.type === 'event_tradition' || object.category.toLowerCase().includes('âm nhạc') || object.category.toLowerCase().includes('biểu diễn') || object.category.toLowerCase().includes('truyền thống')) && (
+            <section className="rounded-3xl bg-stone-900/90 border border-stone-800 p-6 sm:p-8 space-y-4">
+              <div className="flex items-center justify-between border-b border-stone-800 pb-3">
+                <div className="flex items-center space-x-2 text-amber-400">
+                  <Radio className="w-5 h-5" />
+                  <h3 className="font-serif text-xl font-bold text-stone-100">
+                    Di Sản Sống & Nghệ Thuật Biểu Diễn Truyền Thống
+                  </h3>
+                </div>
+                <span className="text-[10px] font-mono uppercase px-2.5 py-1 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-500/30">
+                  Di Sản Phi Vật Thể
+                </span>
+              </div>
+              <div className="space-y-3 text-xs">
+                <p className="text-stone-300 leading-relaxed">
+                  Di sản văn hóa phi vật thể được trao truyền qua nhiều thế hệ nghệ nhân hoàng cung và các nghi lễ cúng dường chư thiên tại các ngôi đền Angkor cổ kính.
+                </p>
+                {onNavigateTab && (
+                  <div className="pt-2 flex justify-end">
+                    <button
+                      onClick={() => onNavigateTab('pinpeat')}
+                      className="px-4 py-2 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/30 text-xs font-mono flex items-center space-x-2 transition-all cursor-pointer"
+                    >
+                      <Radio className="w-3.5 h-3.5" />
+                      <span>Mở Không Gian Hòa Âm Pinpeat Cung Đình →</span>
+                    </button>
+                  </div>
+                )}
               </div>
             </section>
           )}

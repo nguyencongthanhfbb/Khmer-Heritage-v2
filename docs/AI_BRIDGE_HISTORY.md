@@ -57,6 +57,10 @@
    - **Phân định rõ vai trò thể chế**: Tách bạch rõ rệt giữa cơ quan nghiên cứu khảo cứu (EFEO), nền tảng lưu trữ tệp số (Internet Archive), cơ quan lưu giữ hiện vật vật lý (Bảo tàng Quốc gia Campuchia) và nền tảng phân phối ảnh mở (Wikimedia Commons).
    - **Kiểm định 182 tệp truyền thông**: 156 Met (CC0) + 8 Smithsonian (CC0) + 6 LOC (Public Domain) + 12 Wikimedia Commons (CC BY-SA / CC BY) + 2 Internet Archive stream.
    - **Phán quyết xếp loại**: Đạt mức **A — SPOT VERIFICATION PASS** (Toàn bộ trường dữ liệu và giấy phép bản quyền khớp 100% hồ sơ thực chứng).
-13. **Trạng thái Hiện tại (Current State)**:
-   - Toàn bộ hệ thống dữ liệu bảo tàng số Khmer Heritage đã được nâng cấp lên chuẩn Đa Viện Bảo Tàng Quốc Tế, 100% dữ liệu đạt kiểm duyệt bản quyền mở (CC0/Public Domain/CC BY-SA), sẵn sàng vận hành sản xuất.
+13. **Nhiệm vụ KH-021: Trải Nghiệm Bảo Tàng Số & Tầng Nội Dung Xác Thực (Task KH-021 Digital Museum Experience)**:
+   - **Đồng bộ hóa Điều hướng Chuyên Sâu**: Hoàn thiện liên kết một chạm giữa Chi tiết hiện vật và các trung tâm trải nghiệm (Đền đài $\rightarrow$ Bản đồ Di tích, Bia ký $\rightarrow$ Trình Giải mã EFEO, Âm nhạc $\rightarrow$ Dàn nhạc Pinpeat).
+   - **Nâng cấp Danh mục Tra cứu Học thuật**: Bổ sung bộ lọc chất liệu, tab phân loại tức thời và chế độ xem Bảng mục lục học thuật (Scholarly Catalog Table View) song song với Lưới thẻ đa phương tiện.
+   - **Hoàn thiện Hồ sơ Kiểm toán Giao diện**: Phát hành `docs/KH-021_UI_AUDIT.md`, `docs/KH-021_MUSEUM_EXPERIENCE.md`, `docs/AI_BRIDGE_PROGRESS_021.md`, và `docs/AI_BRIDGE_REPORT_021.md`.
+14. **Trạng thái Hiện tại (Current State)**:
+   - Toàn bộ hệ thống hoạt động ổn định, 100% kiểm tra `lint_applet` và `compile_applet` thành công. Kho lưu trữ 73 hiện vật và di tích sẵn sàng phục vụ công chúng.
 
