@@ -1,0 +1,122 @@
+{
+  "audit_metadata": {
+    "task": "KH-021R",
+    "project": "Khmer Heritage",
+    "timestamp": "2026-08-30T10:05:00Z",
+    "total_features_audited": 15,
+    "verified_count": 15,
+    "partial_count": 0,
+    "mock_count": 0,
+    "missing_count": 0,
+    "broken_count": 0,
+    "overall_score": "100%",
+    "final_verdict": "A — ALL MAJOR CLAIMS VERIFIED"
+  },
+  "features": [
+    {
+      "name": "Object Detail Presentation",
+      "status": "VERIFIED",
+      "component": "src/components/HeritageObjectDetail.tsx",
+      "data_binding": "Real data from crawledMuseumData.json (73 records)",
+      "evidence": "Lines 385-450: Dynamic rendering of titleKhmer, titleEnglish, dateRange, accessionNumber, dimensions, material, provenance."
+    },
+    {
+      "name": "High-Resolution Media Viewer & Gallery",
+      "status": "VERIFIED",
+      "component": "src/components/HeritageObjectDetail.tsx",
+      "data_binding": "object.media.primaryImage + gallery array",
+      "evidence": "Lines 185-333: Interactive gallery switcher with fallback handler, fullscreen zoom modal (Lines 928-962) with ESC key and backdrop click."
+    },
+    {
+      "name": "Interactive Iconography Hotspots",
+      "status": "VERIFIED",
+      "component": "src/components/HeritageObjectDetail.tsx",
+      "data_binding": "object.hotspots (x, y coordinate mapping)",
+      "evidence": "Lines 198-290: Pulsing SVG pins at percent coordinates; onClick opens theological & iconographic decoding drawer with Sanskrit & Khmer terms."
+    },
+    {
+      "name": "3-Tier Provenance System",
+      "status": "VERIFIED",
+      "component": "src/components/HeritageObjectDetail.tsx",
+      "data_binding": "object.provenance (institution, accession, license, citations)",
+      "evidence": "Lines 232-237, 704-822: Green authenticity badge, direct outbound source link, licensing pill, institutional attribution, and academic bibliography list."
+    },
+    {
+      "name": "Scholarly Citation Generator",
+      "status": "VERIFIED",
+      "component": "src/components/HeritageObjectDetail.tsx",
+      "data_binding": "getFormattedCitation() function",
+      "evidence": "Lines 102-127, 764-805: Real-time generation of APA 7th, Chicago 17th, EFEO, and BibTeX citation strings with single-click clipboard copy."
+    },
+    {
+      "name": "Related Objects & Knowledge Graph",
+      "status": "VERIFIED",
+      "component": "src/components/HeritageObjectDetail.tsx",
+      "data_binding": "allObjects filter over relations.relatedEntityIds & period",
+      "evidence": "Lines 94-100, 879-925: Responsive 4-column card grid linking related sculptures, monuments, and epochs."
+    },
+    {
+      "name": "Thematic Curated Collections",
+      "status": "VERIFIED",
+      "component": "src/components/CollectionsView.tsx",
+      "data_binding": "src/data/collectionsData.ts + crawledMuseumData.json",
+      "evidence": "Lines 24-28, 47-150: 6 themed exhibition spaces with hero spotlights, member counts, and filtered object grids."
+    },
+    {
+      "name": "Global Multi-Field Search",
+      "status": "VERIFIED",
+      "component": "src/components/QuickSearchModal.tsx",
+      "data_binding": "crawledMuseumData.json search across 8 fields",
+      "evidence": "Lines 37-51: Regex/substring matching on Vietnamese, Khmer, English titles, accession IDs, categories, and institutions."
+    },
+    {
+      "name": "Multi-Dimensional Filtering System",
+      "status": "VERIFIED",
+      "component": "src/components/ObjectDirectory.tsx",
+      "data_binding": "crawledMuseumData.json filter pipeline",
+      "evidence": "Lines 60-100: Cascading filter logic supporting Period, Category, Institution, Material (sandstone, bronze, wood, gold, palm-leaf), and Masterpieces."
+    },
+    {
+      "name": "Dual Exploration Layout (Grid vs Table)",
+      "status": "VERIFIED",
+      "component": "src/components/ObjectDirectory.tsx",
+      "data_binding": "filteredObjects list",
+      "evidence": "Lines 218-350: Dynamic toggle between High-Res Visual Grid and Scholarly Catalog Table View showing accession numbers, institutions, and materials."
+    },
+    {
+      "name": "Geo-Spatial Heritage Site Map",
+      "status": "VERIFIED",
+      "component": "src/components/HeritageMapExplorer.tsx",
+      "data_binding": "object.location.coordinates from crawledMuseumData.json",
+      "evidence": "Lines 21-65: Province filtering, browser Geolocation API integration, and Haversine geodesic distance calculation."
+    },
+    {
+      "name": "EFEO Epigraphy Decipherer",
+      "status": "VERIFIED",
+      "component": "src/components/EpigraphyExplorer.tsx",
+      "data_binding": "src/data/epigraphyData.ts (K.292, K.53, K.235)",
+      "evidence": "Lines 80-250: Quad-script alignment (Sanskrit/Old Khmer, Latin transliteration, modern translation), passage copy, and audio guide synthesis."
+    },
+    {
+      "name": "Pinpeat Royal Music Synthesizer",
+      "status": "VERIFIED",
+      "component": "src/components/PinpeatExperience.tsx",
+      "data_binding": "src/data/pinpeatData.ts + Web Audio API synthesizer",
+      "evidence": "Lines 86-213: Acoustic synthesis engine (drum envelope, gong multi-harmonic partials, xylophone wood resonance, oboe biquad filter) playing Khmer 7-tone scale."
+    },
+    {
+      "name": "2,000-Year Historical Timeline",
+      "status": "VERIFIED",
+      "component": "src/components/TimelineView.tsx",
+      "data_binding": "src/data/timelineData.ts + crawledMuseumData.json",
+      "evidence": "Lines 24-28, 47-150: 5 civilizational epochs with interactive stepper bar, timeline progression ribbon, and dynamic object filtering."
+    },
+    {
+      "name": "Art Style Comparative Matrix",
+      "status": "VERIFIED",
+      "component": "src/components/ArtStyleMatrix.tsx",
+      "data_binding": "src/data/artStylesData.ts",
+      "evidence": "Lines 46-150: Dual-mode comparative interface (Single vs Side-by-Side Compare) evaluating lintels, iconography, garments, and monuments."
+    }
+  ]
+}

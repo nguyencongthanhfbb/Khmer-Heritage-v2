@@ -22,8 +22,9 @@ AI Bridge là cơ chế kết nối giữa các phiên làm việc của các Ag
 ---
 
 ## 3. TRẠNG THÁI NHIỆM VỤ HIỆN HÀNH (CURRENT TASK STATE)
-- **Nhiệm vụ vừa hoàn thành**: `KH-021` (Digital Museum Experience & Authentic Content Layer).
-- **Kết quả Thực hiện**: Đã hoàn thiện toàn diện tầng trải nghiệm bảo tàng số trên 73 hiện vật và di tích đa nguồn bảo tàng; tích hợp điều hướng liên kết chuyên sâu (Bản đồ di tích, Văn bia EFEO, Dàn nhạc Pinpeat); bổ sung bộ lọc chất liệu và chế độ xem Bảng mục lục học thuật.
-- **Trạng thái Kỹ thuật**: `lint_applet` PASS, `compile_applet` PASS (Build Succeeded, 0 error).
-- **Hồ sơ Nghiệm thu**: `docs/KH-021_UI_AUDIT.md`, `docs/KH-021_MUSEUM_EXPERIENCE.md`, `docs/AI_BRIDGE_REPORT_021.md`.
+- **Nhiệm vụ vừa hoàn thành**: `KH-021R` (Reconciliation & Implementation Reality Audit for KH-021).
+- **Kết quả Thực hiện**: Đã rà soát và kiểm chứng thực tế toàn bộ 15/15 phân hệ trải nghiệm bảo tàng số trên mã nguồn TypeScript, liên kết dữ liệu thật 73 hiện vật `crawledMuseumData.json`, tính năng âm học Web Audio API, đối chiếu văn bia EFEO, bản đồ GPS và hệ thống trích dẫn học thuật. Kết quả đánh giá: **100% VERIFIED (Verdict A)**.
+- **Trạng thái Kỹ thuật**: `lint_applet` PASS (0 errors), `compile_applet` PASS (Build Succeeded).
+- **Hồ sơ Nghiệm thu**: `docs/KH-021R_CLAIM_MATRIX.json`, `docs/KH-021R_FEATURE_MATRIX.json`, `docs/KH-021R_IMPLEMENTATION_AUDIT.md`, `docs/AI_BRIDGE_REPORT_021R.md`.
+
 

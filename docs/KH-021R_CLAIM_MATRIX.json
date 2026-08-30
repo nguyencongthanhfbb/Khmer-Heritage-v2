@@ -1,0 +1,137 @@
+[
+  {
+    "claim_id": "CLM-001",
+    "feature": "Object Detail",
+    "kh021_claim": "Giao diện chi tiết hiện vật chuyên nghiệp gồm tiêu đề 3 thứ tiếng, biển chú giải bảo tàng, hồ sơ lai lịch và điều hướng",
+    "component_file": "src/components/HeritageObjectDetail.tsx",
+    "real_data_source": "src/data/crawledMuseumData.json",
+    "functional_test": "Render đầy đủ metadata, số kiểm kê, ngày phát hiện, kích thước, ảnh primary + gallery",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-002",
+    "feature": "HD Media Viewer",
+    "kh021_claim": "Hero media viewer với zoom toàn màn hình và thư viện ảnh phụ bản",
+    "component_file": "src/components/HeritageObjectDetail.tsx",
+    "real_data_source": "object.media.primaryImage / object.media.gallery (Met, Smithsonian, LOC URLs)",
+    "functional_test": "Modal phóng to toàn màn hình kích hoạt qua nút Maximize2 và nhấp ảnh, chuyển đổi thumbnail mượt mà",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-003",
+    "feature": "Interactive Hotspots",
+    "kh021_claim": "Điểm chạm giải mã biểu tượng học đồ tượng (Hotspots) trên ảnh hiện vật",
+    "component_file": "src/components/HeritageObjectDetail.tsx",
+    "real_data_source": "object.hotspots array trong crawledMuseumData.json",
+    "functional_test": "Hiển thị các điểm ghim tọa độ % tương tác, khi click mở drawer hiển thị nhãn Phạn ngữ, ý nghĩa thần học và biểu tượng",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-004",
+    "feature": "3-layer Provenance",
+    "kh021_claim": "Minh bạch ba tầng dữ liệu (Source Original, Derived Metadata, AI-Assisted)",
+    "component_file": "src/components/HeritageObjectDetail.tsx",
+    "real_data_source": "object.provenance (institution, accessionNumber, license, sourceUrl, citations)",
+    "functional_test": "Hiển thị huy hiệu xác thực bảo tàng gốc, link mở hồ sơ viện lưu trữ, danh mục trích dẫn tài liệu tham khảo",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-005",
+    "feature": "Academic Citation",
+    "kh021_claim": "Bộ công cụ tạo trích dẫn học thuật 1 chạm hỗ trợ 4 chuẩn (APA 7, Chicago 17, EFEO, BibTeX)",
+    "component_file": "src/components/HeritageObjectDetail.tsx",
+    "real_data_source": "getFormattedCitation() tính toán động từ metadata thật của hiện vật",
+    "functional_test": "Chuyển đổi 4 chuẩn định dạng tức thời, nút copy vào clipboard với thông báo xác nhận thành công",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-006",
+    "feature": "Related Objects",
+    "kh021_claim": "Liên kết hiện vật và di tích cùng liên hệ dựa trên đồ thị tri thức và thời kỳ",
+    "component_file": "src/components/HeritageObjectDetail.tsx",
+    "real_data_source": "allObjects filter theo relations.relatedEntityIds, relatedCollections và period",
+    "functional_test": "Lưới 4 hiện vật liên quan hiển thị ở cuối trang chi tiết, click chuyển đến hiện vật tương ứng",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-007",
+    "feature": "Collections",
+    "kh021_claim": "6 bộ sưu tập chuyên đề học thuật với hero spotlight và lưới hiện vật liên kết",
+    "component_file": "src/components/CollectionsView.tsx",
+    "real_data_source": "src/data/collectionsData.ts kết hợp crawledMuseumData.json",
+    "functional_test": "Lọc động theo objectIds và relatedCollections, chuyển tab cập nhật toàn bộ hiện vật thành viên",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-008",
+    "feature": "Search",
+    "kh021_claim": "Tìm kiếm tức thời theo tiếng Việt, tiếng Khmer, tiếng Anh, mã số kiểm kê và địa danh",
+    "component_file": "src/components/QuickSearchModal.tsx & ObjectDirectory.tsx",
+    "real_data_source": "crawledMuseumData.json",
+    "functional_test": "Tìm kiếm thời gian thực đa trường dữ liệu không bị delay, hỗ trợ phím tắt ESC",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-009",
+    "feature": "Filters",
+    "kh021_claim": "Bộ lọc đa lớp theo thời kỳ, thể loại, chất liệu, viện lưu trữ và kiệt tác",
+    "component_file": "src/components/ObjectDirectory.tsx",
+    "real_data_source": "crawledMuseumData.json",
+    "functional_test": "Kết hợp đồng thời 5 tiêu chí lọc với bộ đếm số lượng kết quả chính xác, nút đặt lại bộ lọc",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-010",
+    "feature": "Grid / Table View",
+    "kh021_claim": "Hai chế độ hiển thị: Dạng lưới thẻ đa phương tiện và Bảng mục lục học thuật",
+    "component_file": "src/components/ObjectDirectory.tsx",
+    "real_data_source": "crawledMuseumData.json",
+    "functional_test": "Nút toggle grid/table chuyển đổi mượt mà, table hiển thị đủ mã kiểm kê, viện lưu trữ, chất liệu",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-011",
+    "feature": "Map",
+    "kh021_claim": "Bản đồ không gian văn hóa định vị GPS thực địa các cụm di tích",
+    "component_file": "src/components/HeritageMapExplorer.tsx",
+    "real_data_source": "object.location.coordinates trong crawledMuseumData.json",
+    "functional_test": "Lọc theo tỉnh thành, tính khoảng cách GPS thực địa qua công thức Haversine, chuyển đến chi tiết",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-012",
+    "feature": "EFEO Reader",
+    "kh021_claim": "Trình đọc văn bia EFEO đối chiếu Phạn ngữ / Khmer cổ, phiên âm Latinh và bản dịch",
+    "component_file": "src/components/EpigraphyExplorer.tsx",
+    "real_data_source": "src/data/epigraphyData.ts (K.292, K.53, K.235 từ Corpus des Inscriptions du Cambodge)",
+    "functional_test": "Đối chiếu 4 cột văn bản, nút sao chép từng đoạn văn, phát âm bản dịch qua Web Speech API",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-013",
+    "feature": "Pinpeat",
+    "kh021_claim": "Trình mô phỏng âm học dàn nhạc Pinpeat, phổ sóng hòa âm và bài nhạc hoàng cung",
+    "component_file": "src/components/PinpeatExperience.tsx",
+    "real_data_source": "src/data/pinpeatData.ts & Web Audio API synthesis engine (sine, triangle, sawtooth, filters)",
+    "functional_test": "Phát âm thanh theo thang 7 cung Khmer chuẩn Hertz thực tế, tự động diễn tấu 3 bài nhạc cung đình",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-014",
+    "feature": "Timeline",
+    "kh021_claim": "Trục thời gian biên niên sử 2000 năm từ Phù Nam đến Hậu Angkor",
+    "component_file": "src/components/TimelineView.tsx",
+    "real_data_source": "src/data/timelineData.ts kết hợp crawledMuseumData.json",
+    "functional_test": "Điều hướng 5 kỷ nguyên, tự động lọc danh sách hiện vật và di tích tương ứng với thời kỳ đang chọn",
+    "verdict": "VERIFIED"
+  },
+  {
+    "claim_id": "CLM-015",
+    "feature": "Art Style Matrix",
+    "kh021_claim": "Ma trận đối sánh phong cách mỹ thuật Khmer 8-10 thời kỳ theo EFEO",
+    "component_file": "src/components/ArtStyleMatrix.tsx",
+    "real_data_source": "src/data/artStylesData.ts (phân loại Stern - Boisselier - Cœdès)",
+    "functional_test": "Chế độ so sánh song song 2 phong cách (ví dụ Angkor Wat vs Bayon) đối chiếu lanh-tô, diện mạo, y phục",
+    "verdict": "VERIFIED"
+  }
+]

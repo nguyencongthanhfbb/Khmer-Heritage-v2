@@ -61,6 +61,10 @@
    - **Đồng bộ hóa Điều hướng Chuyên Sâu**: Hoàn thiện liên kết một chạm giữa Chi tiết hiện vật và các trung tâm trải nghiệm (Đền đài $\rightarrow$ Bản đồ Di tích, Bia ký $\rightarrow$ Trình Giải mã EFEO, Âm nhạc $\rightarrow$ Dàn nhạc Pinpeat).
    - **Nâng cấp Danh mục Tra cứu Học thuật**: Bổ sung bộ lọc chất liệu, tab phân loại tức thời và chế độ xem Bảng mục lục học thuật (Scholarly Catalog Table View) song song với Lưới thẻ đa phương tiện.
    - **Hoàn thiện Hồ sơ Kiểm toán Giao diện**: Phát hành `docs/KH-021_UI_AUDIT.md`, `docs/KH-021_MUSEUM_EXPERIENCE.md`, `docs/AI_BRIDGE_PROGRESS_021.md`, và `docs/AI_BRIDGE_REPORT_021.md`.
-14. **Trạng thái Hiện tại (Current State)**:
+14. **Nhiệm vụ KH-021R: Kiểm Định Thực Tế Triển Khai (Task KH-021R Implementation Reality Audit)**:
+   - **Kiểm tra 15/15 Phân hệ Tuyên bố**: Đối chiếu trực tiếp mã nguồn TypeScript (`HeritageObjectDetail`, `ObjectDirectory`, `PinpeatExperience`, `EpigraphyExplorer`, `HeritageMapExplorer`, `TimelineView`, `ArtStyleMatrix`) với dữ liệu thật `crawledMuseumData.json`.
+   - **Xác thực Tính Năng Chuyên Sâu**: Kiểm chứng hoạt động của bộ trích dẫn 4 chuẩn học thuật, modal phóng to HD, các điểm chạm biểu tượng học, công cụ tổng hợp âm thanh Web Audio API và bản đồ định vị GPS.
+   - **Phán Quyết Đánh Giá**: Đạt mức **A — ALL MAJOR CLAIMS VERIFIED (100% Khớp Thực Tế)**. Phát hành `docs/KH-021R_CLAIM_MATRIX.json`, `docs/KH-021R_FEATURE_MATRIX.json`, `docs/KH-021R_IMPLEMENTATION_AUDIT.md`, `docs/AI_BRIDGE_REPORT_021R.md`.
+15. **Trạng thái Hiện tại (Current State)**:
    - Toàn bộ hệ thống hoạt động ổn định, 100% kiểm tra `lint_applet` và `compile_applet` thành công. Kho lưu trữ 73 hiện vật và di tích sẵn sàng phục vụ công chúng.
 
