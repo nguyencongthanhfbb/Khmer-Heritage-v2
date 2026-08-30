@@ -1,0 +1,93 @@
+{
+  "period": "Angkor",
+  "count": 1,
+  "objects": [
+    {
+      "id": "kh-met-38298",
+      "canonicalObjectId": "kh-met-38298",
+      "sourceRecordIds": [
+        "85.11.11"
+      ],
+      "type": "artifact",
+      "title": "Thủ Tượng Phật Thích Ca Phong Cách Preah Ko",
+      "titleKhmer": "វត្ថុបុរាណខ្មែរ",
+      "titleEnglish": "Head of a Buddha",
+      "alternateTitles": [
+        "Head of a Buddha",
+        "Head of a Buddha"
+      ],
+      "category": "Điêu khắc & Cổ vật (Sculpture)",
+      "period": "Angkor",
+      "dateRange": "Thế kỷ 9",
+      "century": "Thế kỷ 9",
+      "summary": "Hiện vật khảo cổ học chính quy \"Head of a Buddha\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. G...",
+      "description": "Hiện vật khảo cổ học chính quy \"Head of a Buddha\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại The Metropolitan Museum of Art (The Met).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Đá sa thạch",
+      "dimensions": "Theo hồ sơ kiểm kê The Met",
+      "location": {
+        "siteName": "Vùng văn hóa Angkor / Campuchia cổ",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4125,
+          103.867
+        ]
+      },
+      "media": {
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/web-large/DT6014.jpg",
+        "gallery": [
+          "https://images.metmuseum.org/CRDImages/as/original/DT6014.jpg"
+        ],
+        "audioUrl": "/audio/guides/kh-met-38298.mp3",
+        "caption": "Head of a Buddha — The Metropolitan Museum of Art (The Met) (85.11.11)"
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art (The Met)",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38298",
+        "sourceRecordId": "85.11.11",
+        "license": "CC0",
+        "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 85.11.11",
+        "accessionNumber": "85.11.11",
+        "citations": [
+          "The Metropolitan Museum of Art (The Met) Collection Record: 85.11.11",
+          "Credit Line: Metropolitan Museum of Art Archive"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "The Metropolitan Museum of Art (The Met)",
+        "sourceRecordId": "85.11.11",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38298",
+        "originalTitle": "Head of a Buddha",
+        "originalDescription": "Hiện vật khảo cổ học chính quy \"Head of a Buddha\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+        "originalDate": "Thế kỷ 9",
+        "originalMaterial": "Đá sa thạch",
+        "originalDimensions": "Theo hồ sơ kiểm kê The Met",
+        "originalLocation": "Vùng văn hóa Angkor / Campuchia cổ",
+        "originalCreditLine": "Credit Line: Metropolitan Museum of Art Archive",
+        "originalAccessionNumber": "85.11.11",
+        "originalObjectType": "artifact",
+        "rawRecordPayload": {
+          "isPublicDomain": true,
+          "metId": "kh-met-38298"
+        }
+      }
+    }
+  ]
+}

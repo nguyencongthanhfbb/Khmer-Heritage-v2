@@ -1,0 +1,180 @@
+{
+  "type": "art_form",
+  "count": 2,
+  "objects": [
+    {
+      "id": "kh-art-roneat-ek-pinpeat",
+      "canonicalObjectId": "kh-art-roneat-ek-pinpeat",
+      "sourceRecordIds": [
+        "File:Roneat_ek_Cambodian_xylophone.jpg"
+      ],
+      "type": "art_form",
+      "title": "Đàn Roneat Ek — Nhạc Cụ Chủ Đạo Dàn Nhạc Cung Đình Pinpeat",
+      "titleKhmer": "រនាតឯក ភ្លេងពិណពាទ្យ",
+      "titleEnglish": "Roneat Ek: Traditional Cambodian Bamboo Xylophone of the Pinpeat Ensemble",
+      "alternateTitles": [
+        "Roneat Ek: Traditional Cambodian Bamboo Xylophone of the Pinpeat Ensemble",
+        "Roneat Ek: Traditional Cambodian Bamboo Xylophone of the Pinpeat Ensemble"
+      ],
+      "category": "Nhạc Cụ & Âm Nhạc Cổ Truyền (Musical Instruments)",
+      "period": "Funan",
+      "dateRange": "Thế kỷ 16 – nay",
+      "century": "Hậu Angkor & Cổ truyền",
+      "summary": "Thùng đàn hình thuyền rồng uốn cong bằng gỗ quý chạm khảm xà cừ, với 21 thanh phím làm từ tre già hoặc gỗ mun được liên kết bằng dây treo qua các lỗ dùi chính x...",
+      "description": "Thùng đàn hình thuyền rồng uốn cong bằng gỗ quý chạm khảm xà cừ, với 21 thanh phím làm từ tre già hoặc gỗ mun được liên kết bằng dây treo qua các lỗ dùi chính xác.",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia.",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Gỗ cẩm lai, tre ngâm lâu năm, khảm xà cừ và chì sáp định âm",
+      "dimensions": "Dài: 100 cm; Cao: 45 cm; Rộng: 22 cm",
+      "location": {
+        "siteName": "Bảo tàng Quốc gia Campuchia, Phnom Penh",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          11.5662,
+          104.9292
+        ]
+      },
+      "media": {
+        "primaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Roneat_ek.jpg/480px-Roneat_ek.jpg",
+        "gallery": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Roneat_ek.jpg/480px-Roneat_ek.jpg"
+        ],
+        "caption": "Roneat Ek: Traditional Cambodian Bamboo Xylophone of the Pinpeat Ensemble — Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia (File:Roneat_ek_Cambodian_xylophone.jpg)"
+      },
+      "provenance": {
+        "institution": "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roneat_ek.jpg",
+        "sourceRecordId": "File:Roneat_ek_Cambodian_xylophone.jpg",
+        "license": "CC BY",
+        "licenseUrl": "https://creativecommons.org/",
+        "attribution": "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia (CC BY)",
+        "accessionNumber": "File:Roneat_ek_Cambodian_xylophone.jpg",
+        "citations": [
+          "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia Collection Record: File:Roneat_ek_Cambodian_xylophone.jpg",
+          "UNESCO & Ministry of Culture and Fine Arts Cambodia"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia",
+        "sourceRecordId": "File:Roneat_ek_Cambodian_xylophone.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roneat_ek.jpg",
+        "originalTitle": "Roneat Ek: Traditional Cambodian Bamboo Xylophone of the Pinpeat Ensemble",
+        "originalDescription": "Thùng đàn hình thuyền rồng uốn cong bằng gỗ quý chạm khảm xà cừ, với 21 thanh phím làm từ tre già hoặc gỗ mun được liên kết bằng dây treo qua các lỗ dùi chính xác.",
+        "originalDate": "Thế kỷ 16 – nay",
+        "originalMaterial": "Gỗ cẩm lai, tre ngâm lâu năm, khảm xà cừ và chì sáp định âm",
+        "originalDimensions": "Dài: 100 cm; Cao: 45 cm; Rộng: 22 cm",
+        "originalLocation": "Bảo tàng Quốc gia Campuchia, Phnom Penh",
+        "originalCreditLine": "UNESCO & Ministry of Culture and Fine Arts Cambodia",
+        "originalAccessionNumber": "File:Roneat_ek_Cambodian_xylophone.jpg",
+        "originalObjectType": "art_form",
+        "rawRecordPayload": {
+          "commonsFile": "File:Roneat_ek_Cambodian_xylophone.jpg",
+          "author": "UNESCO & Ministry of Culture and Fine Arts Cambodia"
+        }
+      },
+      "isMasterpiece": true
+    },
+    {
+      "id": "kh-ia-audio-pinpeat-sathukar",
+      "canonicalObjectId": "kh-ia-audio-pinpeat-sathukar",
+      "sourceRecordIds": [
+        "unesco-cambodia-traditional-music-pinpeat-1968"
+      ],
+      "type": "art_form",
+      "title": "Khúc Nhạc Thiêng Sathukar — Khởi Nhạc Đại Lễ Cung Đình Khmer",
+      "titleKhmer": "បទសាធុការ ភ្លេងពិណពាទ្យ",
+      "titleEnglish": "Sathukar: Sacred Opening Suite of the Traditional Royal Pinpeat Orchestra",
+      "alternateTitles": [
+        "Sathukar: Sacred Opening Suite of the Traditional Royal Pinpeat Orchestra",
+        "Sathukar: Sacred Opening Suite of the Traditional Royal Pinpeat Orchestra"
+      ],
+      "category": "Âm Nhạc & Khúc Nghi Lễ Cung Đình (Traditional Audio)",
+      "period": "Modern",
+      "dateRange": "Bản ghi âm tư liệu 1968 (Nguồn gốc cổ truyền)",
+      "century": "Hậu Angkor & Cận đại",
+      "summary": "Khúc Sathukar được tấu lên đầu tiên trong mọi nghi thức tôn giáo Phật giáo và nghi lễ tấn phong của hoàng gia để thỉnh mời chư thần linh, chư Phật chứng giám....",
+      "description": "Khúc Sathukar được tấu lên đầu tiên trong mọi nghi thức tôn giáo Phật giáo và nghi lễ tấn phong của hoàng gia để thỉnh mời chư thần linh, chư Phật chứng giám.",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại Internet Archive & EFEO Archival Collection.",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Bản thu âm tư liệu âm thanh analog (Archival Audio Recording)",
+      "dimensions": "Thời lượng tác phẩm: 4 phút 15 giây",
+      "location": {
+        "siteName": "Phnom Penh & Siem Reap, Campuchia",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4125,
+          103.867
+        ]
+      },
+      "media": {
+        "primaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Cambodian_Pinpeat_ensemble.jpg/480px-Cambodian_Pinpeat_ensemble.jpg",
+        "gallery": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Cambodian_Pinpeat_ensemble.jpg/480px-Cambodian_Pinpeat_ensemble.jpg"
+        ],
+        "audioUrl": "/audio/guides/kh-met-38451.mp3",
+        "caption": "Sathukar: Sacred Opening Suite of the Traditional Royal Pinpeat Orchestra — Internet Archive & EFEO Archival Collection (unesco-cambodia-traditional-music-pinpeat-1968)"
+      },
+      "provenance": {
+        "institution": "Internet Archive & EFEO Archival Collection",
+        "sourceUrl": "https://archive.org/details/unesco-cambodia-traditional-music",
+        "sourceRecordId": "unesco-cambodia-traditional-music-pinpeat-1968",
+        "license": "Public Domain",
+        "licenseUrl": "https://archive.org/about/terms.php",
+        "attribution": "Internet Archive & EFEO Archival Collection (Public Domain / Open Access)",
+        "accessionNumber": "unesco-cambodia-traditional-music-pinpeat-1968",
+        "citations": [
+          "Internet Archive & EFEO Archival Collection Collection Record: unesco-cambodia-traditional-music-pinpeat-1968",
+          "UNESCO Collection of Traditional Music of the World & Internet Archive Open Audio"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "Internet Archive & EFEO Archival Collection",
+        "sourceRecordId": "unesco-cambodia-traditional-music-pinpeat-1968",
+        "sourceUrl": "https://archive.org/details/unesco-cambodia-traditional-music",
+        "originalTitle": "Sathukar: Sacred Opening Suite of the Traditional Royal Pinpeat Orchestra",
+        "originalDescription": "Khúc Sathukar được tấu lên đầu tiên trong mọi nghi thức tôn giáo Phật giáo và nghi lễ tấn phong của hoàng gia để thỉnh mời chư thần linh, chư Phật chứng giám.",
+        "originalDate": "Bản ghi âm tư liệu 1968 (Nguồn gốc cổ truyền)",
+        "originalMaterial": "Bản thu âm tư liệu âm thanh analog (Archival Audio Recording)",
+        "originalDimensions": "Thời lượng tác phẩm: 4 phút 15 giây",
+        "originalLocation": "Phnom Penh & Siem Reap, Campuchia",
+        "originalCreditLine": "UNESCO Collection of Traditional Music of the World & Internet Archive Open Audio",
+        "originalAccessionNumber": "unesco-cambodia-traditional-music-pinpeat-1968",
+        "originalObjectType": "art_form",
+        "rawRecordPayload": {
+          "iaIdentifier": "unesco-cambodia-traditional-music-pinpeat-1968"
+        }
+      },
+      "isMasterpiece": true
+    }
+  ]
+}

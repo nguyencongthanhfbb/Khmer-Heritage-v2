@@ -1,0 +1,143 @@
+{
+  "bundleVersion": "2.2.0",
+  "task": "KH-022",
+  "generatedAt": "2026-08-30T17:22:11.074Z",
+  "totalCollections": 6,
+  "collections": [
+    {
+      "id": "col-angkor-sculpture",
+      "title": "Điêu Khắc Đá & Đồ Đồng Hoàng Gia Angkor",
+      "titleKhmer": "បដិមាវិទ្យាថ្ម និង សំរឹទ្ធសម័យអង្គរ",
+      "titleEnglish": "Angkorian Stone Sculptures and Royal Bronzes",
+      "description": "Kho tàng các kiệt tác điêu khắc tròn và tượng đồng đúc rỗng thể hiện các vị thần linh Hindu, chư Phật và chân dung các đấng quân vương Angkorian.",
+      "curatorNote": "Bộ sưu tập hội tụ những tác phẩm đỉnh cao từ các phong cách nghệ thuật trứ danh: Kulen, Koh Ker, Banteay Srei, Baphuon, Angkor Wat và Bayon. Mỗi bức tượng là một công trình kết hợp giữa quy chuẩn hình học thiêng liêng (Silpasastra) và xúc cảm tôn giáo sâu lắng.",
+      "representativeImage": "https://images.metmuseum.org/CRDImages/as/web-large/36_96_5_F.JPG",
+      "period": "Angkor (Thế kỷ 9 – 14 SCN)",
+      "category": "Sculpture & Bronzes",
+      "theme": "Vũ Trụ Luận & Vương Quyền Thần Thánh",
+      "objectIds": [
+        "kh-met-38451",
+        "kh-met-38304",
+        "kh-si-f1992-51",
+        "kh-si-f1993-18",
+        "kh-si-f1998-74",
+        "kh-nmc-west-mebon-vishnu",
+        "kh-met-38450",
+        "kh-met-38297",
+        "kh-met-38158"
+      ],
+      "provenanceContext": "Nguồn tư liệu đối chiếu: The Metropolitan Museum of Art (CC0), Smithsonian National Museum of Asian Art & Bảo tàng Quốc gia Campuchia.",
+      "memberObjectCount": 9
+    },
+    {
+      "id": "col-sacred-temples",
+      "title": "Kiến Trúc Đền Đài & Thủy Lợi Thiêng Liêng",
+      "titleKhmer": "ស្ថាបត្យកម្មប្រាសាទបុរាណ និង ប្រព័ន្ធធារាសាស្ត្រ",
+      "titleEnglish": "Sacred Temples and Architectural Elements of Angkor",
+      "description": "Khám phá các cấu kiện kiến trúc thiêng liêng biểu trưng cho vũ trụ thu nhỏ cùng mạng lưới đền đài sa thạch cổ đại.",
+      "curatorNote": "Đế chế Angkor phát triển hưng thịnh nhờ sự kết hợp tài tình giữa tôn giáo và kỹ nghệ chạm khắc đá sa thạch. Các chóp mái Antefix, trán cửa Lanh-tô và tượng hộ vệ là đỉnh cao nghệ thuật trang trí đền tháp.",
+      "representativeImage": "https://images.metmuseum.org/CRDImages/as/web-large/2003.142.jpg",
+      "period": "Angkor & Tiền Angkor",
+      "category": "Sacred Architecture",
+      "theme": "Đền Núi & Cấu Kiện Điêu Khắc",
+      "objectIds": [
+        "kh-loc-2004667825",
+        "kh-loc-2017648325",
+        "kh-met-65095",
+        "kh-met-38303",
+        "kh-met-38162",
+        "kh-met-38451"
+      ],
+      "provenanceContext": "Hồ sơ nghiên cứu & khảo sát: The Met, Library of Congress Prints & Photographs Division & EFEO.",
+      "memberObjectCount": 6
+    },
+    {
+      "id": "col-pre-angkor-heritage",
+      "title": "Di Sản Tiền Angkor: Phù Nam & Chân Lạp",
+      "titleKhmer": "បេតិកភណ្ឌសម័យមុនអង្គរ៖ ហ្វូណន និង ចេនឡា",
+      "titleEnglish": "Pre-Angkorian Heritage: Funan and Chenla Civilizations",
+      "description": "Những dấu tích văn minh rực rỡ đầu tiên từ thế kỷ 1 đến thế kỷ 8 SCN, đặt nền móng cho ngôn ngữ tạo hình thần thoại và tượng tròn Khmer.",
+      "curatorNote": "Thời kỳ Phù Nam và Chân Lạp đã sản sinh ra những bức tượng với giải phẫu cơ thể vô cùng tự nhiên và các hình tượng kết hợp độc đáo như Thần Harihara (dung hợp Shiva và Vishnu).",
+      "representativeImage": "https://images.metmuseum.org/CRDImages/as/web-large/LK.1993.477.3_DP310135r1_25F.jpg",
+      "period": "Pre-Angkor, Funan & Chenla (Thế kỷ 1 – 8 SCN)",
+      "category": "Archaeology & Early Sculpture",
+      "theme": "Nguồn Gốc & Sự Định Hình Văn Minh",
+      "objectIds": [
+        "kh-met-38160",
+        "kh-ins-stele-k904",
+        "kh-met-38620",
+        "kh-met-44965",
+        "kh-met-39772",
+        "kh-met-39221"
+      ],
+      "provenanceContext": "Bản quyền & Tư liệu khảo cổ: The Metropolitan Museum of Art Open Access (CC0) & Bảo tàng Quốc gia Campuchia.",
+      "memberObjectCount": 6
+    },
+    {
+      "id": "col-living-traditions",
+      "title": "Nghệ Thuật Đồng Đúc & Kim Hoàn Hoàng Gia",
+      "titleKhmer": "សិល្បៈសំរឹទ្ធ និង គ្រឿងលម្អរាជវង្ស",
+      "titleEnglish": "Royal Bronze Castings and Sacred Paraphernalia",
+      "description": "Kho tàng các tác phẩm đúc đồng tinh xảo, phụ kiện kiệu hoàng gia và vật dụng nghi lễ linh thiêng thời kỳ Angkor và Hậu Angkor.",
+      "curatorNote": "Nghệ thuật đúc đồng sáp ong (lost-wax casting) đạt độ hoàn thiện phi thường với các tượng Phật Mật Tông Hevajra, chi tiết trang trí đòn kiệu và chuông nghi lễ cổ truyền.",
+      "representativeImage": "https://images.metmuseum.org/CRDImages/as/web-large/DT5215.jpg",
+      "period": "Angkor & Post-Angkor",
+      "category": "Bronze & Ritual Objects",
+      "theme": "Nghệ Thuật Luyện Kim & Nghi Lễ Hoàng Gia",
+      "objectIds": [
+        "kh-si-f1992-52",
+        "kh-tex-khmer-silk-pidan",
+        "kh-met-38304",
+        "kh-met-38903",
+        "kh-met-38908",
+        "kh-met-38162"
+      ],
+      "provenanceContext": "Hồ sơ kiểm kê: The Metropolitan Museum of Art, Smithsonian National Museum of Asian Art & Asian Traditional Textile Museum.",
+      "memberObjectCount": 6
+    },
+    {
+      "id": "col-ancient-epigraphy",
+      "title": "Văn Bia Đá Cổ & Ký Ức Văn Tự Phạn - Khmer",
+      "titleKhmer": "សិលាចារឹកបុរាណ និង អក្សរសាស្ត្រសំស្ក្រឹត-ខ្មែរ",
+      "titleEnglish": "Ancient Epigraphy and Sanskrit-Old Khmer Inscriptions",
+      "description": "Kho lưu trữ văn bia khắc trên các trụ đá, vách đền tháp ghi nhận niên đại trị vì của các vương triều, sắc chỉ tôn giáo và nghi lễ hiến tế đất đai.",
+      "curatorNote": "Văn bia là nguồn tư liệu sơ cấp chính xác nhất để tái dựng niên đại lịch sử Angkor. Bản dịch và dập bản đối chiếu trực tiếp từ các công trình khảo cứu kinh điển của Viện Viễn Đông Bác Cổ Pháp (EFEO / George Cœdès).",
+      "representativeImage": "https://images.metmuseum.org/CRDImages/as/web-large/1987.142.1_F.jpg",
+      "period": "Funan, Chenla & Angkor (Thế kỷ 5 – 14 SCN)",
+      "category": "Epigraphy & Manuscripts",
+      "theme": "Sử Ký Khắc Đá & Tôn Giáo Hoàng Gia",
+      "objectIds": [
+        "kh-ins-stele-k904",
+        "kh-loc-2021669412",
+        "kh-ia-manuscript-coedes-inscriptions",
+        "kh-met-38451",
+        "kh-met-38160",
+        "kh-met-65095"
+      ],
+      "provenanceContext": "Đối chiếu học thuật: EFEO Corpus des inscriptions du Cambodge (George Cœdès), Library of Congress & Internet Archive.",
+      "memberObjectCount": 6
+    },
+    {
+      "id": "col-traditional-music",
+      "title": "Âm Nhạc Nghi Lễ & Nhạc Khí Linh Thiêng Pinpeat",
+      "titleKhmer": "តន្ត្រីពិធីសាសនា និង ឧបករណ៍ភ្លេងបុរាណពិណពាទ្យ",
+      "titleEnglish": "Sacred Ritual Music and Traditional Pinpeat Instruments",
+      "description": "Bảo tồn hệ thống nhạc cụ gõ, hơi và chuông đồng của dàn nhạc lễ Pinpeat – linh hồn của các nghi lễ đền tháp và vũ kịch cung đình Robam Apsara.",
+      "curatorNote": "Dàn nhạc Pinpeat đã đồng hành cùng các đại lễ tôn giáo từ thời kỳ Angkor Wat thế kỷ 12. Từng nhạc khí được chế tác từ gỗ quý, đồng thanh và da trâu theo các quy chuẩn cộng hưởng âm học vật lý thiêng liêng.",
+      "representativeImage": "https://images.metmuseum.org/CRDImages/as/web-large/36_96_5_TQ.JPG",
+      "period": "Angkorian to Contemporary Living Heritage",
+      "category": "Intangible Heritage & Musical Instruments",
+      "theme": "Âm Thanh Linh Thiêng & Vũ Đạo Cung Đình",
+      "objectIds": [
+        "kh-art-roneat-ek-pinpeat",
+        "kh-ia-audio-pinpeat-sathukar",
+        "kh-met-38451",
+        "kh-met-38304",
+        "kh-met-38903",
+        "kh-met-38908"
+      ],
+      "provenanceContext": "Tư liệu di sản phi vật thể UNESCO, Internet Archive Audio Collection & Viện Âm nhạc Hoàng gia Campuchia.",
+      "memberObjectCount": 6
+    }
+  ]
+}

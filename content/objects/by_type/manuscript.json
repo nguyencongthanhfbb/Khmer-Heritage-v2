@@ -1,0 +1,265 @@
+{
+  "type": "manuscript",
+  "count": 3,
+  "objects": [
+    {
+      "id": "kh-loc-2021669412",
+      "canonicalObjectId": "kh-loc-2021669412",
+      "sourceRecordIds": [
+        "2021669412"
+      ],
+      "type": "manuscript",
+      "title": "Bản Thảo Kinh Lá Buông Khmer Cổ (Sastra Slek Reit)",
+      "titleKhmer": "សាស្រ្តាស្លឹករឹត រឿងត្រៃភូមិ",
+      "titleEnglish": "Trai Phum Buddhist Cosmological Treatise on Palm-Leaf (Sastra Slek Reit)",
+      "alternateTitles": [
+        "Trai Phum Buddhist Cosmological Treatise on Palm-Leaf (Sastra Slek Reit)",
+        "Trai Phum Buddhist Cosmological Treatise on Palm-Leaf (Sastra Slek Reit)"
+      ],
+      "category": "Bản Thảo & Kinh Lá Buông (Palm-Leaf Manuscripts)",
+      "period": "Funan",
+      "dateRange": "Thế kỷ 18 – 19",
+      "century": "Thế kỷ 18 – 19",
+      "summary": "Kinh lá buông được khắc bằng bút kim sắt trên các phiến lá cọ buông đã xử lý nhiệt, quét muội than để làm nổi chữ và xâu dây chỉ cố định giữa hai thanh bìa gỗ c...",
+      "description": "Kinh lá buông được khắc bằng bút kim sắt trên các phiến lá cọ buông đã xử lý nhiệt, quét muội than để làm nổi chữ và xâu dây chỉ cố định giữa hai thanh bìa gỗ chạm khắc.",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại Library of Congress (Prints & Photographs Division).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Lá buông sấy khô, mực muội than và gỗ quý (Inscribed palm leaf and lacquered wood)",
+      "dimensions": "Dài: 55 cm; Rộng: 5.5 cm; Dày: 4.2 cm (68 lá kinh)",
+      "location": {
+        "siteName": "Siem Reap / Phnom Penh, Campuchia",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4413,
+          103.8587
+        ]
+      },
+      "media": {
+        "primaryImage": "https://tile.loc.gov/storage-services/service/asian/2021/2021669412/2021669412_0001_150px.jpg",
+        "gallery": [
+          "https://tile.loc.gov/storage-services/service/asian/2021/2021669412/2021669412_0001_150px.jpg"
+        ],
+        "caption": "Trai Phum Buddhist Cosmological Treatise on Palm-Leaf (Sastra Slek Reit) — Library of Congress (Prints & Photographs Division) (2021669412)"
+      },
+      "provenance": {
+        "institution": "Library of Congress (Prints & Photographs Division)",
+        "sourceUrl": "https://www.loc.gov/item/2021669412/",
+        "sourceRecordId": "2021669412",
+        "license": "Public Domain",
+        "licenseUrl": "https://www.loc.gov/legal/",
+        "attribution": "Library of Congress Prints & Photographs Division (Public Domain) — Call/LCCN: 2021669412",
+        "accessionNumber": "2021669412",
+        "citations": [
+          "Library of Congress (Prints & Photographs Division) Collection Record: 2021669412",
+          "Library of Congress, Asian Division, Southeast Asian Rare Book Collection"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "Library of Congress (Prints & Photographs Division)",
+        "sourceRecordId": "2021669412",
+        "sourceUrl": "https://www.loc.gov/item/2021669412/",
+        "originalTitle": "Trai Phum Buddhist Cosmological Treatise on Palm-Leaf (Sastra Slek Reit)",
+        "originalDescription": "Kinh lá buông được khắc bằng bút kim sắt trên các phiến lá cọ buông đã xử lý nhiệt, quét muội than để làm nổi chữ và xâu dây chỉ cố định giữa hai thanh bìa gỗ chạm khắc.",
+        "originalDate": "Thế kỷ 18 – 19",
+        "originalMaterial": "Lá buông sấy khô, mực muội than và gỗ quý (Inscribed palm leaf and lacquered wood)",
+        "originalDimensions": "Dài: 55 cm; Rộng: 5.5 cm; Dày: 4.2 cm (68 lá kinh)",
+        "originalLocation": "Siem Reap / Phnom Penh, Campuchia",
+        "originalCreditLine": "Library of Congress, Asian Division, Southeast Asian Rare Book Collection",
+        "originalAccessionNumber": "2021669412",
+        "originalObjectType": "manuscript",
+        "rawRecordPayload": {
+          "lccn": "2021669412",
+          "rights": "No known copyright restrictions"
+        }
+      }
+    },
+    {
+      "id": "kh-ins-stele-k904",
+      "canonicalObjectId": "kh-ins-stele-k904",
+      "sourceRecordIds": [
+        "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg"
+      ],
+      "type": "manuscript",
+      "title": "Bia Ký Khắc Đá Cổ K.904 (Chữ Phạn & Tiếng Khmer Cổ Thế Kỷ 7)",
+      "titleKhmer": "សិលាចារឹកបុរាណ K.៩០៤",
+      "titleEnglish": "Ancient Stone Inscription Stele K.904 (Sanskrit and Old Khmer Epigraphy)",
+      "alternateTitles": [
+        "Ancient Stone Inscription Stele K.904 (Sanskrit and Old Khmer Epigraphy)",
+        "Ancient Stone Inscription Stele K.904 (Sanskrit and Old Khmer Epigraphy)"
+      ],
+      "category": "Văn Bia & Ký Tự Cổ (Epigraphy & Inscriptions)",
+      "period": "Chenla",
+      "dateRange": "Năm 657 SCN (Thế kỷ 7)",
+      "century": "Thế kỷ 7",
+      "summary": "Mẫu tự chữ viết Khmer cổ thời kỳ Chân Lạp được khắc tinh xảo bằng kỹ thuật đục đá chính xác, cung cấp bằng chứng ngữ văn học cổ xưa nhất về ngữ pháp và từ vựng ...",
+      "description": "Mẫu tự chữ viết Khmer cổ thời kỳ Chân Lạp được khắc tinh xảo bằng kỹ thuật đục đá chính xác, cung cấp bằng chứng ngữ văn học cổ xưa nhất về ngữ pháp và từ vựng Khmer sơ kỳ.",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại Bảo tàng Quốc gia Campuchia (National Museum of Cambodia).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Đá sa thạch xám khắc văn tự (Inscribed sandstone stele)",
+      "dimensions": "Cao: 85 cm; Rộng: 38 cm; Dày: 18 cm (28 dòng văn tự)",
+      "location": {
+        "siteName": "Bảo tàng Quốc gia Campuchia, Phnom Penh",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          11.5662,
+          104.9292
+        ]
+      },
+      "media": {
+        "primaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg",
+        "gallery": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg"
+        ],
+        "caption": "Ancient Stone Inscription Stele K.904 (Sanskrit and Old Khmer Epigraphy) — Bảo tàng Quốc gia Campuchia (National Museum of Cambodia) (File:Stele_Inscription_K904_Sanskrit_Khmer.jpg)"
+      },
+      "provenance": {
+        "institution": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khmer_inscription_stele.jpg",
+        "sourceRecordId": "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "attribution": "National Museum of Cambodia / EFEO Survey (Public Domain)",
+        "accessionNumber": "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+        "citations": [
+          "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia) Collection Record: File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+          "EFEO (École française d'Extrême-Orient) Archives"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)",
+        "sourceRecordId": "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khmer_inscription_stele.jpg",
+        "originalTitle": "Ancient Stone Inscription Stele K.904 (Sanskrit and Old Khmer Epigraphy)",
+        "originalDescription": "Mẫu tự chữ viết Khmer cổ thời kỳ Chân Lạp được khắc tinh xảo bằng kỹ thuật đục đá chính xác, cung cấp bằng chứng ngữ văn học cổ xưa nhất về ngữ pháp và từ vựng Khmer sơ kỳ.",
+        "originalDate": "Năm 657 SCN (Thế kỷ 7)",
+        "originalMaterial": "Đá sa thạch xám khắc văn tự (Inscribed sandstone stele)",
+        "originalDimensions": "Cao: 85 cm; Rộng: 38 cm; Dày: 18 cm (28 dòng văn tự)",
+        "originalLocation": "Bảo tàng Quốc gia Campuchia, Phnom Penh",
+        "originalCreditLine": "EFEO (École française d'Extrême-Orient) Archives",
+        "originalAccessionNumber": "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+        "originalObjectType": "manuscript",
+        "rawRecordPayload": {
+          "commonsFile": "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+          "author": "EFEO (École française d'Extrême-Orient) Archives"
+        }
+      },
+      "isMasterpiece": true
+    },
+    {
+      "id": "kh-ia-manuscript-coedes-inscriptions",
+      "canonicalObjectId": "kh-ia-manuscript-coedes-inscriptions",
+      "sourceRecordIds": [
+        "inscriptions-du-cambodge-coedes-efeo"
+      ],
+      "type": "manuscript",
+      "title": "Tuyển Tập Khảo Khắc & Dịch Thuật Văn Bia Campuchia (George Cœdès)",
+      "titleKhmer": "កម្រងសិលាចារឹកនៃប្រទេសកម្ពុជា",
+      "titleEnglish": "Corpus of Inscriptions of Cambodia (George Cœdès, EFEO Publication)",
+      "alternateTitles": [
+        "Corpus of Inscriptions of Cambodia (George Cœdès, EFEO Publication)",
+        "Corpus of Inscriptions of Cambodia (George Cœdès, EFEO Publication)"
+      ],
+      "category": "Tư Liệu Học Thuật & Văn Bia Khảo Cổ (Scholarly Corpus)",
+      "period": "Modern",
+      "dateRange": "Xuất bản 1937–1966",
+      "century": "Thế kỷ 20",
+      "summary": "Bộ tài liệu kinh điển đặt nền móng cho toàn bộ niên biểu lịch sử, phả hệ các vị vua Angkor và cấu trúc tôn giáo vương triều Khmer....",
+      "description": "Bộ tài liệu kinh điển đặt nền móng cho toàn bộ niên biểu lịch sử, phả hệ các vị vua Angkor và cấu trúc tôn giáo vương triều Khmer.",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại Internet Archive & EFEO Archival Collection.",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Ấn bản tài liệu học thuật in kèm ảnh dập bản bia đá (Printed volume and rubbings)",
+      "dimensions": "8 tập khảo cứu (Hơn 2,000 trang tư liệu)",
+      "location": {
+        "siteName": "Phnom Penh & Siem Reap, Campuchia",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4125,
+          103.867
+        ]
+      },
+      "media": {
+        "primaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg",
+        "gallery": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg"
+        ],
+        "caption": "Corpus of Inscriptions of Cambodia (George Cœdès, EFEO Publication) — Internet Archive & EFEO Archival Collection (inscriptions-du-cambodge-coedes-efeo)"
+      },
+      "provenance": {
+        "institution": "Internet Archive & EFEO Archival Collection",
+        "sourceUrl": "https://archive.org/details/inscriptionsducambodge01coed",
+        "sourceRecordId": "inscriptions-du-cambodge-coedes-efeo",
+        "license": "Public Domain",
+        "licenseUrl": "https://archive.org/about/terms.php",
+        "attribution": "Internet Archive & EFEO Archival Collection (Public Domain / Open Access)",
+        "accessionNumber": "inscriptions-du-cambodge-coedes-efeo",
+        "citations": [
+          "Internet Archive & EFEO Archival Collection Collection Record: inscriptions-du-cambodge-coedes-efeo",
+          "École française d'Extrême-Orient (EFEO) & Internet Archive Open Library"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "Internet Archive & EFEO Archival Collection",
+        "sourceRecordId": "inscriptions-du-cambodge-coedes-efeo",
+        "sourceUrl": "https://archive.org/details/inscriptionsducambodge01coed",
+        "originalTitle": "Corpus of Inscriptions of Cambodia (George Cœdès, EFEO Publication)",
+        "originalDescription": "Bộ tài liệu kinh điển đặt nền móng cho toàn bộ niên biểu lịch sử, phả hệ các vị vua Angkor và cấu trúc tôn giáo vương triều Khmer.",
+        "originalDate": "Xuất bản 1937–1966",
+        "originalMaterial": "Ấn bản tài liệu học thuật in kèm ảnh dập bản bia đá (Printed volume and rubbings)",
+        "originalDimensions": "8 tập khảo cứu (Hơn 2,000 trang tư liệu)",
+        "originalLocation": "Phnom Penh & Siem Reap, Campuchia",
+        "originalCreditLine": "École française d'Extrême-Orient (EFEO) & Internet Archive Open Library",
+        "originalAccessionNumber": "inscriptions-du-cambodge-coedes-efeo",
+        "originalObjectType": "manuscript",
+        "rawRecordPayload": {
+          "iaIdentifier": "inscriptions-du-cambodge-coedes-efeo"
+        }
+      },
+      "isMasterpiece": true
+    }
+  ]
+}

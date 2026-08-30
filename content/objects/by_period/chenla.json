@@ -1,0 +1,920 @@
+{
+  "period": "Chenla",
+  "count": 10,
+  "objects": [
+    {
+      "id": "kh-met-38160",
+      "canonicalObjectId": "kh-met-38160",
+      "sourceRecordIds": [
+        "1977.241"
+      ],
+      "type": "artifact",
+      "title": "Tượng Thần Hợp Nhất Harihara (Shiva - Vishnu)",
+      "titleKhmer": "ព្រះហរិហរៈ",
+      "titleEnglish": "Harihara",
+      "alternateTitles": [
+        "Harihara",
+        "Harihara"
+      ],
+      "category": "Điêu khắc & Cổ vật (Sculpture)",
+      "period": "Chenla",
+      "dateRange": "Thế kỷ 7 – 8 (Thời kỳ Chân Lạp)",
+      "century": "Thế kỷ 7 – 8",
+      "summary": "Tác phẩm bằng đá sa thạch nguyên khối thuộc phong cách Phnom Da / Prasat Andet thời Chân Lạp, với giải phẫu cơ thể học hoàn hảo và bề mặt đá đánh bóng như ngọc....",
+      "description": "Tác phẩm bằng đá sa thạch nguyên khối thuộc phong cách Phnom Da / Prasat Andet thời Chân Lạp, với giải phẫu cơ thể học hoàn hảo và bề mặt đá đánh bóng như ngọc.",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại The Metropolitan Museum of Art (The Met).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Đá sa thạch đánh bóng (Polished Sandstone)",
+      "dimensions": "Cao: 91.4 cm",
+      "location": {
+        "siteName": "Đền Prasat Andet / Kompong Thom",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          12.71,
+          104.88
+        ]
+      },
+      "media": {
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/web-large/LK.1993.477.3_DP310135r1_25F.jpg",
+        "gallery": [
+          "https://images.metmuseum.org/CRDImages/as/original/LK.1993.477.3_DP310135r1_25F.jpg",
+          "https://images.metmuseum.org/CRDImages/as/original/DP310135.jpg",
+          "https://images.metmuseum.org/CRDImages/as/original/DP310114.jpg"
+        ],
+        "audioUrl": "/audio/guides/kh-met-38160.mp3",
+        "caption": "Harihara — The Metropolitan Museum of Art (The Met) (1977.241)"
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art (The Met)",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38160",
+        "sourceRecordId": "1977.241",
+        "license": "CC0",
+        "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 1977.241",
+        "accessionNumber": "1977.241",
+        "citations": [
+          "The Metropolitan Museum of Art (The Met) Collection Record: 1977.241",
+          "The Metropolitan Museum of Art"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "The Metropolitan Museum of Art (The Met)",
+        "sourceRecordId": "1977.241",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38160",
+        "originalTitle": "Harihara",
+        "originalDescription": "Tác phẩm bằng đá sa thạch nguyên khối thuộc phong cách Phnom Da / Prasat Andet thời Chân Lạp, với giải phẫu cơ thể học hoàn hảo và bề mặt đá đánh bóng như ngọc.",
+        "originalDate": "Thế kỷ 7 – 8 (Thời kỳ Chân Lạp)",
+        "originalMaterial": "Đá sa thạch đánh bóng (Polished Sandstone)",
+        "originalDimensions": "Cao: 91.4 cm",
+        "originalLocation": "Đền Prasat Andet / Kompong Thom",
+        "originalCreditLine": "The Metropolitan Museum of Art",
+        "originalAccessionNumber": "1977.241",
+        "originalObjectType": "artifact",
+        "rawRecordPayload": {
+          "isPublicDomain": true,
+          "metId": "kh-met-38160"
+        }
+      },
+      "hotspots": [
+        {
+          "id": "spot-shiva-half",
+          "label": "Nửa Thân Phải: Thần Hủy Diệt Shiva",
+          "labelSanskrit": "Shiva Ardha (Jatamukuta & Trisula)",
+          "labelKhmer": "ផ្នែកព្រះសិវៈ",
+          "description": "Phần búi tóc Jatamukuta cuộn cao với vầng trăng khuyết và con mắt thứ ba mở hé trên trán.",
+          "theologicalMeaning": "Năng lượng phá hủy cái cũ để tái sinh trật tự vũ trụ mới.",
+          "symbolism": "Khổ hạnh, thiền định và tuệ giác tối thượng.",
+          "position": {
+            "x": 42,
+            "y": 25
+          }
+        },
+        {
+          "id": "spot-vishnu-half",
+          "label": "Nửa Thân Trái: Thần Bảo Hộ Vishnu",
+          "labelSanskrit": "Vishnu Ardha (Kirita-mukuta & Sankha)",
+          "labelKhmer": "ផ្នែកព្រះវិស្ណុ",
+          "description": "Mũ trụ hình trụ trơn láng Kirita-mukuta và trang phục chỉn chu biểu trưng cho quyền năng cai quản thiên hạ.",
+          "theologicalMeaning": "Năng lượng duy trì, bảo hộ đạo đức và hòa bình vũ trụ (Dharma).",
+          "symbolism": "Vương quyền, sự thịnh vượng và bảo hộ muôn loài.",
+          "position": {
+            "x": 58,
+            "y": 25
+          }
+        },
+        {
+          "id": "spot-sampot-drape",
+          "label": "Trang Phục Váy Quấn Sampot Tiền Angkor",
+          "labelSanskrit": "Antariya / Sampot Can Kben",
+          "labelKhmer": "សំពត់ចងក្បិន",
+          "description": "Nếp gấp vải mềm mại dắt qua thắt lưng, gấu váy buông rủ thanh thoát đặc trưng phong cách Prasat Andet.",
+          "theologicalMeaning": "Chuẩn mực thẩm mỹ quý tộc cung đình thời Chân Lạp thế kỷ 7-8.",
+          "symbolism": "Vẻ đẹp điêu khắc cơ thể học lý tưởng của văn minh Đông Nam Á cổ đại.",
+          "position": {
+            "x": 50,
+            "y": 65
+          }
+        }
+      ],
+      "isMasterpiece": true
+    },
+    {
+      "id": "kh-met-38620",
+      "canonicalObjectId": "kh-met-38620",
+      "sourceRecordIds": [
+        "2015.500.4.27"
+      ],
+      "type": "artifact",
+      "title": "Tượng Thần Shiva Bán Nữ Bán Nam (Ardhanarishvara)",
+      "titleKhmer": "វត្ថុបុរាណខ្មែរ",
+      "titleEnglish": "The Half-Male, Half-Female Form of Shiva (Shiva Ardhanarishvara)",
+      "alternateTitles": [
+        "The Half-Male, Half-Female Form of Shiva (Shiva Ardhanarishvara)",
+        "The Half-Male, Half-Female Form of Shiva (Shiva Ardhanarishvara)"
+      ],
+      "category": "Điêu khắc & Cổ vật (Sculpture)",
+      "period": "Chenla",
+      "dateRange": "Thế kỷ 7 – 8",
+      "century": "Thế kỷ 7 – 8",
+      "summary": "Hiện vật khảo cổ học chính quy \"The Half-Male, Half-Female Form of Shiva (Shiva Ardhanarishvara)\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (...",
+      "description": "Hiện vật khảo cổ học chính quy \"The Half-Male, Half-Female Form of Shiva (Shiva Ardhanarishvara)\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại The Metropolitan Museum of Art (The Met).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Đá sa thạch",
+      "dimensions": "Theo hồ sơ kiểm kê The Met",
+      "location": {
+        "siteName": "Vùng văn hóa Angkor / Campuchia cổ",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4125,
+          103.867
+        ]
+      },
+      "media": {
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/web-large/DT7088.jpg",
+        "gallery": [
+          "https://images.metmuseum.org/CRDImages/as/original/DT7088.jpg"
+        ],
+        "audioUrl": "/audio/guides/kh-met-38620.mp3",
+        "caption": "The Half-Male, Half-Female Form of Shiva (Shiva Ardhanarishvara) — The Metropolitan Museum of Art (The Met) (2015.500.4.27)"
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art (The Met)",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38620",
+        "sourceRecordId": "2015.500.4.27",
+        "license": "CC0",
+        "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 2015.500.4.27",
+        "accessionNumber": "2015.500.4.27",
+        "citations": [
+          "The Metropolitan Museum of Art (The Met) Collection Record: 2015.500.4.27",
+          "Credit Line: Metropolitan Museum of Art Archive"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "The Metropolitan Museum of Art (The Met)",
+        "sourceRecordId": "2015.500.4.27",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38620",
+        "originalTitle": "The Half-Male, Half-Female Form of Shiva (Shiva Ardhanarishvara)",
+        "originalDescription": "Hiện vật khảo cổ học chính quy \"The Half-Male, Half-Female Form of Shiva (Shiva Ardhanarishvara)\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+        "originalDate": "Thế kỷ 7 – 8",
+        "originalMaterial": "Đá sa thạch",
+        "originalDimensions": "Theo hồ sơ kiểm kê The Met",
+        "originalLocation": "Vùng văn hóa Angkor / Campuchia cổ",
+        "originalCreditLine": "Credit Line: Metropolitan Museum of Art Archive",
+        "originalAccessionNumber": "2015.500.4.27",
+        "originalObjectType": "artifact",
+        "rawRecordPayload": {
+          "isPublicDomain": true,
+          "metId": "kh-met-38620"
+        }
+      }
+    },
+    {
+      "id": "kh-met-44965",
+      "canonicalObjectId": "kh-met-44965",
+      "sourceRecordIds": [
+        "2000.531"
+      ],
+      "type": "artifact",
+      "title": "Tượng Nữ Thần Đứng (Nghi Nữ Thần Durga)",
+      "titleKhmer": "វត្ថុបុរាណខ្មែរ",
+      "titleEnglish": "Standing Female Deity, probably Durga",
+      "alternateTitles": [
+        "Standing Female Deity, probably Durga",
+        "Standing Female Deity, probably Durga"
+      ],
+      "category": "Điêu khắc & Cổ vật (Sculpture)",
+      "period": "Chenla",
+      "dateRange": "Thế kỷ 7",
+      "century": "Thế kỷ 7",
+      "summary": "Hiện vật khảo cổ học chính quy \"Standing Female Deity, probably Durga\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: T...",
+      "description": "Hiện vật khảo cổ học chính quy \"Standing Female Deity, probably Durga\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại The Metropolitan Museum of Art (The Met).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Đá sa thạch",
+      "dimensions": "Theo hồ sơ kiểm kê The Met",
+      "location": {
+        "siteName": "Vùng văn hóa Angkor / Campuchia cổ",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4125,
+          103.867
+        ]
+      },
+      "media": {
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/web-large/DT4331.jpg",
+        "gallery": [
+          "https://images.metmuseum.org/CRDImages/as/original/DT4331.jpg"
+        ],
+        "audioUrl": "/audio/guides/kh-met-44965.mp3",
+        "caption": "Standing Female Deity, probably Durga — The Metropolitan Museum of Art (The Met) (2000.531)"
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art (The Met)",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/44965",
+        "sourceRecordId": "2000.531",
+        "license": "CC0",
+        "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 2000.531",
+        "accessionNumber": "2000.531",
+        "citations": [
+          "The Metropolitan Museum of Art (The Met) Collection Record: 2000.531",
+          "Credit Line: Metropolitan Museum of Art Archive"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "The Metropolitan Museum of Art (The Met)",
+        "sourceRecordId": "2000.531",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/44965",
+        "originalTitle": "Standing Female Deity, probably Durga",
+        "originalDescription": "Hiện vật khảo cổ học chính quy \"Standing Female Deity, probably Durga\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+        "originalDate": "Thế kỷ 7",
+        "originalMaterial": "Đá sa thạch",
+        "originalDimensions": "Theo hồ sơ kiểm kê The Met",
+        "originalLocation": "Vùng văn hóa Angkor / Campuchia cổ",
+        "originalCreditLine": "Credit Line: Metropolitan Museum of Art Archive",
+        "originalAccessionNumber": "2000.531",
+        "originalObjectType": "artifact",
+        "rawRecordPayload": {
+          "isPublicDomain": true,
+          "metId": "kh-met-44965"
+        }
+      }
+    },
+    {
+      "id": "kh-met-39772",
+      "canonicalObjectId": "kh-met-39772",
+      "sourceRecordIds": [
+        "1987.145"
+      ],
+      "type": "artifact",
+      "title": "Bồ Tát Quán Thế Âm Avalokiteshvara Đứng Bốn Tay",
+      "titleKhmer": "វត្ថុបុរាណខ្មែរ",
+      "titleEnglish": "Bodhisattva Avalokiteshvara",
+      "alternateTitles": [
+        "Bodhisattva Avalokiteshvara",
+        "Bodhisattva Avalokiteshvara"
+      ],
+      "category": "Điêu khắc & Cổ vật (Sculpture)",
+      "period": "Chenla",
+      "dateRange": "Thế kỷ 8",
+      "century": "Thế kỷ 8",
+      "summary": "Hiện vật khảo cổ học chính quy \"Bodhisattva Avalokiteshvara\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Ope...",
+      "description": "Hiện vật khảo cổ học chính quy \"Bodhisattva Avalokiteshvara\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại The Metropolitan Museum of Art (The Met).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Đồng (Bronze)",
+      "dimensions": "Theo hồ sơ kiểm kê The Met",
+      "location": {
+        "siteName": "Vùng văn hóa Angkor / Campuchia cổ",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4125,
+          103.867
+        ]
+      },
+      "media": {
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/web-large/DT4234.jpg",
+        "gallery": [
+          "https://images.metmuseum.org/CRDImages/as/original/DT4234.jpg"
+        ],
+        "audioUrl": "/audio/guides/kh-met-39772.mp3",
+        "caption": "Bodhisattva Avalokiteshvara — The Metropolitan Museum of Art (The Met) (1987.145)"
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art (The Met)",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/39772",
+        "sourceRecordId": "1987.145",
+        "license": "CC0",
+        "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 1987.145",
+        "accessionNumber": "1987.145",
+        "citations": [
+          "The Metropolitan Museum of Art (The Met) Collection Record: 1987.145",
+          "Credit Line: Metropolitan Museum of Art Archive"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "The Metropolitan Museum of Art (The Met)",
+        "sourceRecordId": "1987.145",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/39772",
+        "originalTitle": "Bodhisattva Avalokiteshvara",
+        "originalDescription": "Hiện vật khảo cổ học chính quy \"Bodhisattva Avalokiteshvara\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+        "originalDate": "Thế kỷ 8",
+        "originalMaterial": "Đồng (Bronze)",
+        "originalDimensions": "Theo hồ sơ kiểm kê The Met",
+        "originalLocation": "Vùng văn hóa Angkor / Campuchia cổ",
+        "originalCreditLine": "Credit Line: Metropolitan Museum of Art Archive",
+        "originalAccessionNumber": "1987.145",
+        "originalObjectType": "artifact",
+        "rawRecordPayload": {
+          "isPublicDomain": true,
+          "metId": "kh-met-39772"
+        }
+      }
+    },
+    {
+      "id": "kh-met-38879",
+      "canonicalObjectId": "kh-met-38879",
+      "sourceRecordIds": [
+        "85.11.18"
+      ],
+      "type": "artifact",
+      "title": "Thủ Tượng Phật Thích Ca Thời Tiền Angkor",
+      "titleKhmer": "វត្ថុបុរាណខ្មែរ",
+      "titleEnglish": "Head of Buddha",
+      "alternateTitles": [
+        "Head of Buddha",
+        "Head of Buddha"
+      ],
+      "category": "Điêu khắc & Cổ vật (Sculpture)",
+      "period": "Chenla",
+      "dateRange": "Thế kỷ 7 – 8",
+      "century": "Thế kỷ 7 – 8",
+      "summary": "Hiện vật khảo cổ học chính quy \"Head of Buddha\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấ...",
+      "description": "Hiện vật khảo cổ học chính quy \"Head of Buddha\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại The Metropolitan Museum of Art (The Met).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Đá sa thạch",
+      "dimensions": "Theo hồ sơ kiểm kê The Met",
+      "location": {
+        "siteName": "Vùng văn hóa Angkor / Campuchia cổ",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4125,
+          103.867
+        ]
+      },
+      "media": {
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_8.jpg",
+        "gallery": [
+          "https://images.metmuseum.org/CRDImages/as/original/85_11_8.jpg"
+        ],
+        "audioUrl": "/audio/guides/kh-met-38879.mp3",
+        "caption": "Head of Buddha — The Metropolitan Museum of Art (The Met) (85.11.18)"
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art (The Met)",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38879",
+        "sourceRecordId": "85.11.18",
+        "license": "CC0",
+        "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 85.11.18",
+        "accessionNumber": "85.11.18",
+        "citations": [
+          "The Metropolitan Museum of Art (The Met) Collection Record: 85.11.18",
+          "Credit Line: Metropolitan Museum of Art Archive"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "The Metropolitan Museum of Art (The Met)",
+        "sourceRecordId": "85.11.18",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38879",
+        "originalTitle": "Head of Buddha",
+        "originalDescription": "Hiện vật khảo cổ học chính quy \"Head of Buddha\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+        "originalDate": "Thế kỷ 7 – 8",
+        "originalMaterial": "Đá sa thạch",
+        "originalDimensions": "Theo hồ sơ kiểm kê The Met",
+        "originalLocation": "Vùng văn hóa Angkor / Campuchia cổ",
+        "originalCreditLine": "Credit Line: Metropolitan Museum of Art Archive",
+        "originalAccessionNumber": "85.11.18",
+        "originalObjectType": "artifact",
+        "rawRecordPayload": {
+          "isPublicDomain": true,
+          "metId": "kh-met-38879"
+        }
+      }
+    },
+    {
+      "id": "kh-met-38877",
+      "canonicalObjectId": "kh-met-38877",
+      "sourceRecordIds": [
+        "85.11.9"
+      ],
+      "type": "artifact",
+      "title": "Thủ Tượng Phật Thích Ca Giai Đoạn Sớm",
+      "titleKhmer": "វត្ថុបុរាណខ្មែរ",
+      "titleEnglish": "Head of a Buddha",
+      "alternateTitles": [
+        "Head of a Buddha",
+        "Head of a Buddha"
+      ],
+      "category": "Điêu khắc & Cổ vật (Sculpture)",
+      "period": "Chenla",
+      "dateRange": "Thế kỷ 8",
+      "century": "Thế kỷ 8",
+      "summary": "Hiện vật khảo cổ học chính quy \"Head of a Buddha\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. G...",
+      "description": "Hiện vật khảo cổ học chính quy \"Head of a Buddha\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại The Metropolitan Museum of Art (The Met).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Đá sa thạch",
+      "dimensions": "Theo hồ sơ kiểm kê The Met",
+      "location": {
+        "siteName": "Vùng văn hóa Angkor / Campuchia cổ",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4125,
+          103.867
+        ]
+      },
+      "media": {
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_5.JPG",
+        "gallery": [
+          "https://images.metmuseum.org/CRDImages/as/original/85_11_5.JPG"
+        ],
+        "audioUrl": "/audio/guides/kh-met-38877.mp3",
+        "caption": "Head of a Buddha — The Metropolitan Museum of Art (The Met) (85.11.9)"
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art (The Met)",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38877",
+        "sourceRecordId": "85.11.9",
+        "license": "CC0",
+        "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 85.11.9",
+        "accessionNumber": "85.11.9",
+        "citations": [
+          "The Metropolitan Museum of Art (The Met) Collection Record: 85.11.9",
+          "Credit Line: Metropolitan Museum of Art Archive"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "The Metropolitan Museum of Art (The Met)",
+        "sourceRecordId": "85.11.9",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38877",
+        "originalTitle": "Head of a Buddha",
+        "originalDescription": "Hiện vật khảo cổ học chính quy \"Head of a Buddha\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+        "originalDate": "Thế kỷ 8",
+        "originalMaterial": "Đá sa thạch",
+        "originalDimensions": "Theo hồ sơ kiểm kê The Met",
+        "originalLocation": "Vùng văn hóa Angkor / Campuchia cổ",
+        "originalCreditLine": "Credit Line: Metropolitan Museum of Art Archive",
+        "originalAccessionNumber": "85.11.9",
+        "originalObjectType": "artifact",
+        "rawRecordPayload": {
+          "isPublicDomain": true,
+          "metId": "kh-met-38877"
+        }
+      }
+    },
+    {
+      "id": "kh-met-38890",
+      "canonicalObjectId": "kh-met-38890",
+      "sourceRecordIds": [
+        "1987.411"
+      ],
+      "type": "artifact",
+      "title": "Tượng Nam Thần Bốn Tay Đứng Thẳng",
+      "titleKhmer": "វត្ថុបុរាណខ្មែរ",
+      "titleEnglish": "Standing Four-Armed Male Deity",
+      "alternateTitles": [
+        "Standing Four-Armed Male Deity",
+        "Standing Four-Armed Male Deity"
+      ],
+      "category": "Điêu khắc & Cổ vật (Sculpture)",
+      "period": "Chenla",
+      "dateRange": "Thế kỷ 7 – 8",
+      "century": "Thế kỷ 7 – 8",
+      "summary": "Hiện vật khảo cổ học chính quy \"Standing Four-Armed Male Deity\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met ...",
+      "description": "Hiện vật khảo cổ học chính quy \"Standing Four-Armed Male Deity\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại The Metropolitan Museum of Art (The Met).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Đá sa thạch",
+      "dimensions": "Theo hồ sơ kiểm kê The Met",
+      "location": {
+        "siteName": "Vùng văn hóa Angkor / Campuchia cổ",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4125,
+          103.867
+        ]
+      },
+      "media": {
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/web-large/28_33.jpg",
+        "gallery": [
+          "https://images.metmuseum.org/CRDImages/as/original/28_33.jpg"
+        ],
+        "audioUrl": "/audio/guides/kh-met-38890.mp3",
+        "caption": "Standing Four-Armed Male Deity — The Metropolitan Museum of Art (The Met) (1987.411)"
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art (The Met)",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38890",
+        "sourceRecordId": "1987.411",
+        "license": "CC0",
+        "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 1987.411",
+        "accessionNumber": "1987.411",
+        "citations": [
+          "The Metropolitan Museum of Art (The Met) Collection Record: 1987.411",
+          "Credit Line: Metropolitan Museum of Art Archive"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "The Metropolitan Museum of Art (The Met)",
+        "sourceRecordId": "1987.411",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38890",
+        "originalTitle": "Standing Four-Armed Male Deity",
+        "originalDescription": "Hiện vật khảo cổ học chính quy \"Standing Four-Armed Male Deity\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+        "originalDate": "Thế kỷ 7 – 8",
+        "originalMaterial": "Đá sa thạch",
+        "originalDimensions": "Theo hồ sơ kiểm kê The Met",
+        "originalLocation": "Vùng văn hóa Angkor / Campuchia cổ",
+        "originalCreditLine": "Credit Line: Metropolitan Museum of Art Archive",
+        "originalAccessionNumber": "1987.411",
+        "originalObjectType": "artifact",
+        "rawRecordPayload": {
+          "isPublicDomain": true,
+          "metId": "kh-met-38890"
+        }
+      }
+    },
+    {
+      "id": "kh-met-38906",
+      "canonicalObjectId": "kh-met-38906",
+      "sourceRecordIds": [
+        "17.118.53"
+      ],
+      "type": "artifact",
+      "title": "Tượng Phật Thích Ca Đứng Phong Cách Dvaravati",
+      "titleKhmer": "វត្ថុបុរាណខ្មែរ",
+      "titleEnglish": "Standing Buddha (Dvaravati-Khmer Transition)",
+      "alternateTitles": [
+        "Standing Buddha (Dvaravati-Khmer Transition)",
+        "Standing Buddha (Dvaravati-Khmer Transition)"
+      ],
+      "category": "Điêu khắc & Cổ vật (Sculpture)",
+      "period": "Chenla",
+      "dateRange": "Thế kỷ 8",
+      "century": "Thế kỷ 8",
+      "summary": "Hiện vật khảo cổ học chính quy \"Standing Buddha (Dvaravati-Khmer Transition)\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu ...",
+      "description": "Hiện vật khảo cổ học chính quy \"Standing Buddha (Dvaravati-Khmer Transition)\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại The Metropolitan Museum of Art (The Met).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Đồng (Bronze)",
+      "dimensions": "Theo hồ sơ kiểm kê The Met",
+      "location": {
+        "siteName": "Vùng văn hóa Angkor / Campuchia cổ",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4125,
+          103.867
+        ]
+      },
+      "media": {
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_6.JPG",
+        "gallery": [
+          "https://images.metmuseum.org/CRDImages/as/original/85_11_6.JPG"
+        ],
+        "audioUrl": "/audio/guides/kh-met-38906.mp3",
+        "caption": "Standing Buddha (Dvaravati-Khmer Transition) — The Metropolitan Museum of Art (The Met) (17.118.53)"
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art (The Met)",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38906",
+        "sourceRecordId": "17.118.53",
+        "license": "CC0",
+        "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 17.118.53",
+        "accessionNumber": "17.118.53",
+        "citations": [
+          "The Metropolitan Museum of Art (The Met) Collection Record: 17.118.53",
+          "Credit Line: Metropolitan Museum of Art Archive"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "The Metropolitan Museum of Art (The Met)",
+        "sourceRecordId": "17.118.53",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38906",
+        "originalTitle": "Standing Buddha (Dvaravati-Khmer Transition)",
+        "originalDescription": "Hiện vật khảo cổ học chính quy \"Standing Buddha (Dvaravati-Khmer Transition)\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+        "originalDate": "Thế kỷ 8",
+        "originalMaterial": "Đồng (Bronze)",
+        "originalDimensions": "Theo hồ sơ kiểm kê The Met",
+        "originalLocation": "Vùng văn hóa Angkor / Campuchia cổ",
+        "originalCreditLine": "Credit Line: Metropolitan Museum of Art Archive",
+        "originalAccessionNumber": "17.118.53",
+        "originalObjectType": "artifact",
+        "rawRecordPayload": {
+          "isPublicDomain": true,
+          "metId": "kh-met-38906"
+        }
+      }
+    },
+    {
+      "id": "kh-met-38893",
+      "canonicalObjectId": "kh-met-38893",
+      "sourceRecordIds": [
+        "30.76.110"
+      ],
+      "type": "artifact",
+      "title": "Tượng Phật Thích Ca Cổ Phù Nam - Chân Lạp",
+      "titleKhmer": "វត្ថុបុរាណខ្មែរ",
+      "titleEnglish": "Seated Buddha (Early Southeast Asian)",
+      "alternateTitles": [
+        "Seated Buddha (Early Southeast Asian)",
+        "Seated Buddha (Early Southeast Asian)"
+      ],
+      "category": "Điêu khắc & Cổ vật (Sculpture)",
+      "period": "Chenla",
+      "dateRange": "Thế kỷ 7",
+      "century": "Thế kỷ 7",
+      "summary": "Hiện vật khảo cổ học chính quy \"Seated Buddha (Early Southeast Asian)\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: T...",
+      "description": "Hiện vật khảo cổ học chính quy \"Seated Buddha (Early Southeast Asian)\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại The Metropolitan Museum of Art (The Met).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Đồng (Bronze)",
+      "dimensions": "Theo hồ sơ kiểm kê The Met",
+      "location": {
+        "siteName": "Vùng văn hóa Angkor / Campuchia cổ",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4125,
+          103.867
+        ]
+      },
+      "media": {
+        "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/30.76.110.jpg",
+        "gallery": [
+          "https://images.metmuseum.org/CRDImages/as/original/30.76.110.jpg"
+        ],
+        "audioUrl": "/audio/guides/kh-met-38893.mp3",
+        "caption": "Seated Buddha (Early Southeast Asian) — The Metropolitan Museum of Art (The Met) (30.76.110)"
+      },
+      "provenance": {
+        "institution": "The Metropolitan Museum of Art (The Met)",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38893",
+        "sourceRecordId": "30.76.110",
+        "license": "CC0",
+        "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 30.76.110",
+        "accessionNumber": "30.76.110",
+        "citations": [
+          "The Metropolitan Museum of Art (The Met) Collection Record: 30.76.110",
+          "Credit Line: Metropolitan Museum of Art Archive"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "The Metropolitan Museum of Art (The Met)",
+        "sourceRecordId": "30.76.110",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38893",
+        "originalTitle": "Seated Buddha (Early Southeast Asian)",
+        "originalDescription": "Hiện vật khảo cổ học chính quy \"Seated Buddha (Early Southeast Asian)\" được lưu trữ và bảo tồn tại Bảo tàng Nghệ thuật Metropolitan (The Met). Nguồn thu thập: The Met Open Access. Giấy phép sử dụng: CC0 (Phạm vi công cộng).",
+        "originalDate": "Thế kỷ 7",
+        "originalMaterial": "Đồng (Bronze)",
+        "originalDimensions": "Theo hồ sơ kiểm kê The Met",
+        "originalLocation": "Vùng văn hóa Angkor / Campuchia cổ",
+        "originalCreditLine": "Credit Line: Metropolitan Museum of Art Archive",
+        "originalAccessionNumber": "30.76.110",
+        "originalObjectType": "artifact",
+        "rawRecordPayload": {
+          "isPublicDomain": true,
+          "metId": "kh-met-38893"
+        }
+      }
+    },
+    {
+      "id": "kh-ins-stele-k904",
+      "canonicalObjectId": "kh-ins-stele-k904",
+      "sourceRecordIds": [
+        "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg"
+      ],
+      "type": "manuscript",
+      "title": "Bia Ký Khắc Đá Cổ K.904 (Chữ Phạn & Tiếng Khmer Cổ Thế Kỷ 7)",
+      "titleKhmer": "សិលាចារឹកបុរាណ K.៩០៤",
+      "titleEnglish": "Ancient Stone Inscription Stele K.904 (Sanskrit and Old Khmer Epigraphy)",
+      "alternateTitles": [
+        "Ancient Stone Inscription Stele K.904 (Sanskrit and Old Khmer Epigraphy)",
+        "Ancient Stone Inscription Stele K.904 (Sanskrit and Old Khmer Epigraphy)"
+      ],
+      "category": "Văn Bia & Ký Tự Cổ (Epigraphy & Inscriptions)",
+      "period": "Chenla",
+      "dateRange": "Năm 657 SCN (Thế kỷ 7)",
+      "century": "Thế kỷ 7",
+      "summary": "Mẫu tự chữ viết Khmer cổ thời kỳ Chân Lạp được khắc tinh xảo bằng kỹ thuật đục đá chính xác, cung cấp bằng chứng ngữ văn học cổ xưa nhất về ngữ pháp và từ vựng ...",
+      "description": "Mẫu tự chữ viết Khmer cổ thời kỳ Chân Lạp được khắc tinh xảo bằng kỹ thuật đục đá chính xác, cung cấp bằng chứng ngữ văn học cổ xưa nhất về ngữ pháp và từ vựng Khmer sơ kỳ.",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại Bảo tàng Quốc gia Campuchia (National Museum of Cambodia).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Đá sa thạch xám khắc văn tự (Inscribed sandstone stele)",
+      "dimensions": "Cao: 85 cm; Rộng: 38 cm; Dày: 18 cm (28 dòng văn tự)",
+      "location": {
+        "siteName": "Bảo tàng Quốc gia Campuchia, Phnom Penh",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          11.5662,
+          104.9292
+        ]
+      },
+      "media": {
+        "primaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg",
+        "gallery": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg"
+        ],
+        "caption": "Ancient Stone Inscription Stele K.904 (Sanskrit and Old Khmer Epigraphy) — Bảo tàng Quốc gia Campuchia (National Museum of Cambodia) (File:Stele_Inscription_K904_Sanskrit_Khmer.jpg)"
+      },
+      "provenance": {
+        "institution": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khmer_inscription_stele.jpg",
+        "sourceRecordId": "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+        "license": "Public Domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "attribution": "National Museum of Cambodia / EFEO Survey (Public Domain)",
+        "accessionNumber": "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+        "citations": [
+          "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia) Collection Record: File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+          "EFEO (École française d'Extrême-Orient) Archives"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)",
+        "sourceRecordId": "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khmer_inscription_stele.jpg",
+        "originalTitle": "Ancient Stone Inscription Stele K.904 (Sanskrit and Old Khmer Epigraphy)",
+        "originalDescription": "Mẫu tự chữ viết Khmer cổ thời kỳ Chân Lạp được khắc tinh xảo bằng kỹ thuật đục đá chính xác, cung cấp bằng chứng ngữ văn học cổ xưa nhất về ngữ pháp và từ vựng Khmer sơ kỳ.",
+        "originalDate": "Năm 657 SCN (Thế kỷ 7)",
+        "originalMaterial": "Đá sa thạch xám khắc văn tự (Inscribed sandstone stele)",
+        "originalDimensions": "Cao: 85 cm; Rộng: 38 cm; Dày: 18 cm (28 dòng văn tự)",
+        "originalLocation": "Bảo tàng Quốc gia Campuchia, Phnom Penh",
+        "originalCreditLine": "EFEO (École française d'Extrême-Orient) Archives",
+        "originalAccessionNumber": "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+        "originalObjectType": "manuscript",
+        "rawRecordPayload": {
+          "commonsFile": "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+          "author": "EFEO (École française d'Extrême-Orient) Archives"
+        }
+      },
+      "isMasterpiece": true
+    }
+  ]
+}

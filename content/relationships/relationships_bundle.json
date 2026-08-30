@@ -1,0 +1,5066 @@
+{
+  "bundleVersion": "2.2.0",
+  "task": "KH-022",
+  "generatedAt": "2026-08-30T17:22:11.076Z",
+  "totalEdges": 562,
+  "relationships": [
+    {
+      "sourceId": "kh-met-38451",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 36.96.5)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38451",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Cuối thế kỷ 12 – đầu thế kỷ 13 (Thế kỷ 12 – 13)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38451",
+      "sourceType": "artifact",
+      "targetId": "place-qun-th-n-angkor-thom-bayon",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Quần thể Đền Angkor Thom / Bayon, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38451",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38451",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38451",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38451",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38451",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38450",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38304",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 36.96.4)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38304",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 – 13 (Thế kỷ 12 – 13)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38304",
+      "sourceType": "artifact",
+      "targetId": "place-n-banteay-chhmar-angkor",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Đền Banteay Chhmar / Angkor, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38304",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38304",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38304",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38304",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38304",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38450",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-65095",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 2003.142)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-65095",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 10 (Thế kỷ 10)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-65095",
+      "sourceType": "artifact",
+      "targetId": "place-n-pre-rup-banteay-srei",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Đền Pre Rup / Banteay Srei, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-65095",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Kiến trúc & Điêu khắc (Architecture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-65095",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Kiến trúc & Điêu khắc (Architecture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-65095",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Kiến trúc & Điêu khắc (Architecture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-65095",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Kiến trúc & Điêu khắc (Architecture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-65095",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38450",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Kiến trúc & Điêu khắc (Architecture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38450",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 36.96.3)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38450",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 10 (Thế kỷ 10)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38450",
+      "sourceType": "artifact",
+      "targetId": "place-kinh-koh-ker-angkor",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Kinh đô Koh Ker / Angkor, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38450",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38450",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38450",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38450",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38450",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38297",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1982.220.7)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38297",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 10 (Thế kỷ 10)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38297",
+      "sourceType": "artifact",
+      "targetId": "place-n-bakong-roluos",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Đền Bakong / Roluos, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38297",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38297",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38297",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38297",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38297",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38160",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1977.241)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38160",
+      "sourceType": "artifact",
+      "targetId": "period-chenla",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 7 – 8 (Thời kỳ Chân Lạp) (Thế kỷ 7 – 8)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38160",
+      "sourceType": "artifact",
+      "targetId": "place-n-prasat-andet-kompong-thom",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Đền Prasat Andet / Kompong Thom, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38160",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38160",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38160",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38620",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38160",
+      "sourceType": "artifact",
+      "targetId": "kh-met-44965",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38160",
+      "sourceType": "artifact",
+      "targetId": "kh-met-39772",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38158",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1987.17)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38158",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38158",
+      "sourceType": "artifact",
+      "targetId": "place-n-angkor-wat-siem-reap",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Đền Angkor Wat / Siem Reap, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38158",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38158",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38158",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38158",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38158",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38295",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1996.466)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38295",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 11 – 12 (Thế kỷ 11 – 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38295",
+      "sourceType": "artifact",
+      "targetId": "place-n-baphuon-west-mebon",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Đền Baphuon / West Mebon, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38295",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38295",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38295",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38295",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38295",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38162",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 36.96.2)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38162",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Cuối thế kỷ 12 – đầu thế kỷ 13 (Thế kỷ 12 – 13)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38162",
+      "sourceType": "artifact",
+      "targetId": "place-n-bayon-angkor-thom",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Đền Bayon / Angkor Thom, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38162",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Kiến trúc & Điêu khắc (Architecture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38162",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Kiến trúc & Điêu khắc (Architecture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38162",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Kiến trúc & Điêu khắc (Architecture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38162",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Kiến trúc & Điêu khắc (Architecture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38162",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Kiến trúc & Điêu khắc (Architecture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38303",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 36.96.6)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38303",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 10 – 11 (Thế kỷ 10 – 11)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38303",
+      "sourceType": "artifact",
+      "targetId": "place-n-banteay-srei-angkor",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Đền Banteay Srei / Angkor, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38303",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Kiến trúc & Điêu khắc (Architecture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38303",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Kiến trúc & Điêu khắc (Architecture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38303",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Kiến trúc & Điêu khắc (Architecture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38303",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Kiến trúc & Điêu khắc (Architecture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38303",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Kiến trúc & Điêu khắc (Architecture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38620",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 2015.500.4.27)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38620",
+      "sourceType": "artifact",
+      "targetId": "period-chenla",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 7 – 8 (Thế kỷ 7 – 8)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38620",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38620",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38620",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38620",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38160",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38620",
+      "sourceType": "artifact",
+      "targetId": "kh-met-44965",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38620",
+      "sourceType": "artifact",
+      "targetId": "kh-met-39772",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-57343",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1993.387.1)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-57343",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 10 (Thế kỷ 10)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-57343",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-57343",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-57343",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-57343",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-57343",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-57343",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-44965",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 2000.531)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-44965",
+      "sourceType": "artifact",
+      "targetId": "period-chenla",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 7 (Thế kỷ 7)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-44965",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-44965",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-44965",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-44965",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38160",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-44965",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38620",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-44965",
+      "sourceType": "artifact",
+      "targetId": "kh-met-39772",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39772",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1987.145)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39772",
+      "sourceType": "artifact",
+      "targetId": "period-chenla",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 8 (Thế kỷ 8)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39772",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39772",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39772",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39772",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38160",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39772",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38620",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39772",
+      "sourceType": "artifact",
+      "targetId": "kh-met-44965",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39544",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1998.367)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39544",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39544",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39544",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39544",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39544",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39544",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39544",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53341",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 2013.247a–h)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53341",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 – 13 (Thế kỷ 12 – 13)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53341",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53341",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53341",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53341",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53341",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53341",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39162",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 2015.500.4.29)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39162",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 11 (Thế kỷ 11)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39162",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39162",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39162",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39162",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39162",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39162",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39601",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1987.142.3)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39601",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39601",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39601",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39601",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39601",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39601",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39601",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39221",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 2001.433.320)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39221",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 1 – 3 SCN (Thế kỷ 1 – 3 SCN)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39221",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39221",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39221",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39221",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39221",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39221",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53292",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1994.434)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53292",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53292",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53292",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53292",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53292",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53292",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-53292",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39131",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1996.467a,b)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39131",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39131",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39131",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39131",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39131",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39131",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39131",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-78429",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1999.415)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-78429",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-78429",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-78429",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-78429",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-78429",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-78429",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-78429",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38550",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1988.393)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38550",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 10 (Thế kỷ 10)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38550",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38550",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38550",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38550",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38550",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38550",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38875",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.15)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38875",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38875",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38875",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38875",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38875",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38875",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38875",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38879",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.18)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38879",
+      "sourceType": "artifact",
+      "targetId": "period-chenla",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 7 – 8 (Thế kỷ 7 – 8)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38879",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38879",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38879",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38879",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38160",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38879",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38620",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38879",
+      "sourceType": "artifact",
+      "targetId": "kh-met-44965",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38874",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1993.387.3)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38874",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 11 (Thế kỷ 11)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38874",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38874",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38874",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38874",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38874",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38874",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38878",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.10)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38878",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38878",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38878",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38878",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38878",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38878",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38878",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38880",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.7)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38880",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 – 13 (Thế kỷ 12 – 13)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38880",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38880",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38880",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38880",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38880",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38880",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38877",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.9)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38877",
+      "sourceType": "artifact",
+      "targetId": "period-chenla",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 8 (Thế kỷ 8)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38877",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38877",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38877",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38877",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38160",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38877",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38620",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38877",
+      "sourceType": "artifact",
+      "targetId": "kh-met-44965",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38886",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38886",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 11 (Thế kỷ 11)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38886",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38886",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38886",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38886",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38886",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38886",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38881",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.17)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38881",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38881",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38881",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38881",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38881",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38881",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38881",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38882",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1991.381.7)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38882",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 10 (Thế kỷ 10)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38882",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38882",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38882",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38882",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38882",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38882",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38916",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 25.144)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38916",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38916",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38916",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38916",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38916",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38916",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38916",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38909",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.3)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38909",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 13 (Thế kỷ 13)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38909",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38909",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38909",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38909",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38909",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38909",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38885",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.2)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38885",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38885",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38885",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38885",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38885",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38885",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38885",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38884",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.5)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38884",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38884",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38884",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38884",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38884",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38884",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38884",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39274",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.16)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39274",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39274",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39274",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39274",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39274",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39274",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39274",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39273",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 28.33)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39273",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 11 (Thế kỷ 11)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39273",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39273",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39273",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39273",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39273",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39273",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38161",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.8)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38161",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 10 (Thế kỷ 10)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38161",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38161",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38161",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38161",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38161",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38161",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38911",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1991.391.8)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38911",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 6 – 8 (Thế kỷ 6 – 8)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38911",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38911",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38911",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38911",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38911",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38911",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38910",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.14)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38910",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38910",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38910",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38910",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38910",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38910",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38910",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39104",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1991.391.10)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39104",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 4 – 6 (Thế kỷ 4 – 6)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39104",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39104",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39104",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39104",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39104",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-39104",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38455",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 42.152.7)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38455",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38455",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38455",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38455",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38455",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38455",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38455",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38896",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 67.264.1)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38896",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 10 (Thế kỷ 10)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38896",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38896",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38896",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38896",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38896",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38896",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38890",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1987.411)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38890",
+      "sourceType": "artifact",
+      "targetId": "period-chenla",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 7 – 8 (Thế kỷ 7 – 8)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38890",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38890",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38890",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38890",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38160",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38890",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38620",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38890",
+      "sourceType": "artifact",
+      "targetId": "kh-met-44965",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38888",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1984.128a,b)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38888",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 11 (Thế kỷ 11)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38888",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38888",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38888",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38888",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38888",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38888",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38889",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1983.556.1)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38889",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 10 (Thế kỷ 10)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38889",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38889",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38889",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38889",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38889",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38889",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38298",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 85.11.11)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38298",
+      "sourceType": "artifact",
+      "targetId": "period-angkor",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 9 (Thế kỷ 9)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38298",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38298",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38298",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38454",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 23.54.1)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38454",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 11 (Thế kỷ 11)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38454",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38454",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38454",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38454",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38454",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38454",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38904",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1993.387.2)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38904",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 11 (Thế kỷ 11)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38904",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38904",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38904",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38904",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38904",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38904",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38901",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1990.83)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38901",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 10 (Thế kỷ 10)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38901",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38901",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38901",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38901",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38901",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38901",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38902",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1994.489)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38902",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 – 13 (Thế kỷ 12 – 13)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38902",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38902",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38902",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38902",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38902",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38902",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38903",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 67.154.5)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38903",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 15 (Thế kỷ 15)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38903",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38903",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38903",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38903",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38903",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38903",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38905",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1984.486.6)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38905",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38905",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38905",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38905",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38905",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38905",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38905",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38906",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 17.118.53)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38906",
+      "sourceType": "artifact",
+      "targetId": "period-chenla",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 8 (Thế kỷ 8)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38906",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38906",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38906",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38906",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38160",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38906",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38620",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38906",
+      "sourceType": "artifact",
+      "targetId": "kh-met-44965",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38907",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 12.37.136)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38907",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 11 (Thế kỷ 11)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38907",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38907",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38907",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38907",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38907",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38907",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38908",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 2003.593.2)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38908",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 15 (Thế kỷ 15)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38908",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38908",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38908",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38908",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38908",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38908",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38891",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 1975.268.153)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38891",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38891",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38891",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38891",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38891",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38891",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38891",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38892",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 42.151.4a–f)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38892",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 (Thế kỷ 12)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38892",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38892",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38892",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38892",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38892",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38892",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38893",
+      "sourceType": "artifact",
+      "targetId": "inst-the-metropolitan-museum-of-art-the-met",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: The Metropolitan Museum of Art (The Met) (Accession: 30.76.110)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38893",
+      "sourceType": "artifact",
+      "targetId": "period-chenla",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 7 (Thế kỷ 7)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38893",
+      "sourceType": "artifact",
+      "targetId": "place-vng-vn-ha-angkor-campuchia-c",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Vùng văn hóa Angkor / Campuchia cổ, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38893",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38893",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38893",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38160",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38893",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38620",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-met-38893",
+      "sourceType": "artifact",
+      "targetId": "kh-met-44965",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Chenla) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-51",
+      "sourceType": "artifact",
+      "targetId": "inst-smithsonian-national-museum-of-asian-art",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: Smithsonian National Museum of Asian Art (Freer & Sackler Galleries) (Accession: F1992.51)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-51",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Cuối thế kỷ 9 – đầu thế kỷ 10 (Thế kỷ 9 – 10)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-51",
+      "sourceType": "artifact",
+      "targetId": "place-qun-th-di-tch-lch-s-angkor-siem-reap",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Quần thể Di tích Lịch sử Angkor, Siem Reap, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-51",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-51",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-51",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-51",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-51",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1993-18",
+      "sourceType": "artifact",
+      "targetId": "inst-smithsonian-national-museum-of-asian-art",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: Smithsonian National Museum of Asian Art (Freer & Sackler Galleries) (Accession: F1993.18)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1993-18",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 11 (Khoảng 1050–1100) (Thế kỷ 11)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1993-18",
+      "sourceType": "artifact",
+      "targetId": "place-qun-th-di-tch-lch-s-angkor-siem-reap",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Quần thể Di tích Lịch sử Angkor, Siem Reap, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1993-18",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1993-18",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1993-18",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1993-18",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1993-18",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1998-74",
+      "sourceType": "artifact",
+      "targetId": "inst-smithsonian-national-museum-of-asian-art",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: Smithsonian National Museum of Asian Art (Freer & Sackler Galleries) (Accession: F1998.74)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1998-74",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Cuối thế kỷ 12 – đầu thế kỷ 13 (Thế kỷ 12 – 13)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1998-74",
+      "sourceType": "artifact",
+      "targetId": "place-qun-th-di-tch-lch-s-angkor-siem-reap",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Quần thể Di tích Lịch sử Angkor, Siem Reap, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1998-74",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1998-74",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1998-74",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1998-74",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1998-74",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-52",
+      "sourceType": "artifact",
+      "targetId": "inst-smithsonian-national-museum-of-asian-art",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: Smithsonian National Museum of Asian Art (Freer & Sackler Galleries) (Accession: F1992.52)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-52",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 12 – 13 (Thế kỷ 12 – 13)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-52",
+      "sourceType": "artifact",
+      "targetId": "place-qun-th-di-tch-lch-s-angkor-siem-reap",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Quần thể Di tích Lịch sử Angkor, Siem Reap, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-52",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Cổ vật Nghi Lễ (Ritual Object)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-52",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Cổ vật Nghi Lễ (Ritual Object)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-52",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Cổ vật Nghi Lễ (Ritual Object))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-52",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Cổ vật Nghi Lễ (Ritual Object))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-si-f1992-52",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Cổ vật Nghi Lễ (Ritual Object))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2004667825",
+      "sourceType": "media_record",
+      "targetId": "inst-library-of-congress-prints-photographs-d",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: Library of Congress (Prints & Photographs Division) (Accession: 2004667825)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2004667825",
+      "sourceType": "media_record",
+      "targetId": "period-modern",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Khoảng 1890–1910 (Đầu thế kỷ 20)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2004667825",
+      "sourceType": "media_record",
+      "targetId": "place-siem-reap-phnom-penh-campuchia",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Siem Reap / Phnom Penh, Campuchia, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2004667825",
+      "sourceType": "media_record",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Tư Liệu & Bản Đồ Lịch Sử (Historical Maps & Survey)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2004667825",
+      "sourceType": "media_record",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Tư Liệu & Bản Đồ Lịch Sử (Historical Maps & Survey)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2004667825",
+      "sourceType": "media_record",
+      "targetId": "kh-loc-2017648325",
+      "targetType": "media_record",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Modern) and classification (Tư Liệu & Bản Đồ Lịch Sử (Historical Maps & Survey))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2017648325",
+      "sourceType": "media_record",
+      "targetId": "inst-library-of-congress-prints-photographs-d",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: Library of Congress (Prints & Photographs Division) (Accession: 2017648325)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2017648325",
+      "sourceType": "media_record",
+      "targetId": "period-modern",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Khoảng 1910–1920 (Đầu thế kỷ 20)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2017648325",
+      "sourceType": "media_record",
+      "targetId": "place-siem-reap-phnom-penh-campuchia",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Siem Reap / Phnom Penh, Campuchia, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2017648325",
+      "sourceType": "media_record",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Nhiếp Ảnh Lịch Sử (Historical Photography)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2017648325",
+      "sourceType": "media_record",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Nhiếp Ảnh Lịch Sử (Historical Photography)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2017648325",
+      "sourceType": "media_record",
+      "targetId": "kh-loc-2004667825",
+      "targetType": "media_record",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Modern) and classification (Nhiếp Ảnh Lịch Sử (Historical Photography))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2021669412",
+      "sourceType": "manuscript",
+      "targetId": "inst-library-of-congress-prints-photographs-d",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: Library of Congress (Prints & Photographs Division) (Accession: 2021669412)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2021669412",
+      "sourceType": "manuscript",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 18 – 19 (Thế kỷ 18 – 19)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2021669412",
+      "sourceType": "manuscript",
+      "targetId": "place-siem-reap-phnom-penh-campuchia",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Siem Reap / Phnom Penh, Campuchia, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2021669412",
+      "sourceType": "manuscript",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Bản Thảo & Kinh Lá Buông (Palm-Leaf Manuscripts)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-loc-2021669412",
+      "sourceType": "manuscript",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Bản Thảo & Kinh Lá Buông (Palm-Leaf Manuscripts)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-nmc-west-mebon-vishnu",
+      "sourceType": "artifact",
+      "targetId": "inst-bo-tng-quc-gia-campuchia-national-museum",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: Bảo tàng Quốc gia Campuchia (National Museum of Cambodia, Phnom Penh) (Accession: File:West_Mebon_Vishnu_National_Museum_of_Cambodia.jpg)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-nmc-west-mebon-vishnu",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 11 (Khoảng 1060 SCN) (Thế kỷ 11)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-nmc-west-mebon-vishnu",
+      "sourceType": "artifact",
+      "targetId": "place-bo-tng-quc-gia-campuchia-phnom-penh",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Bảo tàng Quốc gia Campuchia, Phnom Penh, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-nmc-west-mebon-vishnu",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-nmc-west-mebon-vishnu",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Điêu khắc & Cổ vật (Sculpture)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-nmc-west-mebon-vishnu",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-nmc-west-mebon-vishnu",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-nmc-west-mebon-vishnu",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Điêu khắc & Cổ vật (Sculpture))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-art-roneat-ek-pinpeat",
+      "sourceType": "art_form",
+      "targetId": "inst-kho-t-liu-m-nhc-nhc-c-truyn-thng-campuch",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia (Accession: File:Roneat_ek_Cambodian_xylophone.jpg)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-art-roneat-ek-pinpeat",
+      "sourceType": "art_form",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 16 – nay (Hậu Angkor & Cổ truyền)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-art-roneat-ek-pinpeat",
+      "sourceType": "art_form",
+      "targetId": "place-bo-tng-quc-gia-campuchia-phnom-penh",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Bảo tàng Quốc gia Campuchia, Phnom Penh, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-art-roneat-ek-pinpeat",
+      "sourceType": "art_form",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Nhạc Cụ & Âm Nhạc Cổ Truyền (Musical Instruments)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-art-roneat-ek-pinpeat",
+      "sourceType": "art_form",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Nhạc Cụ & Âm Nhạc Cổ Truyền (Musical Instruments)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-tex-khmer-silk-pidan",
+      "sourceType": "artifact",
+      "targetId": "inst-bo-tng-dt-may-truyn-thng-chu-siem-reap",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: Bảo tàng Dệt May Truyền Thống Châu Á (Siem Reap) (Accession: File:Khmer_silk_pidan_temple_hanging.jpg)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-tex-khmer-silk-pidan",
+      "sourceType": "artifact",
+      "targetId": "period-funan",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Thế kỷ 19 (Thế kỷ 19)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-tex-khmer-silk-pidan",
+      "sourceType": "artifact",
+      "targetId": "place-bo-tng-quc-gia-campuchia-phnom-penh",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Bảo tàng Quốc gia Campuchia, Phnom Penh, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-tex-khmer-silk-pidan",
+      "sourceType": "artifact",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Dệt Lụa & Thổ Cẩm Cổ Truyền (Textiles & Silk)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-tex-khmer-silk-pidan",
+      "sourceType": "artifact",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Dệt Lụa & Thổ Cẩm Cổ Truyền (Textiles & Silk)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-tex-khmer-silk-pidan",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38451",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Dệt Lụa & Thổ Cẩm Cổ Truyền (Textiles & Silk))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-tex-khmer-silk-pidan",
+      "sourceType": "artifact",
+      "targetId": "kh-met-38304",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Dệt Lụa & Thổ Cẩm Cổ Truyền (Textiles & Silk))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-tex-khmer-silk-pidan",
+      "sourceType": "artifact",
+      "targetId": "kh-met-65095",
+      "targetType": "artifact",
+      "relationshipType": "stylistically_related",
+      "evidence": "Shared artistic period (Funan) and classification (Dệt Lụa & Thổ Cẩm Cổ Truyền (Textiles & Silk))",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ins-stele-k904",
+      "sourceType": "manuscript",
+      "targetId": "inst-bo-tng-quc-gia-campuchia-national-museum",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: Bảo tàng Quốc gia Campuchia (National Museum of Cambodia) (Accession: File:Stele_Inscription_K904_Sanskrit_Khmer.jpg)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ins-stele-k904",
+      "sourceType": "manuscript",
+      "targetId": "period-chenla",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Năm 657 SCN (Thế kỷ 7) (Thế kỷ 7)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ins-stele-k904",
+      "sourceType": "manuscript",
+      "targetId": "place-bo-tng-quc-gia-campuchia-phnom-penh",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Bảo tàng Quốc gia Campuchia, Phnom Penh, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ins-stele-k904",
+      "sourceType": "manuscript",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Văn Bia & Ký Tự Cổ (Epigraphy & Inscriptions)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ins-stele-k904",
+      "sourceType": "manuscript",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Văn Bia & Ký Tự Cổ (Epigraphy & Inscriptions)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ia-audio-pinpeat-sathukar",
+      "sourceType": "art_form",
+      "targetId": "inst-internet-archive-efeo-archival-collectio",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: Internet Archive & EFEO Archival Collection (Accession: unesco-cambodia-traditional-music-pinpeat-1968)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ia-audio-pinpeat-sathukar",
+      "sourceType": "art_form",
+      "targetId": "period-modern",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Bản ghi âm tư liệu 1968 (Nguồn gốc cổ truyền) (Hậu Angkor & Cận đại)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ia-audio-pinpeat-sathukar",
+      "sourceType": "art_form",
+      "targetId": "place-phnom-penh-siem-reap-campuchia",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Phnom Penh & Siem Reap, Campuchia, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ia-audio-pinpeat-sathukar",
+      "sourceType": "art_form",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Âm Nhạc & Khúc Nghi Lễ Cung Đình (Traditional Audio)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ia-audio-pinpeat-sathukar",
+      "sourceType": "art_form",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Âm Nhạc & Khúc Nghi Lễ Cung Đình (Traditional Audio)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ia-manuscript-coedes-inscriptions",
+      "sourceType": "manuscript",
+      "targetId": "inst-internet-archive-efeo-archival-collectio",
+      "targetType": "institution",
+      "relationshipType": "housed_at_institution",
+      "evidence": "Official provenance registry: Internet Archive & EFEO Archival Collection (Accession: inscriptions-du-cambodge-coedes-efeo)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ia-manuscript-coedes-inscriptions",
+      "sourceType": "manuscript",
+      "targetId": "period-modern",
+      "targetType": "period",
+      "relationshipType": "created_in_period",
+      "evidence": "Chronological classification: Xuất bản 1937–1966 (Thế kỷ 20)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ia-manuscript-coedes-inscriptions",
+      "sourceType": "manuscript",
+      "targetId": "place-phnom-penh-siem-reap-campuchia",
+      "targetType": "place",
+      "relationshipType": "located_at_place",
+      "evidence": "Archeological site location: Phnom Penh & Siem Reap, Campuchia, Siem Reap",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ia-manuscript-coedes-inscriptions",
+      "sourceType": "manuscript",
+      "targetId": "col-sculpture",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Tư Liệu Học Thuật & Văn Bia Khảo Cổ (Scholarly Corpus)",
+      "confidence": "HIGH"
+    },
+    {
+      "sourceId": "kh-ia-manuscript-coedes-inscriptions",
+      "sourceType": "manuscript",
+      "targetId": "col-masterpieces",
+      "targetType": "collection",
+      "relationshipType": "belongs_to_collection",
+      "evidence": "Curatorial taxonomy category: Tư Liệu Học Thuật & Văn Bia Khảo Cổ (Scholarly Corpus)",
+      "confidence": "HIGH"
+    }
+  ]
+}

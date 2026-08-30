@@ -1,0 +1,56 @@
+{
+  "bundleVersion": "2.2.0",
+  "task": "KH-022",
+  "generatedAt": "2026-08-30T17:22:11.075Z",
+  "totalInstitutions": 8,
+  "institutions": [
+    {
+      "institution": "The Metropolitan Museum of Art (The Met)",
+      "license": "CC0",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/38451",
+      "objectCount": 60
+    },
+    {
+      "institution": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)",
+      "license": "CC0",
+      "sourceUrl": "https://asia.si.edu/object/F1992.51/",
+      "objectCount": 4
+    },
+    {
+      "institution": "Library of Congress (Prints & Photographs Division)",
+      "license": "Public Domain",
+      "sourceUrl": "https://www.loc.gov/item/2004667825/",
+      "objectCount": 3
+    },
+    {
+      "institution": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia, Phnom Penh)",
+      "license": "CC BY-SA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_Mebon_Vishnu.JPG",
+      "objectCount": 1
+    },
+    {
+      "institution": "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia",
+      "license": "CC BY",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roneat_ek.jpg",
+      "objectCount": 1
+    },
+    {
+      "institution": "Bảo tàng Dệt May Truyền Thống Châu Á (Siem Reap)",
+      "license": "CC BY",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khmer_silk_ikat.jpg",
+      "objectCount": 1
+    },
+    {
+      "institution": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khmer_inscription_stele.jpg",
+      "objectCount": 1
+    },
+    {
+      "institution": "Internet Archive & EFEO Archival Collection",
+      "license": "Public Domain",
+      "sourceUrl": "https://archive.org/details/unesco-cambodia-traditional-music",
+      "objectCount": 2
+    }
+  ]
+}

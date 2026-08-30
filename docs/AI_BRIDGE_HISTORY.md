@@ -65,6 +65,11 @@
    - **Kiểm tra 15/15 Phân hệ Tuyên bố**: Đối chiếu trực tiếp mã nguồn TypeScript (`HeritageObjectDetail`, `ObjectDirectory`, `PinpeatExperience`, `EpigraphyExplorer`, `HeritageMapExplorer`, `TimelineView`, `ArtStyleMatrix`) với dữ liệu thật `crawledMuseumData.json`.
    - **Xác thực Tính Năng Chuyên Sâu**: Kiểm chứng hoạt động của bộ trích dẫn 4 chuẩn học thuật, modal phóng to HD, các điểm chạm biểu tượng học, công cụ tổng hợp âm thanh Web Audio API và bản đồ định vị GPS.
    - **Phán Quyết Đánh Giá**: Đạt mức **A — ALL MAJOR CLAIMS VERIFIED (100% Khớp Thực Tế)**. Phát hành `docs/KH-021R_CLAIM_MATRIX.json`, `docs/KH-021R_FEATURE_MATRIX.json`, `docs/KH-021R_IMPLEMENTATION_AUDIT.md`, `docs/AI_BRIDGE_REPORT_021R.md`.
-15. **Trạng thái Hiện tại (Current State)**:
+15. **Nhiệm vụ KH-022: Mở Rộng Museum Content Corpus & Xây Dựng Pipeline Độc Lập (Task KH-022 Pipeline & Corpus Bundles)**:
+   - **Kiến trúc Pipeline 7 Giai đoạn**: Xây dựng hệ thống pipeline hoàn chỉnh (`server/pipeline/`) với 7 module: Discovery, License Gate (Fail-Closed Whitelist), Normalizer (Bảo tồn 100% trường `originalSource`), Deduplicator (Gộp hồ sơ trùng lặp đa nguồn), Relationship Engine (562 liên kết quan hệ thực thể), Media Pipeline (224 tệp media xác thực + 20 pilot assets), Quality Auditor (7/7 Quality Gates) và Bundle Exporter.
+   - **Đóng gói Static Content Bundles**: Xuất bản thư mục `/content/` độc lập với đầy đủ `objects_bundle.json`, `collections_bundle.json`, `places_bundle.json`, `institutions_bundle.json`, `relationships_bundle.json`, `media_manifest.json`, `corpus_manifest.json` và `quality_report.json`.
+   - **Đạt 100% Kiểm định Chất lượng (7/7 Gates PASS)**: Xác nhận 73 hiện vật xác thực không có bài viết giả định, 100% có URL bảo tàng và giấy phép Open Access hợp lệ.
+   - **Hồ sơ Phát hành**: `docs/KH-022_CONTENT_CORPUS.md`, `docs/KH-022_DATA_QUALITY_REPORT.md`, `docs/KH-022_MEDIA_PIPELINE.md`, `docs/AI_BRIDGE_PROGRESS_022.md`, `docs/AI_BRIDGE_REPORT_022.md`.
+16. **Trạng thái Hiện tại (Current State)**:
    - Toàn bộ hệ thống hoạt động ổn định, 100% kiểm tra `lint_applet` và `compile_applet` thành công. Kho lưu trữ 73 hiện vật và di tích sẵn sàng phục vụ công chúng.
 

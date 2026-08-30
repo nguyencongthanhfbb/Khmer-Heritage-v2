@@ -1,0 +1,351 @@
+{
+  "period": "Modern",
+  "count": 4,
+  "objects": [
+    {
+      "id": "kh-loc-2004667825",
+      "canonicalObjectId": "kh-loc-2004667825",
+      "sourceRecordIds": [
+        "2004667825"
+      ],
+      "type": "media_record",
+      "title": "Bản Đồ Học & Khảo Sát Bình Đồ Kiến Trúc Đền Angkor Wat (1900)",
+      "titleKhmer": "ប្លង់ស្ថាបត្យកម្មប្រាសាទអង្គរវត្ត",
+      "titleEnglish": "Architectural Ground Plan and Survey of Angkor Wat Temple Complex",
+      "alternateTitles": [
+        "Architectural Ground Plan and Survey of Angkor Wat Temple Complex",
+        "Architectural Ground Plan and Survey of Angkor Wat Temple Complex"
+      ],
+      "category": "Tư Liệu & Bản Đồ Lịch Sử (Historical Maps & Survey)",
+      "period": "Modern",
+      "dateRange": "Khoảng 1890–1910",
+      "century": "Đầu thế kỷ 20",
+      "summary": "Tài liệu đồ họa lịch sử ghi nhận chuẩn xác tỷ lệ hào nước, các tầng tháp trung tâm và hệ thống hành lang chạm khắc phù điêu của Angkor Wat trước khi trùng tu lớ...",
+      "description": "Tài liệu đồ họa lịch sử ghi nhận chuẩn xác tỷ lệ hào nước, các tầng tháp trung tâm và hệ thống hành lang chạm khắc phù điêu của Angkor Wat trước khi trùng tu lớn.",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại Library of Congress (Prints & Photographs Division).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Bản vẽ in thạch bản trên giấy (Lithograph print on paper)",
+      "dimensions": "65 x 90 cm",
+      "location": {
+        "siteName": "Siem Reap / Phnom Penh, Campuchia",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4413,
+          103.8587
+        ]
+      },
+      "media": {
+        "primaryImage": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/09800/09845_150px.jpg",
+        "gallery": [
+          "https://tile.loc.gov/storage-services/service/pnp/ppmsca/09800/09845_150px.jpg"
+        ],
+        "caption": "Architectural Ground Plan and Survey of Angkor Wat Temple Complex — Library of Congress (Prints & Photographs Division) (2004667825)"
+      },
+      "provenance": {
+        "institution": "Library of Congress (Prints & Photographs Division)",
+        "sourceUrl": "https://www.loc.gov/item/2004667825/",
+        "sourceRecordId": "2004667825",
+        "license": "Public Domain",
+        "licenseUrl": "https://www.loc.gov/legal/",
+        "attribution": "Library of Congress Prints & Photographs Division (Public Domain) — Call/LCCN: 2004667825",
+        "accessionNumber": "2004667825",
+        "citations": [
+          "Library of Congress (Prints & Photographs Division) Collection Record: 2004667825",
+          "Library of Congress, Prints & Photographs Division, Washington, D.C."
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "Library of Congress (Prints & Photographs Division)",
+        "sourceRecordId": "2004667825",
+        "sourceUrl": "https://www.loc.gov/item/2004667825/",
+        "originalTitle": "Architectural Ground Plan and Survey of Angkor Wat Temple Complex",
+        "originalDescription": "Tài liệu đồ họa lịch sử ghi nhận chuẩn xác tỷ lệ hào nước, các tầng tháp trung tâm và hệ thống hành lang chạm khắc phù điêu của Angkor Wat trước khi trùng tu lớn.",
+        "originalDate": "Khoảng 1890–1910",
+        "originalMaterial": "Bản vẽ in thạch bản trên giấy (Lithograph print on paper)",
+        "originalDimensions": "65 x 90 cm",
+        "originalLocation": "Siem Reap / Phnom Penh, Campuchia",
+        "originalCreditLine": "Library of Congress, Prints & Photographs Division, Washington, D.C.",
+        "originalAccessionNumber": "2004667825",
+        "originalObjectType": "media_record",
+        "rawRecordPayload": {
+          "lccn": "2004667825",
+          "rights": "No known copyright restrictions"
+        }
+      }
+    },
+    {
+      "id": "kh-loc-2017648325",
+      "canonicalObjectId": "kh-loc-2017648325",
+      "sourceRecordIds": [
+        "2017648325"
+      ],
+      "type": "media_record",
+      "title": "Ảnh Tư Liệu Lịch Sử: Tháp Mặt Phật Đền Bayon (Khoảng 1910)",
+      "titleKhmer": "រូបថតប្រវត្តិសាស្ត្រ៖ ប្រាសាទបាយ័ន",
+      "titleEnglish": "Historical Photograph: Smiling Stone Faces of the Bayon Central Towers",
+      "alternateTitles": [
+        "Historical Photograph: Smiling Stone Faces of the Bayon Central Towers",
+        "Historical Photograph: Smiling Stone Faces of the Bayon Central Towers"
+      ],
+      "category": "Nhiếp Ảnh Lịch Sử (Historical Photography)",
+      "period": "Modern",
+      "dateRange": "Khoảng 1910–1920",
+      "century": "Đầu thế kỷ 20",
+      "summary": "Tác phẩm nhiếp ảnh tư liệu lịch sử nắm bắt ánh sáng và nét chạm khắc đá sa thạch biểu tượng nụ cười Bayon huyền thoại trước các đợt phát lộ rừng rậm quy mô lớn....",
+      "description": "Tác phẩm nhiếp ảnh tư liệu lịch sử nắm bắt ánh sáng và nét chạm khắc đá sa thạch biểu tượng nụ cười Bayon huyền thoại trước các đợt phát lộ rừng rậm quy mô lớn.",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại Library of Congress (Prints & Photographs Division).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Ảnh phim bạc Gelatin (Gelatin silver photographic print)",
+      "dimensions": "18 x 24 cm",
+      "location": {
+        "siteName": "Siem Reap / Phnom Penh, Campuchia",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4413,
+          103.8587
+        ]
+      },
+      "media": {
+        "primaryImage": "https://tile.loc.gov/storage-services/service/pnp/cph/3c20000/3c28000/3c28900/3c28965_150px.jpg",
+        "gallery": [
+          "https://tile.loc.gov/storage-services/service/pnp/cph/3c20000/3c28000/3c28900/3c28965_150px.jpg"
+        ],
+        "caption": "Historical Photograph: Smiling Stone Faces of the Bayon Central Towers — Library of Congress (Prints & Photographs Division) (2017648325)"
+      },
+      "provenance": {
+        "institution": "Library of Congress (Prints & Photographs Division)",
+        "sourceUrl": "https://www.loc.gov/item/2017648325/",
+        "sourceRecordId": "2017648325",
+        "license": "Public Domain",
+        "licenseUrl": "https://www.loc.gov/legal/",
+        "attribution": "Library of Congress Prints & Photographs Division (Public Domain) — Call/LCCN: 2017648325",
+        "accessionNumber": "2017648325",
+        "citations": [
+          "Library of Congress (Prints & Photographs Division) Collection Record: 2017648325",
+          "Library of Congress Prints and Photographs Division, Frank and Frances Carpenter Collection"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "Library of Congress (Prints & Photographs Division)",
+        "sourceRecordId": "2017648325",
+        "sourceUrl": "https://www.loc.gov/item/2017648325/",
+        "originalTitle": "Historical Photograph: Smiling Stone Faces of the Bayon Central Towers",
+        "originalDescription": "Tác phẩm nhiếp ảnh tư liệu lịch sử nắm bắt ánh sáng và nét chạm khắc đá sa thạch biểu tượng nụ cười Bayon huyền thoại trước các đợt phát lộ rừng rậm quy mô lớn.",
+        "originalDate": "Khoảng 1910–1920",
+        "originalMaterial": "Ảnh phim bạc Gelatin (Gelatin silver photographic print)",
+        "originalDimensions": "18 x 24 cm",
+        "originalLocation": "Siem Reap / Phnom Penh, Campuchia",
+        "originalCreditLine": "Library of Congress Prints and Photographs Division, Frank and Frances Carpenter Collection",
+        "originalAccessionNumber": "2017648325",
+        "originalObjectType": "media_record",
+        "rawRecordPayload": {
+          "lccn": "2017648325",
+          "rights": "No known copyright restrictions"
+        }
+      }
+    },
+    {
+      "id": "kh-ia-audio-pinpeat-sathukar",
+      "canonicalObjectId": "kh-ia-audio-pinpeat-sathukar",
+      "sourceRecordIds": [
+        "unesco-cambodia-traditional-music-pinpeat-1968"
+      ],
+      "type": "art_form",
+      "title": "Khúc Nhạc Thiêng Sathukar — Khởi Nhạc Đại Lễ Cung Đình Khmer",
+      "titleKhmer": "បទសាធុការ ភ្លេងពិណពាទ្យ",
+      "titleEnglish": "Sathukar: Sacred Opening Suite of the Traditional Royal Pinpeat Orchestra",
+      "alternateTitles": [
+        "Sathukar: Sacred Opening Suite of the Traditional Royal Pinpeat Orchestra",
+        "Sathukar: Sacred Opening Suite of the Traditional Royal Pinpeat Orchestra"
+      ],
+      "category": "Âm Nhạc & Khúc Nghi Lễ Cung Đình (Traditional Audio)",
+      "period": "Modern",
+      "dateRange": "Bản ghi âm tư liệu 1968 (Nguồn gốc cổ truyền)",
+      "century": "Hậu Angkor & Cận đại",
+      "summary": "Khúc Sathukar được tấu lên đầu tiên trong mọi nghi thức tôn giáo Phật giáo và nghi lễ tấn phong của hoàng gia để thỉnh mời chư thần linh, chư Phật chứng giám....",
+      "description": "Khúc Sathukar được tấu lên đầu tiên trong mọi nghi thức tôn giáo Phật giáo và nghi lễ tấn phong của hoàng gia để thỉnh mời chư thần linh, chư Phật chứng giám.",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại Internet Archive & EFEO Archival Collection.",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Bản thu âm tư liệu âm thanh analog (Archival Audio Recording)",
+      "dimensions": "Thời lượng tác phẩm: 4 phút 15 giây",
+      "location": {
+        "siteName": "Phnom Penh & Siem Reap, Campuchia",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4125,
+          103.867
+        ]
+      },
+      "media": {
+        "primaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Cambodian_Pinpeat_ensemble.jpg/480px-Cambodian_Pinpeat_ensemble.jpg",
+        "gallery": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Cambodian_Pinpeat_ensemble.jpg/480px-Cambodian_Pinpeat_ensemble.jpg"
+        ],
+        "audioUrl": "/audio/guides/kh-met-38451.mp3",
+        "caption": "Sathukar: Sacred Opening Suite of the Traditional Royal Pinpeat Orchestra — Internet Archive & EFEO Archival Collection (unesco-cambodia-traditional-music-pinpeat-1968)"
+      },
+      "provenance": {
+        "institution": "Internet Archive & EFEO Archival Collection",
+        "sourceUrl": "https://archive.org/details/unesco-cambodia-traditional-music",
+        "sourceRecordId": "unesco-cambodia-traditional-music-pinpeat-1968",
+        "license": "Public Domain",
+        "licenseUrl": "https://archive.org/about/terms.php",
+        "attribution": "Internet Archive & EFEO Archival Collection (Public Domain / Open Access)",
+        "accessionNumber": "unesco-cambodia-traditional-music-pinpeat-1968",
+        "citations": [
+          "Internet Archive & EFEO Archival Collection Collection Record: unesco-cambodia-traditional-music-pinpeat-1968",
+          "UNESCO Collection of Traditional Music of the World & Internet Archive Open Audio"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "Internet Archive & EFEO Archival Collection",
+        "sourceRecordId": "unesco-cambodia-traditional-music-pinpeat-1968",
+        "sourceUrl": "https://archive.org/details/unesco-cambodia-traditional-music",
+        "originalTitle": "Sathukar: Sacred Opening Suite of the Traditional Royal Pinpeat Orchestra",
+        "originalDescription": "Khúc Sathukar được tấu lên đầu tiên trong mọi nghi thức tôn giáo Phật giáo và nghi lễ tấn phong của hoàng gia để thỉnh mời chư thần linh, chư Phật chứng giám.",
+        "originalDate": "Bản ghi âm tư liệu 1968 (Nguồn gốc cổ truyền)",
+        "originalMaterial": "Bản thu âm tư liệu âm thanh analog (Archival Audio Recording)",
+        "originalDimensions": "Thời lượng tác phẩm: 4 phút 15 giây",
+        "originalLocation": "Phnom Penh & Siem Reap, Campuchia",
+        "originalCreditLine": "UNESCO Collection of Traditional Music of the World & Internet Archive Open Audio",
+        "originalAccessionNumber": "unesco-cambodia-traditional-music-pinpeat-1968",
+        "originalObjectType": "art_form",
+        "rawRecordPayload": {
+          "iaIdentifier": "unesco-cambodia-traditional-music-pinpeat-1968"
+        }
+      },
+      "isMasterpiece": true
+    },
+    {
+      "id": "kh-ia-manuscript-coedes-inscriptions",
+      "canonicalObjectId": "kh-ia-manuscript-coedes-inscriptions",
+      "sourceRecordIds": [
+        "inscriptions-du-cambodge-coedes-efeo"
+      ],
+      "type": "manuscript",
+      "title": "Tuyển Tập Khảo Khắc & Dịch Thuật Văn Bia Campuchia (George Cœdès)",
+      "titleKhmer": "កម្រងសិលាចារឹកនៃប្រទេសកម្ពុជា",
+      "titleEnglish": "Corpus of Inscriptions of Cambodia (George Cœdès, EFEO Publication)",
+      "alternateTitles": [
+        "Corpus of Inscriptions of Cambodia (George Cœdès, EFEO Publication)",
+        "Corpus of Inscriptions of Cambodia (George Cœdès, EFEO Publication)"
+      ],
+      "category": "Tư Liệu Học Thuật & Văn Bia Khảo Cổ (Scholarly Corpus)",
+      "period": "Modern",
+      "dateRange": "Xuất bản 1937–1966",
+      "century": "Thế kỷ 20",
+      "summary": "Bộ tài liệu kinh điển đặt nền móng cho toàn bộ niên biểu lịch sử, phả hệ các vị vua Angkor và cấu trúc tôn giáo vương triều Khmer....",
+      "description": "Bộ tài liệu kinh điển đặt nền móng cho toàn bộ niên biểu lịch sử, phả hệ các vị vua Angkor và cấu trúc tôn giáo vương triều Khmer.",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại Internet Archive & EFEO Archival Collection.",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Ấn bản tài liệu học thuật in kèm ảnh dập bản bia đá (Printed volume and rubbings)",
+      "dimensions": "8 tập khảo cứu (Hơn 2,000 trang tư liệu)",
+      "location": {
+        "siteName": "Phnom Penh & Siem Reap, Campuchia",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4125,
+          103.867
+        ]
+      },
+      "media": {
+        "primaryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg",
+        "gallery": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg"
+        ],
+        "caption": "Corpus of Inscriptions of Cambodia (George Cœdès, EFEO Publication) — Internet Archive & EFEO Archival Collection (inscriptions-du-cambodge-coedes-efeo)"
+      },
+      "provenance": {
+        "institution": "Internet Archive & EFEO Archival Collection",
+        "sourceUrl": "https://archive.org/details/inscriptionsducambodge01coed",
+        "sourceRecordId": "inscriptions-du-cambodge-coedes-efeo",
+        "license": "Public Domain",
+        "licenseUrl": "https://archive.org/about/terms.php",
+        "attribution": "Internet Archive & EFEO Archival Collection (Public Domain / Open Access)",
+        "accessionNumber": "inscriptions-du-cambodge-coedes-efeo",
+        "citations": [
+          "Internet Archive & EFEO Archival Collection Collection Record: inscriptions-du-cambodge-coedes-efeo",
+          "École française d'Extrême-Orient (EFEO) & Internet Archive Open Library"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "Internet Archive & EFEO Archival Collection",
+        "sourceRecordId": "inscriptions-du-cambodge-coedes-efeo",
+        "sourceUrl": "https://archive.org/details/inscriptionsducambodge01coed",
+        "originalTitle": "Corpus of Inscriptions of Cambodia (George Cœdès, EFEO Publication)",
+        "originalDescription": "Bộ tài liệu kinh điển đặt nền móng cho toàn bộ niên biểu lịch sử, phả hệ các vị vua Angkor và cấu trúc tôn giáo vương triều Khmer.",
+        "originalDate": "Xuất bản 1937–1966",
+        "originalMaterial": "Ấn bản tài liệu học thuật in kèm ảnh dập bản bia đá (Printed volume and rubbings)",
+        "originalDimensions": "8 tập khảo cứu (Hơn 2,000 trang tư liệu)",
+        "originalLocation": "Phnom Penh & Siem Reap, Campuchia",
+        "originalCreditLine": "École française d'Extrême-Orient (EFEO) & Internet Archive Open Library",
+        "originalAccessionNumber": "inscriptions-du-cambodge-coedes-efeo",
+        "originalObjectType": "manuscript",
+        "rawRecordPayload": {
+          "iaIdentifier": "inscriptions-du-cambodge-coedes-efeo"
+        }
+      },
+      "isMasterpiece": true
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "pilotBatchVersion": "1.0.0",
+  "task": "KH-022",
+  "generatedAt": "2026-08-30T17:22:11.076Z",
+  "pilotAssetsCount": 20,
+  "pilotAssets": [
+    {
+      "mediaId": "pilot-kh-met-38451-img",
+      "objectId": "kh-met-38451",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/36_96_5_F.JPG",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-38451_hero_1200w.webp",
+        "gallery": "variants/kh-met-38451_gal_600w.webp",
+        "thumbnail": "variants/kh-met-38451_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 36.96.5",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-38304-img",
+      "objectId": "kh-met-38304",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DT5215.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-38304_hero_1200w.webp",
+        "gallery": "variants/kh-met-38304_gal_600w.webp",
+        "thumbnail": "variants/kh-met-38304_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 36.96.4",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-65095-img",
+      "objectId": "kh-met-65095",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/2003.142.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-65095_hero_1200w.webp",
+        "gallery": "variants/kh-met-65095_gal_600w.webp",
+        "thumbnail": "variants/kh-met-65095_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 2003.142",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-38450-img",
+      "objectId": "kh-met-38450",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/1987_311.JPG",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-38450_hero_1200w.webp",
+        "gallery": "variants/kh-met-38450_gal_600w.webp",
+        "thumbnail": "variants/kh-met-38450_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 36.96.3",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-38297-img",
+      "objectId": "kh-met-38297",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DP701415.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-38297_hero_1200w.webp",
+        "gallery": "variants/kh-met-38297_gal_600w.webp",
+        "thumbnail": "variants/kh-met-38297_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 1982.220.7",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-38160-img",
+      "objectId": "kh-met-38160",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/LK.1993.477.3_DP310135r1_25F.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-38160_hero_1200w.webp",
+        "gallery": "variants/kh-met-38160_gal_600w.webp",
+        "thumbnail": "variants/kh-met-38160_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 1977.241",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-38158-img",
+      "objectId": "kh-met-38158",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/LK.1987.17_DP310113R1_25W.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-38158_hero_1200w.webp",
+        "gallery": "variants/kh-met-38158_gal_600w.webp",
+        "thumbnail": "variants/kh-met-38158_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 1987.17",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-38295-img",
+      "objectId": "kh-met-38295",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DP212332.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-38295_hero_1200w.webp",
+        "gallery": "variants/kh-met-38295_gal_600w.webp",
+        "thumbnail": "variants/kh-met-38295_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 1996.466",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-38162-img",
+      "objectId": "kh-met-38162",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/LK.1977.241_DP310109R2_25W.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-38162_hero_1200w.webp",
+        "gallery": "variants/kh-met-38162_gal_600w.webp",
+        "thumbnail": "variants/kh-met-38162_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 36.96.2",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-38303-img",
+      "objectId": "kh-met-38303",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DP-23063-001.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-38303_hero_1200w.webp",
+        "gallery": "variants/kh-met-38303_gal_600w.webp",
+        "thumbnail": "variants/kh-met-38303_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 36.96.6",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-38620-img",
+      "objectId": "kh-met-38620",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DT7088.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-38620_hero_1200w.webp",
+        "gallery": "variants/kh-met-38620_gal_600w.webp",
+        "thumbnail": "variants/kh-met-38620_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 2015.500.4.27",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-57343-img",
+      "objectId": "kh-met-57343",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/h1_2000.531.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-57343_hero_1200w.webp",
+        "gallery": "variants/kh-met-57343_gal_600w.webp",
+        "thumbnail": "variants/kh-met-57343_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 1993.387.1",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-44965-img",
+      "objectId": "kh-met-44965",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DT4331.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-44965_hero_1200w.webp",
+        "gallery": "variants/kh-met-44965_gal_600w.webp",
+        "thumbnail": "variants/kh-met-44965_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 2000.531",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-39772-img",
+      "objectId": "kh-met-39772",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DT4234.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-39772_hero_1200w.webp",
+        "gallery": "variants/kh-met-39772_gal_600w.webp",
+        "thumbnail": "variants/kh-met-39772_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 1987.145",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-39544-img",
+      "objectId": "kh-met-39544",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/1996_466.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-39544_hero_1200w.webp",
+        "gallery": "variants/kh-met-39544_gal_600w.webp",
+        "thumbnail": "variants/kh-met-39544_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 1998.367",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-53341-img",
+      "objectId": "kh-met-53341",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/2001_433_319–320.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-53341_hero_1200w.webp",
+        "gallery": "variants/kh-met-53341_gal_600w.webp",
+        "thumbnail": "variants/kh-met-53341_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 2013.247a–h",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-39162-img",
+      "objectId": "kh-met-39162",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DP702313.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-39162_hero_1200w.webp",
+        "gallery": "variants/kh-met-39162_gal_600w.webp",
+        "thumbnail": "variants/kh-met-39162_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 2015.500.4.29",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-39601-img",
+      "objectId": "kh-met-39601",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/1996_467.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-39601_hero_1200w.webp",
+        "gallery": "variants/kh-met-39601_gal_600w.webp",
+        "thumbnail": "variants/kh-met-39601_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 1987.142.3",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-39221-img",
+      "objectId": "kh-met-39221",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DP145422.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-39221_hero_1200w.webp",
+        "gallery": "variants/kh-met-39221_gal_600w.webp",
+        "thumbnail": "variants/kh-met-39221_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 2001.433.320",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    },
+    {
+      "mediaId": "pilot-kh-met-53292-img",
+      "objectId": "kh-met-53292",
+      "sourceUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DP145425.jpg",
+      "mediaType": "image",
+      "mimeType": "image/jpeg",
+      "expectedResolution": "1200x900",
+      "variants": {
+        "hero": "variants/kh-met-53292_hero_1200w.webp",
+        "gallery": "variants/kh-met-53292_gal_600w.webp",
+        "thumbnail": "variants/kh-met-53292_thumb_200w.webp"
+      },
+      "license": "CC0",
+      "attribution": "The Metropolitan Museum of Art Open Access (CC0) — Accession: 1994.434",
+      "pipelineStage": "MANIFEST_ENTRY",
+      "status": "VERIFIED"
+    }
+  ]
+}

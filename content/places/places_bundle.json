@@ -1,0 +1,143 @@
+{
+  "bundleVersion": "2.2.0",
+  "task": "KH-022",
+  "generatedAt": "2026-08-30T17:22:11.075Z",
+  "totalPlaces": 15,
+  "places": [
+    {
+      "siteName": "Quần thể Đền Angkor Thom / Bayon",
+      "province": "Siem Reap",
+      "coordinates": [
+        13.4413,
+        103.8587
+      ],
+      "objectCount": 1
+    },
+    {
+      "siteName": "Đền Banteay Chhmar / Angkor",
+      "province": "Siem Reap",
+      "coordinates": [
+        14.07,
+        103.11
+      ],
+      "objectCount": 1
+    },
+    {
+      "siteName": "Đền Pre Rup / Banteay Srei",
+      "province": "Siem Reap",
+      "coordinates": [
+        13.435,
+        103.92
+      ],
+      "objectCount": 1
+    },
+    {
+      "siteName": "Kinh đô Koh Ker / Angkor",
+      "province": "Siem Reap",
+      "coordinates": [
+        13.78,
+        104.53
+      ],
+      "objectCount": 1
+    },
+    {
+      "siteName": "Đền Bakong / Roluos",
+      "province": "Siem Reap",
+      "coordinates": [
+        13.33,
+        103.97
+      ],
+      "objectCount": 1
+    },
+    {
+      "siteName": "Đền Prasat Andet / Kompong Thom",
+      "province": "Siem Reap",
+      "coordinates": [
+        12.71,
+        104.88
+      ],
+      "objectCount": 1
+    },
+    {
+      "siteName": "Đền Angkor Wat / Siem Reap",
+      "province": "Siem Reap",
+      "coordinates": [
+        13.4125,
+        103.867
+      ],
+      "objectCount": 1
+    },
+    {
+      "siteName": "Đền Baphuon / West Mebon",
+      "province": "Siem Reap",
+      "coordinates": [
+        13.44,
+        103.85
+      ],
+      "objectCount": 1
+    },
+    {
+      "siteName": "Đền Bayon / Angkor Thom",
+      "province": "Siem Reap",
+      "coordinates": [
+        13.4413,
+        103.8587
+      ],
+      "objectCount": 1
+    },
+    {
+      "siteName": "Đền Banteay Srei / Angkor",
+      "province": "Siem Reap",
+      "coordinates": [
+        13.598,
+        103.963
+      ],
+      "objectCount": 1
+    },
+    {
+      "siteName": "Vùng văn hóa Angkor / Campuchia cổ",
+      "province": "Siem Reap",
+      "coordinates": [
+        13.4125,
+        103.867
+      ],
+      "objectCount": 50
+    },
+    {
+      "siteName": "Quần thể Di tích Lịch sử Angkor, Siem Reap",
+      "province": "Siem Reap",
+      "coordinates": [
+        13.4125,
+        103.867
+      ],
+      "objectCount": 4
+    },
+    {
+      "siteName": "Siem Reap / Phnom Penh, Campuchia",
+      "province": "Siem Reap",
+      "coordinates": [
+        13.4413,
+        103.8587
+      ],
+      "objectCount": 3
+    },
+    {
+      "siteName": "Bảo tàng Quốc gia Campuchia, Phnom Penh",
+      "province": "Siem Reap",
+      "coordinates": [
+        11.5662,
+        104.9292
+      ],
+      "objectCount": 4
+    },
+    {
+      "siteName": "Phnom Penh & Siem Reap, Campuchia",
+      "province": "Siem Reap",
+      "coordinates": [
+        13.4125,
+        103.867
+      ],
+      "objectCount": 2
+    }
+  ]
+}

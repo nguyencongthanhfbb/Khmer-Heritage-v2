@@ -1,19 +1,34 @@
 {
-  "manifestVersion": "2.0.0",
-  "task": "KH-020",
-  "description": "Khmer Heritage Multi-Institution Authentic Museum Corpus Manifest",
+  "manifestVersion": "2.2.0",
+  "task": "KH-022",
+  "title": "Khmer Heritage Authentic Digital Museum Content Corpus",
+  "generatedAt": "2026-08-30T17:22:11.080Z",
+  "totalVerifiedObjects": 73,
   "institutions": [
-    "The Metropolitan Museum of Art",
-    "Smithsonian National Museum of Asian Art",
-    "Library of Congress",
-    "Bảo tàng Quốc gia Campuchia / Wikimedia Commons",
-    "Internet Archive & EFEO"
+    "The Metropolitan Museum of Art (The Met)",
+    "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)",
+    "Library of Congress (Prints & Photographs Division)",
+    "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia, Phnom Penh)",
+    "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia",
+    "Bảo tàng Dệt May Truyền Thống Châu Á (Siem Reap)",
+    "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)",
+    "Internet Archive & EFEO Archival Collection"
   ],
-  "totalObjects": 73,
-  "licenseBreakdown": {
+  "licenseSummary": {
     "CC0": 64,
     "Public Domain": 6,
-    "CC BY": 1,
-    "CC BY-SA": 2
-  }
+    "CC BY-SA": 1,
+    "CC BY": 2
+  },
+  "typeSummary": {
+    "The Metropolitan Museum of Art (The Met)": 60,
+    "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)": 4,
+    "Library of Congress (Prints & Photographs Division)": 3,
+    "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia, Phnom Penh)": 1,
+    "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia": 1,
+    "Bảo tàng Dệt May Truyền Thống Châu Á (Siem Reap)": 1,
+    "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)": 1,
+    "Internet Archive & EFEO Archival Collection": 2
+  },
+  "qualityVerdict": "PASS"
 }

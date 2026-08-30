@@ -28,7 +28,7 @@ export interface LocationData {
   historicalRegion?: string;
   province: string;
   country: string;
-  coordinates: [number, number]; // [lat, lng]
+  coordinates?: [number, number] | number[]; // [lat, lng]
   elevation?: string;
   unescoStatus?: string;
 }
@@ -80,8 +80,74 @@ export interface IconographyHotspot {
   symbolism: string;
 }
 
+export interface OriginalSourceRecord {
+  sourceInstitution: string;
+  sourceRecordId: string;
+  sourceUrl: string;
+  originalTitle: string;
+  originalDescription?: string;
+  originalDate?: string;
+  originalCreator?: string;
+  originalMaterial?: string;
+  originalDimensions?: string;
+  originalLocation?: string;
+  originalCollection?: string;
+  originalCreditLine?: string;
+  originalAccessionNumber?: string;
+  originalObjectType?: string;
+  rawRecordPayload?: Record<string, any>;
+}
+
+export type MediaDownloadStatus = 'DISCOVERED' | 'LICENSE_VERIFIED' | 'READY' | 'DOWNLOADED' | 'FAILED' | 'QUARANTINED';
+export type MediaVerificationStatus = 'VERIFIED' | 'PENDING_AUDIT' | 'QUARANTINED';
+export type MediaType = 'image' | 'audio' | 'video' | 'document' | '3d_model';
+
+export interface MediaManifestRecord {
+  mediaId: string;
+  objectId: string;
+  sourceUrl: string;
+  sourceMediaId?: string;
+  mediaType: MediaType;
+  mimeType: string;
+  role: 'primary' | 'gallery' | 'hero' | 'thumbnail' | 'audio_narration' | 'historical_scan' | 'architectural_plan';
+  width?: number;
+  height?: number;
+  duration?: string;
+  fileSize?: string;
+  license: LicenseType | 'Quarantine';
+  attribution: string;
+  downloadStatus: MediaDownloadStatus;
+  verificationStatus: MediaVerificationStatus;
+  variants?: {
+    hero?: string;
+    gallery?: string;
+    thumbnail?: string;
+  };
+}
+
+export type RelationType = 
+  | 'belongs_to_collection'
+  | 'located_at_place'
+  | 'housed_at_institution'
+  | 'created_in_period'
+  | 'associated_with_ruler'
+  | 'stylistically_related'
+  | 'contextually_related';
+
+export interface EntityRelationship {
+  sourceId: string;
+  sourceType: EntityType | 'collection' | 'institution' | 'place' | 'period';
+  targetId: string;
+  targetType: EntityType | 'collection' | 'institution' | 'place' | 'period';
+  relationshipType: RelationType;
+  evidence: string;
+  confidence: 'HIGH' | 'MEDIUM';
+}
+
 export interface HeritageObject {
   id: string; // Canonical ID, e.g. "kh-art-vishnu-west-mebon"
+  canonicalObjectId?: string;
+  sourceRecordIds?: string[];
   type: EntityType;
   title: string;
   titleKhmer: string;
@@ -108,6 +174,7 @@ export interface HeritageObject {
   provenance: ProvenanceRecord;
   relations: KnowledgeRelations;
   
+  originalSource?: OriginalSourceRecord;
   hotspots?: IconographyHotspot[];
   isMasterpiece?: boolean;
   featuredOrder?: number;

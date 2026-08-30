@@ -1,0 +1,178 @@
+{
+  "type": "media_record",
+  "count": 2,
+  "objects": [
+    {
+      "id": "kh-loc-2004667825",
+      "canonicalObjectId": "kh-loc-2004667825",
+      "sourceRecordIds": [
+        "2004667825"
+      ],
+      "type": "media_record",
+      "title": "Bản Đồ Học & Khảo Sát Bình Đồ Kiến Trúc Đền Angkor Wat (1900)",
+      "titleKhmer": "ប្លង់ស្ថាបត្យកម្មប្រាសាទអង្គរវត្ត",
+      "titleEnglish": "Architectural Ground Plan and Survey of Angkor Wat Temple Complex",
+      "alternateTitles": [
+        "Architectural Ground Plan and Survey of Angkor Wat Temple Complex",
+        "Architectural Ground Plan and Survey of Angkor Wat Temple Complex"
+      ],
+      "category": "Tư Liệu & Bản Đồ Lịch Sử (Historical Maps & Survey)",
+      "period": "Modern",
+      "dateRange": "Khoảng 1890–1910",
+      "century": "Đầu thế kỷ 20",
+      "summary": "Tài liệu đồ họa lịch sử ghi nhận chuẩn xác tỷ lệ hào nước, các tầng tháp trung tâm và hệ thống hành lang chạm khắc phù điêu của Angkor Wat trước khi trùng tu lớ...",
+      "description": "Tài liệu đồ họa lịch sử ghi nhận chuẩn xác tỷ lệ hào nước, các tầng tháp trung tâm và hệ thống hành lang chạm khắc phù điêu của Angkor Wat trước khi trùng tu lớn.",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại Library of Congress (Prints & Photographs Division).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Bản vẽ in thạch bản trên giấy (Lithograph print on paper)",
+      "dimensions": "65 x 90 cm",
+      "location": {
+        "siteName": "Siem Reap / Phnom Penh, Campuchia",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4413,
+          103.8587
+        ]
+      },
+      "media": {
+        "primaryImage": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/09800/09845_150px.jpg",
+        "gallery": [
+          "https://tile.loc.gov/storage-services/service/pnp/ppmsca/09800/09845_150px.jpg"
+        ],
+        "caption": "Architectural Ground Plan and Survey of Angkor Wat Temple Complex — Library of Congress (Prints & Photographs Division) (2004667825)"
+      },
+      "provenance": {
+        "institution": "Library of Congress (Prints & Photographs Division)",
+        "sourceUrl": "https://www.loc.gov/item/2004667825/",
+        "sourceRecordId": "2004667825",
+        "license": "Public Domain",
+        "licenseUrl": "https://www.loc.gov/legal/",
+        "attribution": "Library of Congress Prints & Photographs Division (Public Domain) — Call/LCCN: 2004667825",
+        "accessionNumber": "2004667825",
+        "citations": [
+          "Library of Congress (Prints & Photographs Division) Collection Record: 2004667825",
+          "Library of Congress, Prints & Photographs Division, Washington, D.C."
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "Library of Congress (Prints & Photographs Division)",
+        "sourceRecordId": "2004667825",
+        "sourceUrl": "https://www.loc.gov/item/2004667825/",
+        "originalTitle": "Architectural Ground Plan and Survey of Angkor Wat Temple Complex",
+        "originalDescription": "Tài liệu đồ họa lịch sử ghi nhận chuẩn xác tỷ lệ hào nước, các tầng tháp trung tâm và hệ thống hành lang chạm khắc phù điêu của Angkor Wat trước khi trùng tu lớn.",
+        "originalDate": "Khoảng 1890–1910",
+        "originalMaterial": "Bản vẽ in thạch bản trên giấy (Lithograph print on paper)",
+        "originalDimensions": "65 x 90 cm",
+        "originalLocation": "Siem Reap / Phnom Penh, Campuchia",
+        "originalCreditLine": "Library of Congress, Prints & Photographs Division, Washington, D.C.",
+        "originalAccessionNumber": "2004667825",
+        "originalObjectType": "media_record",
+        "rawRecordPayload": {
+          "lccn": "2004667825",
+          "rights": "No known copyright restrictions"
+        }
+      }
+    },
+    {
+      "id": "kh-loc-2017648325",
+      "canonicalObjectId": "kh-loc-2017648325",
+      "sourceRecordIds": [
+        "2017648325"
+      ],
+      "type": "media_record",
+      "title": "Ảnh Tư Liệu Lịch Sử: Tháp Mặt Phật Đền Bayon (Khoảng 1910)",
+      "titleKhmer": "រូបថតប្រវត្តិសាស្ត្រ៖ ប្រាសាទបាយ័ន",
+      "titleEnglish": "Historical Photograph: Smiling Stone Faces of the Bayon Central Towers",
+      "alternateTitles": [
+        "Historical Photograph: Smiling Stone Faces of the Bayon Central Towers",
+        "Historical Photograph: Smiling Stone Faces of the Bayon Central Towers"
+      ],
+      "category": "Nhiếp Ảnh Lịch Sử (Historical Photography)",
+      "period": "Modern",
+      "dateRange": "Khoảng 1910–1920",
+      "century": "Đầu thế kỷ 20",
+      "summary": "Tác phẩm nhiếp ảnh tư liệu lịch sử nắm bắt ánh sáng và nét chạm khắc đá sa thạch biểu tượng nụ cười Bayon huyền thoại trước các đợt phát lộ rừng rậm quy mô lớn....",
+      "description": "Tác phẩm nhiếp ảnh tư liệu lịch sử nắm bắt ánh sáng và nét chạm khắc đá sa thạch biểu tượng nụ cười Bayon huyền thoại trước các đợt phát lộ rừng rậm quy mô lớn.",
+      "historicalContext": "Hồ sơ hiện vật được giám định và lưu trữ tại Library of Congress (Prints & Photographs Division).",
+      "culturalSignificance": "Di sản đại diện cho nghệ thuật và văn minh Angkor cổ đại.",
+      "material": "Ảnh phim bạc Gelatin (Gelatin silver photographic print)",
+      "dimensions": "18 x 24 cm",
+      "location": {
+        "siteName": "Siem Reap / Phnom Penh, Campuchia",
+        "province": "Siem Reap",
+        "country": "Campuchia",
+        "coordinates": [
+          13.4413,
+          103.8587
+        ]
+      },
+      "media": {
+        "primaryImage": "https://tile.loc.gov/storage-services/service/pnp/cph/3c20000/3c28000/3c28900/3c28965_150px.jpg",
+        "gallery": [
+          "https://tile.loc.gov/storage-services/service/pnp/cph/3c20000/3c28000/3c28900/3c28965_150px.jpg"
+        ],
+        "caption": "Historical Photograph: Smiling Stone Faces of the Bayon Central Towers — Library of Congress (Prints & Photographs Division) (2017648325)"
+      },
+      "provenance": {
+        "institution": "Library of Congress (Prints & Photographs Division)",
+        "sourceUrl": "https://www.loc.gov/item/2017648325/",
+        "sourceRecordId": "2017648325",
+        "license": "Public Domain",
+        "licenseUrl": "https://www.loc.gov/legal/",
+        "attribution": "Library of Congress Prints & Photographs Division (Public Domain) — Call/LCCN: 2017648325",
+        "accessionNumber": "2017648325",
+        "citations": [
+          "Library of Congress (Prints & Photographs Division) Collection Record: 2017648325",
+          "Library of Congress Prints and Photographs Division, Frank and Frances Carpenter Collection"
+        ]
+      },
+      "relations": {
+        "relatedEntityIds": [],
+        "relatedCollections": [
+          "col-sculpture",
+          "col-masterpieces"
+        ],
+        "associatedConcepts": [
+          "Nghệ thuật Điêu khắc Đá & Đồng",
+          "Văn minh Angkor"
+        ],
+        "associatedPlaces": [],
+        "associatedRulers": [],
+        "artisticStyle": "Phong cách Nghệ thuật Angkor"
+      },
+      "originalSource": {
+        "sourceInstitution": "Library of Congress (Prints & Photographs Division)",
+        "sourceRecordId": "2017648325",
+        "sourceUrl": "https://www.loc.gov/item/2017648325/",
+        "originalTitle": "Historical Photograph: Smiling Stone Faces of the Bayon Central Towers",
+        "originalDescription": "Tác phẩm nhiếp ảnh tư liệu lịch sử nắm bắt ánh sáng và nét chạm khắc đá sa thạch biểu tượng nụ cười Bayon huyền thoại trước các đợt phát lộ rừng rậm quy mô lớn.",
+        "originalDate": "Khoảng 1910–1920",
+        "originalMaterial": "Ảnh phim bạc Gelatin (Gelatin silver photographic print)",
+        "originalDimensions": "18 x 24 cm",
+        "originalLocation": "Siem Reap / Phnom Penh, Campuchia",
+        "originalCreditLine": "Library of Congress Prints and Photographs Division, Frank and Frances Carpenter Collection",
+        "originalAccessionNumber": "2017648325",
+        "originalObjectType": "media_record",
+        "rawRecordPayload": {
+          "lccn": "2017648325",
+          "rights": "No known copyright restrictions"
+        }
+      }
+    }
+  ]
+}

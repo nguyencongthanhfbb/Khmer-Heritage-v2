@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-08-30T17:22:11.056Z",
+  "task": "KH-022",
+  "totalRecordsDiscovered": 73,
+  "productionEligible": 73,
+  "quarantinedCount": 0,
+  "canonicalObjectsCount": 73,
+  "duplicateRecordsMerged": 0,
+  "objectsMissingMedia": 0,
+  "objectsMissingMetadata": 0,
+  "licenseCoverage": {
+    "CC0": 64,
+    "Public Domain": 6,
+    "CC BY-SA": 1,
+    "CC BY": 2
+  },
+  "sourceCoverage": {
+    "The Metropolitan Museum of Art (The Met)": 60,
+    "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)": 4,
+    "Library of Congress (Prints & Photographs Division)": 3,
+    "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia, Phnom Penh)": 1,
+    "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia": 1,
+    "Bảo tàng Dệt May Truyền Thống Châu Á (Siem Reap)": 1,
+    "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)": 1,
+    "Internet Archive & EFEO Archival Collection": 2
+  },
+  "mediaTypeBreakdown": {
+    "artifact": 66,
+    "media_record": 2,
+    "manuscript": 3,
+    "art_form": 2
+  },
+  "qualityGates": [
+    {
+      "gateName": "SOURCE_EXISTS",
+      "passed": true,
+      "checkedCount": 73,
+      "failedCount": 0,
+      "details": "100% of objects have verified museum institution & direct source URL."
+    },
+    {
+      "gateName": "LICENSE_VERIFIED",
+      "passed": true,
+      "checkedCount": 73,
+      "failedCount": 0,
+      "details": "100% of objects verified under allowed Open Access / Public Domain licenses."
+    },
+    {
+      "gateName": "SCHEMA_VALID",
+      "passed": true,
+      "checkedCount": 73,
+      "failedCount": 0,
+      "details": "100% of objects conform strictly to HeritageObject schema."
+    },
+    {
+      "gateName": "NO_FAKE_CONTENT",
+      "passed": true,
+      "checkedCount": 73,
+      "failedCount": 0,
+      "details": "Zero synthetic placeholders or hallucinated cultural essays detected."
+    },
+    {
+      "gateName": "PROVENANCE_PRESENT",
+      "passed": true,
+      "checkedCount": 73,
+      "failedCount": 0,
+      "details": "100% of objects have complete provenance, citations, and attribution."
+    },
+    {
+      "gateName": "MEDIA_REFERENCE_VALID",
+      "passed": true,
+      "checkedCount": 73,
+      "failedCount": 0,
+      "details": "100% of objects have valid high-resolution media references."
+    },
+    {
+      "gateName": "NO_DUPLICATE_CANONICAL_OBJECT",
+      "passed": true,
+      "checkedCount": 73,
+      "failedCount": 0,
+      "details": "All canonical IDs are strictly unique across the corpus."
+    }
+  ],
+  "verdict": "PASS"
+}
