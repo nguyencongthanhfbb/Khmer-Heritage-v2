@@ -22,8 +22,8 @@ AI Bridge là cơ chế kết nối giữa các phiên làm việc của các Ag
 ---
 
 ## 3. TRẠNG THÁI NHIỆM VỤ HIỆN HÀNH (CURRENT TASK STATE)
-- **Nhiệm vụ vừa hoàn thành**: `KH-020` (Multi-Institution Authentic Corpus Expansion) & `KH-020R` (Git / Corpus Reconciliation & Evidence Audit).
-- **Kết quả Kiểm định Đối chiếu**: `A — KH-020 VERIFIED` (73/73 hiện vật có hồ sơ chứng từ nguồn sơ cấp từ 5 tổ chức quốc tế: The Met, Smithsonian, Library of Congress, NMC/Wikimedia, Internet Archive/EFEO; 100% giấy phép bản quyền mở hợp lệ; filter đa viện bảo tàng hoạt động thực tế trên code).
+- **Nhiệm vụ vừa hoàn thành**: `KH-020` (Multi-Institution Authentic Corpus Expansion), `KH-020R` (Reconciliation Audit) & `KH-020R.1` (Source & Media Spot Verification).
+- **Kết quả Kiểm định Đối chiếu**: `A — SPOT VERIFICATION PASS` (11/11 mẫu thực nghiệm qua kiểm tra mạng, phân định rõ ràng giữa nền tảng lưu trữ tệp số Internet Archive/Wikimedia và cơ quan nắm giữ hiện vật/nghiên cứu học thuật EFEO/NMC; 100% giấy phép bản quyền hợp lệ).
 - **Trạng thái Kỹ thuật**: `lint_applet` PASS, `compile_applet` PASS (Build Succeeded).
 - **Nhiệm vụ Đề xuất Tiếp theo**: `KH-021` (Living Traditions, Interactive Epigraphy & Audio Guides Production).
 

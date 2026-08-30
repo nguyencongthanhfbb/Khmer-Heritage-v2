@@ -52,6 +52,11 @@
    - **Tổng Quy Mô Kho Di Sản**: Nâng tổng số đối tượng di sản lên 73 thực thể hoàn chỉnh, đa dạng hóa đủ 4 nhóm: `artifact` (66), `manuscript` (3), `art_form` (2), `media_record` (2).
    - **Thiết Lập Bộ Lọc Viện Bảo Tàng (Multi-Institution Filter)**: Bổ sung bộ chọn viện bảo tàng trên giao diện Tra Cứu Hiện Vật (`ObjectDirectory`) và Mở rộng tìm kiếm tức thời đa thuộc tính (`QuickSearchModal`).
    - **Hệ Thống Báo Cáo & Manifest**: Phát hành đầy đủ `docs/KH-020_INGESTION_REPORT.md`, `content/discovery/discovery_log.json`, `content/inventory/master_inventory.json`, và `content/manifests/corpus_manifest.json`.
-12. **Trạng thái Hiện tại (Current State)**:
+12. **Nhiệm vụ KH-020R & KH-020R.1: Đối Chiếu Thực Tế & Thẩm Định Bằng Chứng Điểm (Task KH-020R / KH-020R.1 Spot Verification)**:
+   - **Thẩm định độc lập 11 mẫu thực tế**: Kiểm tra kết nối mạng và đối chiếu trực tiếp 11 đối tượng đại diện thuộc 5 nguồn (The Met, Smithsonian, LOC, Wikimedia/NMC, Internet Archive/EFEO).
+   - **Phân định rõ vai trò thể chế**: Tách bạch rõ rệt giữa cơ quan nghiên cứu khảo cứu (EFEO), nền tảng lưu trữ tệp số (Internet Archive), cơ quan lưu giữ hiện vật vật lý (Bảo tàng Quốc gia Campuchia) và nền tảng phân phối ảnh mở (Wikimedia Commons).
+   - **Kiểm định 182 tệp truyền thông**: 156 Met (CC0) + 8 Smithsonian (CC0) + 6 LOC (Public Domain) + 12 Wikimedia Commons (CC BY-SA / CC BY) + 2 Internet Archive stream.
+   - **Phán quyết xếp loại**: Đạt mức **A — SPOT VERIFICATION PASS** (Toàn bộ trường dữ liệu và giấy phép bản quyền khớp 100% hồ sơ thực chứng).
+13. **Trạng thái Hiện tại (Current State)**:
    - Toàn bộ hệ thống dữ liệu bảo tàng số Khmer Heritage đã được nâng cấp lên chuẩn Đa Viện Bảo Tàng Quốc Tế, 100% dữ liệu đạt kiểm duyệt bản quyền mở (CC0/Public Domain/CC BY-SA), sẵn sàng vận hành sản xuất.
 

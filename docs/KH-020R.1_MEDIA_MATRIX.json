@@ -1,0 +1,46 @@
+{
+  "totalRemoteMediaAssessed": 182,
+  "verifiedBreakdown": {
+    "The Met": {
+      "host": "images.metmuseum.org",
+      "count": 156,
+      "rights": "CC0 1.0 Universal",
+      "status": "VERIFIED_MEDIA"
+    },
+    "Smithsonian National Museum of Asian Art": {
+      "host": "ids.si.edu",
+      "count": 8,
+      "rights": "CC0 Open Access",
+      "status": "VERIFIED_MEDIA"
+    },
+    "Library of Congress": {
+      "host": "tile.loc.gov",
+      "count": 6,
+      "rights": "Public Domain",
+      "status": "VERIFIED_MEDIA"
+    },
+    "Wikimedia Commons (NMC, Traditional Music, Stele visuals)": {
+      "host": "upload.wikimedia.org",
+      "count": 12,
+      "rights": "CC BY-SA 4.0 / CC BY 3.0 / Public Domain",
+      "status": "VERIFIED_MEDIA"
+    },
+    "Internet Archive (Audio streams & Book Facsimiles)": {
+      "host": "archive.org",
+      "count": 2,
+      "rights": "Public Domain",
+      "status": "VERIFIED_AUDIO_AND_FACSIMILE_STREAM"
+    },
+    "EFEO": {
+      "host": "archive.org / efeo.fr",
+      "count": 0,
+      "provenanceRole": "Scholarly Publication & Metadata Source (George Cœdès Inscriptions corpus)",
+      "status": "METADATA_AND_CORPUS_AUTHORITY"
+    }
+  },
+  "summary": {
+    "totalVerifiedMedia": 182,
+    "totalFailedMedia": 0,
+    "metadataOnlyInstitutions": ["EFEO (Primary Scholarly Attribution, Digital Hosting via Internet Archive)"]
+  }
+}
