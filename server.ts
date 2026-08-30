@@ -1,5 +1,6 @@
 import express, { Request, Response } from 'express';
 import path from 'path';
+import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { GoogleGenAI } from '@google/genai';
 import { createServer as createViteServer } from 'vite';
@@ -275,7 +276,63 @@ async function startServer() {
     }
   });
 
-  // 12. Ask Curator AI (Grounding with museum archive & Gemini 3.7 Flash)
+  // 12. Knowledge Graph Relationships Bundle
+  app.get('/api/relationships', (req: Request, res: Response) => {
+    try {
+      const p = path.join(process.cwd(), 'content', 'relationships', 'relationships_bundle.json');
+      if (fs.existsSync(p)) {
+        const raw = fs.readFileSync(p, 'utf-8');
+        return res.json(JSON.parse(raw));
+      }
+      res.json({ count: 0, relationships: [] });
+    } catch (err: any) {
+      res.status(500).json({ error: 'Lỗi tải đồ thị quan hệ', details: err.message });
+    }
+  });
+
+  // 13. Institutions Knowledge Bundle
+  app.get('/api/institutions', (req: Request, res: Response) => {
+    try {
+      const p = path.join(process.cwd(), 'content', 'institutions', 'institutions_bundle.json');
+      if (fs.existsSync(p)) {
+        const raw = fs.readFileSync(p, 'utf-8');
+        return res.json(JSON.parse(raw));
+      }
+      res.json({ count: 0, institutions: [] });
+    } catch (err: any) {
+      res.status(500).json({ error: 'Lỗi tải danh mục viện bảo tàng', details: err.message });
+    }
+  });
+
+  // 14. Heritage Places & Monuments Bundle
+  app.get('/api/places', (req: Request, res: Response) => {
+    try {
+      const p = path.join(process.cwd(), 'content', 'places', 'places_bundle.json');
+      if (fs.existsSync(p)) {
+        const raw = fs.readFileSync(p, 'utf-8');
+        return res.json(JSON.parse(raw));
+      }
+      res.json({ count: 0, places: [] });
+    } catch (err: any) {
+      res.status(500).json({ error: 'Lỗi tải danh mục di tích khảo cổ', details: err.message });
+    }
+  });
+
+  // 15. Media Quality Manifest & Corpus QA
+  app.get('/api/media/manifest', (req: Request, res: Response) => {
+    try {
+      const p = path.join(process.cwd(), 'content', 'media', 'media_manifest.json');
+      if (fs.existsSync(p)) {
+        const raw = fs.readFileSync(p, 'utf-8');
+        return res.json(JSON.parse(raw));
+      }
+      res.json({ totalRecords: 0, verifiedImages: 0 });
+    } catch (err: any) {
+      res.status(500).json({ error: 'Lỗi tải media manifest', details: err.message });
+    }
+  });
+
+  // 16. Ask Curator AI (Grounding with museum archive & Gemini 3.7 Flash)
   app.post('/api/ai/ask-curator', async (req: Request, res: Response) => {
     try {
       const { question, currentObjectId } = req.body;

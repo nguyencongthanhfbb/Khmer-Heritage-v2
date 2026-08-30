@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { HeritageObject } from '../types/museum';
 import { MuseumImage } from './MuseumImage';
 import { getAuthenticFallbackImage } from '../utils/imageUtils';
+import { getCategorizedRelatedObjects } from '../utils/explorationService';
 import { 
   ArrowLeft, 
   Bookmark, 
@@ -22,7 +23,10 @@ import {
   FileText,
   Share2,
   Copy,
-  Radio
+  Radio,
+  Network,
+  ChevronRight,
+  ArrowRight
 } from 'lucide-react';
 
 interface HeritageObjectDetailProps {
@@ -90,14 +94,15 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
     };
   }, [object.id]);
 
-  // Find related objects from knowledge graph
-  const relatedObjects = allObjects.filter(
-    (o) => o.id !== object.id && (
-      object.relations.relatedEntityIds.includes(o.id) ||
-      o.relations.relatedCollections.some((c) => object.relations.relatedCollections.includes(c)) ||
-      o.period === object.period
-    )
-  ).slice(0, 4);
+  // Categorized relations from knowledge graph
+  const categorizedRelations = getCategorizedRelatedObjects(object, allObjects);
+  const { 
+    directRelationships, 
+    sharedCollection, 
+    sharedPeriod, 
+    sharedInstitution, 
+    sharedMaterial 
+  } = categorizedRelations;
 
   const getFormattedCitation = () => {
     const year = object.provenance.discoveryYear || '2024';
@@ -130,49 +135,92 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
     <div className="space-y-12 pb-24" id="heritage-object-detail-view">
       
       {/* 1. TOP BREADCRUMB & ACTION BAR */}
-      <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-stone-800">
-        <button
-          id="btn-detail-back"
-          onClick={onBack}
-          className="flex items-center space-x-2 px-4 py-2 rounded-xl bg-stone-900 hover:bg-stone-800 text-stone-300 hover:text-stone-100 border border-stone-800 transition-colors text-sm font-medium cursor-pointer"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          <span>Quay Lại Bảo Tàng</span>
-        </button>
-
-        <div className="flex items-center space-x-3">
-          {/* Ask Curator about this Object */}
-          <button
-            id="btn-detail-ask-curator"
-            onClick={() => onOpenCuratorWithContext(object.id)}
-            className="px-4 py-2 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 text-sm font-medium flex items-center space-x-2 transition-all cursor-pointer"
+      <div className="space-y-3 pb-4 border-b border-stone-800">
+        {/* Exploration Breadcrumbs */}
+        <div className="flex items-center space-x-2 text-xs font-serif text-stone-400 overflow-x-auto whitespace-nowrap">
+          <button 
+            onClick={onBack}
+            className="hover:text-amber-400 text-stone-400 transition-colors"
           >
-            <Sparkles className="w-4 h-4 text-amber-400" />
-            <span>Hỏi Giám Tuyển Về Hiện Vật Này</span>
+            Bảo Tàng Số
+          </button>
+          <ChevronRight className="w-3.5 h-3.5 text-stone-600 flex-shrink-0" />
+          <button
+            onClick={() => onNavigateTab?.('explore')}
+            className="hover:text-amber-400 text-stone-400 transition-colors"
+          >
+            {object.category}
+          </button>
+          <ChevronRight className="w-3.5 h-3.5 text-stone-600 flex-shrink-0" />
+          <button
+            onClick={() => onNavigateTab?.('timeline')}
+            className="hover:text-amber-400 text-stone-400 transition-colors"
+          >
+            {object.period}
+          </button>
+          <ChevronRight className="w-3.5 h-3.5 text-stone-600 flex-shrink-0" />
+          <span className="text-amber-300 font-medium truncate max-w-xs">
+            {object.title}
+          </span>
+        </div>
+
+        <div className="flex flex-wrap items-center justify-between gap-4 pt-1">
+          <button
+            id="btn-detail-back"
+            onClick={onBack}
+            className="flex items-center space-x-2 px-4 py-2 rounded-xl bg-stone-900 hover:bg-stone-800 text-stone-300 hover:text-stone-100 border border-stone-800 transition-colors text-sm font-medium cursor-pointer"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            <span>Quay Lại Bảo Tàng</span>
           </button>
 
-          {/* Bookmark Button */}
-          <button
-            id={`btn-detail-save-${object.id}`}
-            onClick={() => onToggleSave(object.id)}
-            className={`px-4 py-2 rounded-xl border text-sm font-medium flex items-center space-x-2 transition-all cursor-pointer ${
-              isSaved
-                ? 'bg-amber-500 text-stone-950 border-amber-500 font-semibold'
-                : 'bg-stone-900 text-stone-300 border-stone-800 hover:bg-stone-800'
-            }`}
-          >
-            {isSaved ? (
-              <>
-                <Check className="w-4 h-4" />
-                <span>Đã Lưu Trữ</span>
-              </>
-            ) : (
-              <>
-                <Bookmark className="w-4 h-4" />
-                <span>Lưu Hiện Vật</span>
-              </>
+          <div className="flex items-center space-x-2 sm:space-x-3">
+            {/* Direct Open in Knowledge Graph */}
+            {onNavigateTab && (
+              <button
+                id="btn-detail-open-graph"
+                onClick={() => onNavigateTab('graph')}
+                className="px-3.5 py-2 rounded-xl bg-stone-900 hover:bg-stone-800 text-amber-300 border border-amber-500/30 text-sm font-medium flex items-center space-x-1.5 transition-all cursor-pointer"
+                title="Mở trên Đồ Thị Tri Thức"
+              >
+                <Network className="w-4 h-4 text-amber-400" />
+                <span className="hidden sm:inline">Mở Trên Đồ Thị</span>
+              </button>
             )}
-          </button>
+
+            {/* Ask Curator about this Object */}
+            <button
+              id="btn-detail-ask-curator"
+              onClick={() => onOpenCuratorWithContext(object.id)}
+              className="px-3.5 py-2 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 text-sm font-medium flex items-center space-x-2 transition-all cursor-pointer"
+            >
+              <Sparkles className="w-4 h-4 text-amber-400" />
+              <span>Hỏi Giám Tuyển</span>
+            </button>
+
+            {/* Bookmark Button */}
+            <button
+              id={`btn-detail-save-${object.id}`}
+              onClick={() => onToggleSave(object.id)}
+              className={`px-3.5 py-2 rounded-xl border text-sm font-medium flex items-center space-x-2 transition-all cursor-pointer ${
+                isSaved
+                  ? 'bg-amber-500 text-stone-950 border-amber-500 font-semibold'
+                  : 'bg-stone-900 text-stone-300 border-stone-800 hover:bg-stone-800'
+              }`}
+            >
+              {isSaved ? (
+                <>
+                  <Check className="w-4 h-4" />
+                  <span>Đã Lưu</span>
+                </>
+              ) : (
+                <>
+                  <Bookmark className="w-4 h-4" />
+                  <span>Lưu Trữ</span>
+                </>
+              )}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -875,54 +923,198 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
         </div>
       </div>
 
-      {/* 4. RELATED OBJECTS SECTION */}
-      {relatedObjects.length > 0 && (
-        <section className="space-y-6 pt-12 border-t border-stone-800" id="related-objects-section">
+      {/* 4. EXPLORATION & KNOWLEDGE GRAPH EXPANSION */}
+      <section className="space-y-10 pt-12 border-t border-stone-800" id="exploration-knowledge-section">
+        
+        {/* 4A. DIRECT VERIFIED RELATIONSHIPS */}
+        {directRelationships.length > 0 && (
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-2">
+                <Network className="w-5 h-5 text-amber-400" />
+                <h3 className="text-xl sm:text-2xl font-serif font-bold text-stone-100">
+                  Mối Quan Hệ Trực Tiếp Trong Đồ Thị Tri Thức
+                </h3>
+              </div>
+              <span className="text-xs font-mono text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/30">
+                {directRelationships.length} Liên Kết Xác Thực
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {directRelationships.map(({ object: relObj, relationshipType, evidence, confidence }) => (
+                <div
+                  key={relObj.id}
+                  id={`direct-rel-${relObj.id}`}
+                  onClick={() => onSelectObject(relObj.id)}
+                  className="group rounded-2xl bg-stone-900 border border-stone-800 hover:border-amber-500/50 p-4 transition-all flex flex-col justify-between cursor-pointer shadow-md hover:shadow-xl"
+                >
+                  <div>
+                    <div className="flex items-center justify-between text-[10px] font-mono mb-2">
+                      <span className="px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 font-bold uppercase">
+                        {relationshipType === 'stylistically_related' ? 'Tương Đồng Phong Cách' : relationshipType}
+                      </span>
+                      <span className="text-stone-400">ĐỘ TIN CẬY: {confidence}</span>
+                    </div>
+
+                    <div className="flex space-x-3 items-center">
+                      <div className="w-16 h-16 rounded-xl overflow-hidden bg-stone-950 flex-shrink-0">
+                        <MuseumImage
+                          src={relObj.media.primaryImage}
+                          alt={relObj.title}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <h4 className="font-serif text-xs sm:text-sm font-bold text-stone-100 group-hover:text-amber-300 transition-colors line-clamp-1">
+                          {relObj.title}
+                        </h4>
+                        <p className="text-[11px] text-stone-400 font-serif mt-0.5">
+                          {relObj.period} • {relObj.category}
+                        </p>
+                      </div>
+                    </div>
+
+                    {evidence && (
+                      <p className="text-[11px] text-stone-300 font-serif mt-3 bg-stone-950 p-2 rounded-xl border border-stone-850 italic line-clamp-2">
+                        "{evidence}"
+                      </p>
+                    )}
+                  </div>
+
+                  <div className="mt-3 pt-2 border-t border-stone-850 flex items-center justify-between text-xs text-amber-400 font-serif">
+                    <span>Xem hiện vật liên kết</span>
+                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* 4B. SHARED CURATORIAL FACETS */}
+        <div className="space-y-6">
           <div className="flex items-center justify-between">
-            <h3 className="text-2xl font-serif font-bold text-stone-100">
-              Hiện Vật & Di Tích Cùng Liên Hệ
-            </h3>
-            <span className="text-xs font-mono text-stone-400">
-              Khám Phá Mở Rộng Theo Đồ Thị Tri Thức
-            </span>
+            <div className="flex items-center space-x-2">
+              <Compass className="w-5 h-5 text-emerald-400" />
+              <h3 className="text-xl sm:text-2xl font-serif font-bold text-stone-100">
+                Đồng Thuộc Tính & Khám Phá Mở Rộng
+              </h3>
+            </div>
+            {onNavigateTab && (
+              <button
+                onClick={() => onNavigateTab('explore')}
+                className="text-xs text-amber-400 hover:text-amber-300 font-serif flex items-center space-x-1"
+              >
+                <span>Mở Toàn Bộ Bộ Lọc Đa Chiều</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </button>
+            )}
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {relatedObjects.map((rel) => (
-              <div
-                key={rel.id}
-                id={`rel-card-${rel.id}`}
-                onClick={() => onSelectObject(rel.id)}
-                className="group rounded-2xl bg-stone-900 border border-stone-800 hover:border-amber-500/40 transition-all overflow-hidden flex flex-col cursor-pointer shadow-md hover:shadow-xl"
-              >
-                <div className="aspect-[4/3] w-full overflow-hidden bg-stone-950">
-                  <MuseumImage
-                    src={rel.media.primaryImage}
-                    alt={rel.title}
-                    title={rel.title}
-                    category={rel.category}
-                    period={rel.period}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
+          {/* Quick facet cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            
+            {/* Same Period Card */}
+            {sharedPeriod.length > 0 && (
+              <div className="p-4 rounded-2xl bg-stone-900 border border-stone-800 space-y-3">
+                <div className="flex items-center justify-between text-xs">
+                  <span className="font-mono text-purple-400 font-bold uppercase">Cùng Thời Kỳ: {object.period}</span>
+                  <span className="text-stone-400 font-mono">+{sharedPeriod.length}</span>
                 </div>
-                <div className="p-4 flex-1 flex flex-col justify-between space-y-2">
-                  <div>
-                    <span className="text-[10px] font-mono text-amber-400">
-                      {rel.period} • {rel.category}
-                    </span>
-                    <h4 className="font-serif text-sm font-bold text-stone-100 group-hover:text-amber-300 transition-colors line-clamp-1">
-                      {rel.title}
-                    </h4>
-                  </div>
-                  <span className="text-[11px] font-mono text-stone-400 line-clamp-1">
-                    🏛️ {rel.provenance.institution.split('(')[0]}
-                  </span>
+                <div className="space-y-2">
+                  {sharedPeriod.slice(0, 2).map((pObj) => (
+                    <div
+                      key={pObj.id}
+                      onClick={() => onSelectObject(pObj.id)}
+                      className="flex items-center space-x-2 p-1.5 rounded-xl hover:bg-stone-800/60 cursor-pointer transition-colors"
+                    >
+                      <div className="w-9 h-9 rounded-lg overflow-hidden bg-stone-950 flex-shrink-0">
+                        <MuseumImage src={pObj.media.primaryImage} alt={pObj.title} className="w-full h-full object-cover" />
+                      </div>
+                      <span className="text-xs text-stone-200 font-serif truncate">{pObj.title}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
-            ))}
+            )}
+
+            {/* Same Material Card */}
+            {sharedMaterial.length > 0 && (
+              <div className="p-4 rounded-2xl bg-stone-900 border border-stone-800 space-y-3">
+                <div className="flex items-center justify-between text-xs">
+                  <span className="font-mono text-amber-400 font-bold uppercase">Cùng Chất Liệu</span>
+                  <span className="text-stone-400 font-mono">+{sharedMaterial.length}</span>
+                </div>
+                <div className="space-y-2">
+                  {sharedMaterial.slice(0, 2).map((mObj) => (
+                    <div
+                      key={mObj.id}
+                      onClick={() => onSelectObject(mObj.id)}
+                      className="flex items-center space-x-2 p-1.5 rounded-xl hover:bg-stone-800/60 cursor-pointer transition-colors"
+                    >
+                      <div className="w-9 h-9 rounded-lg overflow-hidden bg-stone-950 flex-shrink-0">
+                        <MuseumImage src={mObj.media.primaryImage} alt={mObj.title} className="w-full h-full object-cover" />
+                      </div>
+                      <span className="text-xs text-stone-200 font-serif truncate">{mObj.title}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Same Institution Card */}
+            {sharedInstitution.length > 0 && (
+              <div className="p-4 rounded-2xl bg-stone-900 border border-stone-800 space-y-3">
+                <div className="flex items-center justify-between text-xs">
+                  <span className="font-mono text-sky-400 font-bold uppercase truncate max-w-[170px]">Cùng Viện Lưu Trữ</span>
+                  <span className="text-stone-400 font-mono">+{sharedInstitution.length}</span>
+                </div>
+                <div className="space-y-2">
+                  {sharedInstitution.slice(0, 2).map((iObj) => (
+                    <div
+                      key={iObj.id}
+                      onClick={() => onSelectObject(iObj.id)}
+                      className="flex items-center space-x-2 p-1.5 rounded-xl hover:bg-stone-800/60 cursor-pointer transition-colors"
+                    >
+                      <div className="w-9 h-9 rounded-lg overflow-hidden bg-stone-950 flex-shrink-0">
+                        <MuseumImage src={iObj.media.primaryImage} alt={iObj.title} className="w-full h-full object-cover" />
+                      </div>
+                      <span className="text-xs text-stone-200 font-serif truncate">{iObj.title}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Same Collection Card */}
+            {sharedCollection.length > 0 && (
+              <div className="p-4 rounded-2xl bg-stone-900 border border-stone-800 space-y-3">
+                <div className="flex items-center justify-between text-xs">
+                  <span className="font-mono text-emerald-400 font-bold uppercase truncate max-w-[170px]">Cùng Bộ Sưu Tập</span>
+                  <span className="text-stone-400 font-mono">+{sharedCollection.length}</span>
+                </div>
+                <div className="space-y-2">
+                  {sharedCollection.slice(0, 2).map((cObj) => (
+                    <div
+                      key={cObj.id}
+                      onClick={() => onSelectObject(cObj.id)}
+                      className="flex items-center space-x-2 p-1.5 rounded-xl hover:bg-stone-800/60 cursor-pointer transition-colors"
+                    >
+                      <div className="w-9 h-9 rounded-lg overflow-hidden bg-stone-950 flex-shrink-0">
+                        <MuseumImage src={cObj.media.primaryImage} alt={cObj.title} className="w-full h-full object-cover" />
+                      </div>
+                      <span className="text-xs text-stone-200 font-serif truncate">{cObj.title}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
           </div>
-        </section>
-      )}
+        </div>
+
+      </section>
 
       {/* 5. FULLSCREEN ZOOM MODAL */}
       {isZoomModalOpen && (

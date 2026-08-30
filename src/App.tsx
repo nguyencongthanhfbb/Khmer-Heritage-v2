@@ -20,6 +20,7 @@ import { CuratorAssistant } from './components/CuratorAssistant';
 import { ProvenanceModal } from './components/ProvenanceModal';
 import { QuickSearchModal } from './components/QuickSearchModal';
 import { Footer } from './components/Footer';
+import { ExplorationHub } from './components/ExplorationHub';
 import { HeritageObject } from './types';
 
 export default function App() {
@@ -176,6 +177,14 @@ export default function App() {
                 savedIds={savedIds}
                 onToggleSave={handleToggleSave}
                 onNavigateTab={handleTabChange}
+              />
+            )}
+
+            {(activeTab === 'graph' || activeTab === 'explore') && (
+              <ExplorationHub
+                objects={allObjects}
+                onSelectObject={handleSelectObject}
+                initialTab={activeTab === 'graph' ? 'graph' : 'materials'}
               />
             )}
 

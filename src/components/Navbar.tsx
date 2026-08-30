@@ -15,7 +15,9 @@ import {
   Columns3,
   Music,
   GraduationCap,
-  Database
+  Database,
+  Network,
+  SlidersHorizontal
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -37,6 +39,8 @@ export const Navbar: React.FC<NavbarProps> = ({
 }) => {
   const navItems = [
     { id: 'entrance', label: 'Sảnh Bảo Tàng', khmer: 'ច្រកចូល', icon: Landmark },
+    { id: 'graph', label: 'Đồ Thị Tri Thức', khmer: 'ក្រាហ្វ', icon: Network },
+    { id: 'explore', label: 'Khám Phá Đa Chiều', khmer: 'រុករក', icon: SlidersHorizontal },
     { id: 'collections', label: 'Bộ Sưu Tập', khmer: 'ការប្រមូល', icon: Layers },
     { id: 'directory', label: 'Kho Hiện Vật', khmer: 'វត្ថុបុរាណ', icon: Compass },
     { id: 'ingestion', label: 'Nạp Dữ Liệu & CMS', khmer: 'ទិន្នន័យ', icon: Database },

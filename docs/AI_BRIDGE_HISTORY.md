@@ -70,6 +70,16 @@
    - **Đóng gói Static Content Bundles**: Xuất bản thư mục `/content/` độc lập với đầy đủ `objects_bundle.json`, `collections_bundle.json`, `places_bundle.json`, `institutions_bundle.json`, `relationships_bundle.json`, `media_manifest.json`, `corpus_manifest.json` và `quality_report.json`.
    - **Đạt 100% Kiểm định Chất lượng (7/7 Gates PASS)**: Xác nhận 73 hiện vật xác thực không có bài viết giả định, 100% có URL bảo tàng và giấy phép Open Access hợp lệ.
    - **Hồ sơ Phát hành**: `docs/KH-022_CONTENT_CORPUS.md`, `docs/KH-022_DATA_QUALITY_REPORT.md`, `docs/KH-022_MEDIA_PIPELINE.md`, `docs/AI_BRIDGE_PROGRESS_022.md`, `docs/AI_BRIDGE_REPORT_022.md`.
-16. **Trạng thái Hiện tại (Current State)**:
-   - Toàn bộ hệ thống hoạt động ổn định, 100% kiểm tra `lint_applet` và `compile_applet` thành công. Kho lưu trữ 73 hiện vật và di tích sẵn sàng phục vụ công chúng.
+16. **Nhiệm vụ KH-023: Tầng Trải Nghiệm Tương Tác Bảo Tàng & Đồ Thị Tri Thức (Task KH-023 Interactive Museum Experience & Knowledge Graph)**:
+   - **Data Access Layer Tương Thích Hoàn Toàn**: Xây dựng `src/data/relationshipsData.ts`, `src/data/institutionsData.ts`, `src/data/placesData.ts` đọc trực tiếp từ các static bundles `/content/`.
+   - **Exploration Logic Engine (`explorationService.ts`)**: Cung cấp các thuật toán: xây dựng đồ thị tri thức đa tầng (Nodes & Edges with Deterministic Radial-Orbital Layout), phân loại mối quan hệ trực tiếp vs siêu dữ liệu đồng thuộc tính (Direct Verified Relations vs Shared Curatorial Facets), phân loại cây phả hệ chất liệu (Material Taxonomy) và mô-típ thần học biểu tượng (Iconography Taxonomy).
+   - **Trung Tâm Khám Phá Đa Chiều (`ExplorationHub.tsx`)**: Tích hợp 4 phân hệ tương tác trong một không gian trải nghiệm:
+     + **Trình Trực Quan Đồ Thị Tri Thức (`KnowledgeGraphExplorer.tsx`)**: Canvas SVG tương tác mượt mà hỗ trợ kéo thả pan/zoom, bộ lọc nhóm thực thể (Hiện vật, Bộ sưu tập, Viện lưu trữ, Di tích, Thời kỳ), và thanh chi tiết đối tượng được chọn.
+     + **Trình Khám Phá Chất Liệu Khảo Cổ (`MaterialExplorer.tsx`)**: Duyệt hiện vật theo 6 nhóm chất liệu (Sa thạch, Đồng thau, Gỗ quý, Kim loại quý, Lá buông, Lụa Ikat) với mô tả kỹ nghệ truyền thống và phân bổ niên đại.
+     + **Trình Khám Phá Biểu Tượng Học (`IconographyExplorer.tsx`)**: Khám phá 6 mô-típ thần học và biểu tượng (Phật giáo Thượng tọa/Đại thừa, Thần Vishnu, Thần Shiva & Linga, Thần thoại Rắn thần Naga, Hợp nhất Harihara, Tiên nữ Apsara).
+     + **Hồ Sơ Viện Bảo Tàng & Di Tích (`InstitutionExplorer.tsx`)**: Bản đồ hóa mạng lưới các cơ quan lưu trữ quốc tế và hệ thống di tích Angkor.
+   - **Nâng Cấp Chi Tiết Hiện Vật (`HeritageObjectDetail.tsx`)**: Bổ sung thanh điều hướng Breadcrumb vi mô, nút chuyển nhanh đến Đồ Thị Tri Thức, và phân định tường minh giữa Mối Quan Hệ Trực Tiếp (có trích dẫn chứng cứ khảo cổ & độ tin cậy) và Đồng Thuộc Tính Siêu Dữ Liệu.
+   - **Mở Rộng API Máy Chủ (`server.ts`)**: Bổ sung các REST endpoint `/api/relationships`, `/api/institutions`, `/api/places`, `/api/media/manifest` phục vụ truy xuất static bundle độc lập.
+17. **Trạng thái Hiện tại (Current State)**:
+   - Toàn bộ hệ thống hoạt động ổn định, 100% kiểm tra `lint_applet` và `compile_applet` thành công. Phân hệ Khám phá Đa chiều & Đồ Thị Tri Thức sẵn sàng phục vụ công chúng và giới học thuật.
 
