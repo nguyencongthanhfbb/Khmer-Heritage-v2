@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { TimelineEpoch, HeritageObject } from '../types/museum';
+import { MuseumImage } from './MuseumImage';
 import { Clock, ArrowRight, Landmark, Crown, Sparkles, ChevronRight, Bookmark } from 'lucide-react';
 
 interface TimelineViewProps {
@@ -186,10 +187,12 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
                     className="group rounded-2xl bg-stone-950 border border-stone-800 hover:border-amber-500/40 transition-all overflow-hidden flex flex-col cursor-pointer shadow-md hover:shadow-xl"
                   >
                     <div className="aspect-[4/3] w-full overflow-hidden bg-stone-900">
-                      <img
+                      <MuseumImage
                         src={obj.media.primaryImage}
                         alt={obj.title}
-                        referrerPolicy="no-referrer"
+                        title={obj.title}
+                        category={obj.category}
+                        period={obj.period}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       />
                     </div>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { MuseumImage } from './MuseumImage';
 import {
   Database,
   RefreshCw,
@@ -513,12 +514,13 @@ export const IngestionDashboard: React.FC<IngestionDashboardProps> = ({ onSelect
                   >
                     {/* Image Container */}
                     <div className="relative aspect-[4/3] bg-stone-950 overflow-hidden">
-                      <img
+                      <MuseumImage
                         src={item.media.primaryImage}
                         alt={item.title}
-                        referrerPolicy="no-referrer"
+                        title={item.title}
+                        category={item.category}
+                        period={item.period}
                         className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                        loading="lazy"
                       />
                       <div className="absolute top-2.5 left-2.5">
                         <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-stone-950/80 text-amber-400 border border-amber-500/30 rounded backdrop-blur-sm">
@@ -626,19 +628,14 @@ export const IngestionDashboard: React.FC<IngestionDashboardProps> = ({ onSelect
                     className="bg-stone-900 border border-stone-800 rounded-xl overflow-hidden flex flex-col justify-between"
                   >
                     <div className="relative aspect-[4/3] bg-stone-950">
-                      {item.primaryImageSmall || item.primaryImage ? (
-                        <img
-                          src={item.primaryImageSmall || item.primaryImage}
-                          alt={item.title}
-                          referrerPolicy="no-referrer"
-                          className="w-full h-full object-cover"
-                          loading="lazy"
-                        />
-                      ) : (
-                        <div className="w-full h-full flex items-center justify-center text-stone-600 text-xs">
-                          Không có ảnh công khai
-                        </div>
-                      )}
+                      <MuseumImage
+                        src={item.primaryImageSmall || item.primaryImage}
+                        alt={item.title}
+                        title={item.title}
+                        category={item.classification || 'Sculpture'}
+                        period={item.period || 'Angkor'}
+                        className="w-full h-full object-cover"
+                      />
                       <div className="absolute top-2 right-2">
                         <span className={`px-2 py-0.5 text-[10px] font-bold rounded ${item.isPublicDomain ? 'bg-emerald-950 text-emerald-300 border border-emerald-500/30' : 'bg-red-950 text-red-300'}`}>
                           {item.isPublicDomain ? 'CC0 Public Domain' : 'Copyrighted'}

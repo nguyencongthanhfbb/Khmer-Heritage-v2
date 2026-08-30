@@ -32,9 +32,9 @@ export default function App() {
   const [savedIds, setSavedIds] = useState<string[]>(() => {
     try {
       const saved = localStorage.getItem('khmer_heritage_saved_ids');
-      return saved ? JSON.parse(saved) : ['kh-art-vishnu-west-mebon', 'kh-place-angkor-wat'];
+      return saved ? JSON.parse(saved) : ['kh-met-38451', 'kh-met-38160'];
     } catch {
-      return ['kh-art-vishnu-west-mebon', 'kh-place-angkor-wat'];
+      return ['kh-met-38451', 'kh-met-38160'];
     }
   });
 

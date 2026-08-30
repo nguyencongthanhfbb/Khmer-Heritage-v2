@@ -17,8 +17,8 @@ export const TIMELINE_EPOCHS: TimelineEpoch[] = [
     majorRulers: ['Hỗn Điền (Kaundinya)', 'Liễu Diệp (Soma)', 'Phạm Sư Mạn (Fan Shiman)'],
     iconicMonuments: ['Thành lũy Angkor Borei', 'Đền Phnom Da'],
     representativeArtStyle: 'Phong cách Phnom Da Sớm (Early Phnom Da Style)',
-    bannerImage: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=85',
-    relatedObjectIds: ['kh-art-harihara-prasat-andet'],
+    bannerImage: 'https://images.metmuseum.org/CRDImages/as/web-large/LK.1993.477.3_DP310135r1_25F.jpg',
+    relatedObjectIds: ['kh-met-38160', 'kh-met-39221'],
   },
   {
     id: 'epoch-chenla',
@@ -31,13 +31,13 @@ export const TIMELINE_EPOCHS: TimelineEpoch[] = [
     keyDevelopments: [
       'Xây dựng các cụm đền tháp gạch bát giác quy mô lớn tại Sambor Prei Kuk',
       'Đỉnh cao nghệ thuật tạc tượng Harihara (kết hợp Shiva và Vishnu) với giải phẫu cơ thể tự nhiên',
-      'Sự xuất hiện rộng rãi của văn bia chữ Khmer cổ đầu tiên (Bia K.600)'
+      'Sự xuất hiện rộng rãi của văn bia chữ Khmer cổ đầu tiên'
     ],
     majorRulers: ['Bhavavarman I', 'Mahendravarman (Citrasena)', 'Isanavarman I', 'Jayavarman I'],
     iconicMonuments: ['Sambor Prei Kuk', 'Prasat Andet', 'Vat Phou'],
     representativeArtStyle: 'Phong cách Sambor Prei Kuk & Prasat Andet',
-    bannerImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85',
-    relatedObjectIds: ['kh-art-harihara-prasat-andet', 'kh-place-sambor-prei-kuk'],
+    bannerImage: 'https://images.metmuseum.org/CRDImages/as/web-large/38.62.jpg',
+    relatedObjectIds: ['kh-met-38160', 'kh-met-38620', 'kh-met-44965'],
   },
   {
     id: 'epoch-angkor-golden',
@@ -50,8 +50,8 @@ export const TIMELINE_EPOCHS: TimelineEpoch[] = [
     keyDevelopments: [
       'Xây dựng Angkor Wat — kỳ quan đền thờ tôn giáo bằng đá lớn nhất thế giới',
       'Quy hoạch kinh thành Angkor Thom và đền Bayon với hơn 200 gương mặt đá khổng lồ',
-      'Đỉnh cao nghệ thuật đúc đồng đại quy mô (Tượng West Mebon Vishnu)',
-      'Hệ thống chữ viết Aksar Mul và các điệu múa cung đình thiêng liêng Robam Preah Reach Trop'
+      'Đỉnh cao nghệ thuật đúc đồng đại quy mô và tượng sa thạch tôn giáo',
+      'Hệ thống biểu tượng thần thoại và nghệ thuật tạc tượng Phật ngự đài rắn Mucalinda'
     ],
     majorRulers: [
       'Jayavarman II (802–835)',
@@ -61,15 +61,14 @@ export const TIMELINE_EPOCHS: TimelineEpoch[] = [
     ],
     iconicMonuments: ['Angkor Wat', 'Bayon', 'Banteay Srei', 'Ta Prohm', 'Preah Khan', 'West Mebon'],
     representativeArtStyle: 'Kulen, Koh Ker, Banteay Srei, Angkor Wat, Bayon Styles',
-    bannerImage: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=1200&q=85',
+    bannerImage: 'https://images.metmuseum.org/CRDImages/as/web-large/36_96_5_F.JPG',
     relatedObjectIds: [
-      'kh-art-vishnu-west-mebon',
-      'kh-place-angkor-wat',
-      'kh-art-jayavarman-vii-head',
-      'kh-place-bayon',
-      'kh-place-banteay-srei',
-      'kh-artform-royal-ballet',
-      'kh-artform-pinpeat-ensemble'
+      'kh-met-38451',
+      'kh-met-38304',
+      'kh-met-38450',
+      'kh-met-38297',
+      'kh-met-38158',
+      'kh-met-65095'
     ],
   },
   {
@@ -79,17 +78,17 @@ export const TIMELINE_EPOCHS: TimelineEpoch[] = [
     timeSpan: 'Thế kỷ 15 – Thế kỷ 19 SCN (1431 – 1863 SCN)',
     startYear: 1431,
     endYear: 1863,
-    description: 'Chuyển dời trung tâm chính trị về Chaktomuk (Phnom Penh), Longvek và Oudong. Sự truyền bá sâu rộng của Phật giáo Thượng tọa bộ (Theravada), phát triển kinh sách lá buông (Sastra Slekrith) và nghệ thuật kịch rối bóng Sbek Thom.',
+    description: 'Chuyển dời trung tâm chính trị về Chaktomuk (Phnom Penh), Longvek và Oudong. Sự truyền bá sâu rộng của Phật giáo Thượng tọa bộ (Theravada), phát triển các pho tượng Phật đồng và kinh sách lá buông.',
     keyDevelopments: [
       'Phát triển trường thiên sử thi Reamker (bản Khmer của sử thi Ramayana)',
       'Sao chép và lưu giữ kho tàng kinh Phật giáo trên lá buông Sastra Slekrith',
-      'Trùng tu và biến Angkor Wat thành trung tâm hành hương Phật giáo quốc tế lớn'
+      'Đúc các pho tượng Phật Thích Ca bằng đồng thếp vàng với phong cách uyển chuyển'
     ],
     majorRulers: ['Ponhea Yat', 'Ang Duong', 'Norodom'],
     iconicMonuments: ['Kinh đô Oudong', 'Wat Phnom', 'Chùa Bạc (Wat Preah Keo Morakot)'],
-    representativeArtStyle: 'Phong cách Nghệ thuật Hậu Angkor & Điêu khắc Gỗ Sơn Son Thếp Vàng',
-    bannerImage: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=85',
-    relatedObjectIds: ['kh-manuscript-sastra-slekrith'],
+    representativeArtStyle: 'Phong cách Nghệ thuật Hậu Angkor & Tượng Phật Đồng',
+    bannerImage: 'https://images.metmuseum.org/CRDImages/as/web-large/38.90.3.jpg',
+    relatedObjectIds: ['kh-met-38903', 'kh-met-38908'],
   },
   {
     id: 'epoch-modern',
@@ -98,20 +97,16 @@ export const TIMELINE_EPOCHS: TimelineEpoch[] = [
     timeSpan: 'Thế kỷ 19 đến Nay (1863 – Hiện tại)',
     startYear: 1863,
     endYear: 2026,
-    description: 'Giai đoạn khảo sát học thuật quốc tế (EFEO, UNESCO), thành lập Bảo tàng Quốc gia Campuchia, hồi sinh các di sản phi vật thể và công nhận các Di sản Thế giới.',
+    description: 'Thời kỳ nghiên cứu khảo cổ học khoa học của Viện EFEO, thành lập Bảo tàng Quốc gia Phnom Penh, ghi danh Di sản Thế giới UNESCO và số hóa lưu trữ bảo tàng toàn cầu.',
     keyDevelopments: [
-      'Công nhận Quần thể Di tích Angkor (1992), Đền Preah Vihear (2008), Sambor Prei Kuk (2017), Koh Ker (2023) là Di sản Thế giới',
-      'Vinh danh Múa Hoàng gia Robam Preah Reach Trop (2003) và Nhạc cụ Chapei Dang Veng (2016) là Di sản Phi vật thể',
-      'Ứng dụng số hóa 3D, bảo tàng kỹ thuật số và khảo cổ học vệ tinh LiDAR'
+      'Ghi danh Quần thể Angkor vào Danh mục Di sản Thế giới UNESCO (1992)',
+      'Hồi hương các bảo vật bị thất lạc từ các bảo tàng và bộ sưu tập quốc tế',
+      'Xây dựng cơ sở dữ liệu số hóa bảo tàng mở Open Access CC0 bảo tồn vĩnh cửu'
     ],
-    majorRulers: ['Quốc vương Norodom Sihanouk', 'Quốc vương Norodom Sihamoni'],
-    iconicMonuments: ['Bảo tàng Quốc gia Campuchia', 'Cung điện Hoàng gia Phnom Penh'],
-    representativeArtStyle: 'Bảo tồn Di sản Cổ điển & Mỹ thuật Đương đại Khmer',
-    bannerImage: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=85',
-    relatedObjectIds: [
-      'kh-artform-royal-ballet',
-      'kh-artform-pinpeat-ensemble',
-      'kh-manuscript-sastra-slekrith'
-    ],
-  },
+    majorRulers: ['Norodom Sihanouk', 'Norodom Sihamoni'],
+    iconicMonuments: ['Bảo tàng Quốc gia Campuchia (Phnom Penh)', 'Bảo tàng Quốc gia Angkor (Siem Reap)'],
+    representativeArtStyle: 'Bảo tồn Di sản Quốc tế & Số hóa 3D',
+    bannerImage: 'https://images.metmuseum.org/CRDImages/as/web-large/DT5215.jpg',
+    relatedObjectIds: ['kh-met-38451', 'kh-met-38304'],
+  }
 ];

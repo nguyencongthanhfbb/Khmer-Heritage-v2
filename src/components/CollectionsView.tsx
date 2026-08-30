@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { MuseumCollection, HeritageObject } from '../types/museum';
+import { MuseumImage } from './MuseumImage';
 import { Layers, ArrowRight, Bookmark, Landmark, Sparkles, Filter } from 'lucide-react';
 
 interface CollectionsViewProps {
@@ -76,10 +77,12 @@ export const CollectionsView: React.FC<CollectionsViewProps> = ({
         >
           <div className="grid grid-cols-1 lg:grid-cols-12">
             <div className="lg:col-span-5 aspect-[16/10] lg:aspect-auto overflow-hidden bg-stone-950">
-              <img
+              <MuseumImage
                 src={activeCollection.representativeImage}
                 alt={activeCollection.title}
-                referrerPolicy="no-referrer"
+                title={activeCollection.title}
+                period={activeCollection.period}
+                category={activeCollection.category}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -141,10 +144,12 @@ export const CollectionsView: React.FC<CollectionsViewProps> = ({
               className="group rounded-2xl bg-stone-900 border border-stone-800 hover:border-amber-500/40 transition-all duration-300 overflow-hidden flex flex-col shadow-md hover:shadow-xl"
             >
               <div className="relative aspect-[4/3] w-full overflow-hidden bg-stone-950">
-                <img
+                <MuseumImage
                   src={obj.media.primaryImage}
                   alt={obj.title}
-                  referrerPolicy="no-referrer"
+                  title={obj.title}
+                  category={obj.category}
+                  period={obj.period}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-stone-900/90 text-[11px] font-mono text-amber-300 border border-amber-500/30">

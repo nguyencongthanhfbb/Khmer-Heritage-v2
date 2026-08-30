@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { HeritageObject, HistoricalPeriod, EntityType } from '../types/museum';
+import { MuseumImage } from './MuseumImage';
 import { 
   Search, 
   Filter, 
@@ -211,10 +212,12 @@ export const ObjectDirectory: React.FC<ObjectDirectoryProps> = ({
               className="group rounded-2xl bg-stone-900 border border-stone-800 hover:border-amber-500/40 transition-all duration-300 overflow-hidden flex flex-col shadow-md hover:shadow-xl"
             >
               <div className="relative aspect-[4/3] w-full overflow-hidden bg-stone-950">
-                <img
+                <MuseumImage
                   src={obj.media.primaryImage}
                   alt={obj.title}
-                  referrerPolicy="no-referrer"
+                  title={obj.title}
+                  category={obj.category}
+                  period={obj.period}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 

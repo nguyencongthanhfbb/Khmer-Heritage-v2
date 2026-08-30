@@ -1,5 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { HeritageObject } from '../types/museum';
+import { MuseumImage } from './MuseumImage';
+import { getAuthenticFallbackImage } from '../utils/imageUtils';
 import { 
   ArrowLeft, 
   Bookmark, 
@@ -19,7 +21,8 @@ import {
   Compass,
   FileText,
   Share2,
-  Copy
+  Copy,
+  Radio
 } from 'lucide-react';
 
 interface HeritageObjectDetailProps {
@@ -48,6 +51,8 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
   const [activeHotspotId, setActiveHotspotId] = useState<string | null>(null);
   const [citationFormat, setCitationFormat] = useState<'APA' | 'Chicago' | 'EFEO' | 'BibTeX'>('APA');
 
+  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+
   const isSaved = savedIds.includes(object.id);
   const activeHotspot = object.hotspots?.find((h) => h.id === activeHotspotId) || null;
 
@@ -63,6 +68,8 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
         const utterance = new SpeechSynthesisUtterance(narrationText);
         utterance.lang = 'vi-VN';
         utterance.rate = 0.95;
+        utteranceRef.current = utterance;
+
         utterance.onend = () => setIsPlayingAudio(false);
         utterance.onerror = () => setIsPlayingAudio(false);
         setIsPlayingAudio(true);
@@ -178,6 +185,9 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
                 src={selectedImage}
                 alt={object.title}
                 referrerPolicy="no-referrer"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = getAuthenticFallbackImage(object.title, object.category, object.period);
+                }}
                 className="w-full h-full object-contain sm:object-cover object-center cursor-zoom-in"
                 onClick={() => setIsZoomModalOpen(true)}
               />
@@ -288,10 +298,12 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
                     : 'border-stone-800 opacity-60 hover:opacity-100'
                 }`}
               >
-                <img
+                <MuseumImage
                   src={object.media.primaryImage}
                   alt="Primary view"
-                  referrerPolicy="no-referrer"
+                  title={object.title}
+                  category={object.category}
+                  period={object.period}
                   className="w-full h-full object-cover"
                 />
               </button>
@@ -305,10 +317,12 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
                       : 'border-stone-800 opacity-60 hover:opacity-100'
                   }`}
                 >
-                  <img
+                  <MuseumImage
                     src={img}
                     alt={`Gallery ${idx + 1}`}
-                    referrerPolicy="no-referrer"
+                    title={object.title}
+                    category={object.category}
+                    period={object.period}
                     className="w-full h-full object-cover"
                   />
                 </button>
@@ -711,10 +725,12 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
                 className="group rounded-2xl bg-stone-900 border border-stone-800 hover:border-amber-500/40 transition-all overflow-hidden flex flex-col cursor-pointer shadow-md hover:shadow-xl"
               >
                 <div className="aspect-[4/3] w-full overflow-hidden bg-stone-950">
-                  <img
+                  <MuseumImage
                     src={rel.media.primaryImage}
                     alt={rel.title}
-                    referrerPolicy="no-referrer"
+                    title={rel.title}
+                    category={rel.category}
+                    period={rel.period}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
@@ -761,6 +777,9 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
               src={selectedImage}
               alt={object.title}
               referrerPolicy="no-referrer"
+              onError={(e) => {
+                (e.target as HTMLImageElement).src = getAuthenticFallbackImage(object.title, object.category, object.period);
+              }}
               className="max-h-[80vh] max-w-full object-contain rounded-xl shadow-2xl"
             />
           </div>

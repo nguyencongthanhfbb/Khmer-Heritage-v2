@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { HeritageObject } from '../types/museum';
+import { MuseumImage } from './MuseumImage';
 import { MapPin, Navigation, Compass, ExternalLink, ArrowRight, Sparkles, LocateFixed } from 'lucide-react';
 
 interface HeritageMapExplorerProps {
@@ -12,7 +13,7 @@ export const HeritageMapExplorer: React.FC<HeritageMapExplorerProps> = ({
   onSelectObject,
 }) => {
   const [selectedProvince, setSelectedProvince] = useState<string>('all');
-  const [selectedSiteId, setSelectedSiteId] = useState<string>('kh-place-angkor-wat');
+  const [selectedSiteId, setSelectedSiteId] = useState<string>(objects[0]?.id || 'kh-met-38451');
   const [userCoords, setUserCoords] = useState<{ lat: number; lng: number } | null>(null);
   const [geoStatus, setGeoStatus] = useState<string>('idle');
 
@@ -209,10 +210,12 @@ export const HeritageMapExplorer: React.FC<HeritageMapExplorerProps> = ({
               id="selected-site-card"
             >
               <div className="aspect-[16/10] w-full rounded-2xl overflow-hidden bg-stone-950 relative">
-                <img
+                <MuseumImage
                   src={activeSite.media.primaryImage}
                   alt={activeSite.title}
-                  referrerPolicy="no-referrer"
+                  title={activeSite.title}
+                  category={activeSite.category}
+                  period={activeSite.period}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute top-3 left-3 px-3 py-1 rounded-full bg-stone-900/90 text-xs font-mono text-amber-300 border border-amber-500/30">

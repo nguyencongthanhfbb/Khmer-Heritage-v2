@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { VIRTUAL_TOURS } from '../data/toursData';
 import { VirtualTour, VirtualTourStop } from '../types/museum';
+import { MuseumImage } from './MuseumImage';
 import { 
   Footprints, 
   Play, 
@@ -30,24 +31,58 @@ export const VirtualTourGuide: React.FC<VirtualTourGuideProps> = ({
   const [selectedTourId, setSelectedTourId] = useState<string>(VIRTUAL_TOURS[0].id);
   const [activeStopIndex, setActiveStopIndex] = useState<number>(0);
   const [isPlayingAudio, setIsPlayingAudio] = useState<boolean>(false);
+  const [isAutoTourActive, setIsAutoTourActive] = useState<boolean>(false);
+  const [speechProgress, setSpeechProgress] = useState<number>(0);
 
   const activeTour = VIRTUAL_TOURS.find((t) => t.id === selectedTourId) || VIRTUAL_TOURS[0];
   const activeStop: VirtualTourStop = activeTour.stops[activeStopIndex] || activeTour.stops[0];
 
-  // Web Speech API Voice Narration
+  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const progressIntervalRef = useRef<number | null>(null);
+
+  // Web Speech API Voice Narration with Progress Tracking
   const handleToggleNarration = () => {
     if ('speechSynthesis' in window) {
       if (isPlayingAudio) {
         window.speechSynthesis.cancel();
+        if (progressIntervalRef.current) clearInterval(progressIntervalRef.current);
         setIsPlayingAudio(false);
+        setSpeechProgress(0);
       } else {
         window.speechSynthesis.cancel();
         const text = `${activeStop.title}. ${activeStop.subtitle}. ${activeStop.narrationText} Ý nghĩa lịch sử: ${activeStop.historicalSignificance}`;
         const utterance = new SpeechSynthesisUtterance(text);
         utterance.lang = 'vi-VN';
         utterance.rate = 0.95;
-        utterance.onend = () => setIsPlayingAudio(false);
-        utterance.onerror = () => setIsPlayingAudio(false);
+        utteranceRef.current = utterance;
+
+        setSpeechProgress(0);
+        const startTime = Date.now();
+        const estimatedDurationMs = Math.max(8000, text.length * 75);
+
+        if (progressIntervalRef.current) clearInterval(progressIntervalRef.current);
+        progressIntervalRef.current = window.setInterval(() => {
+          const elapsed = Date.now() - startTime;
+          const pct = Math.min(99, Math.round((elapsed / estimatedDurationMs) * 100));
+          setSpeechProgress(pct);
+        }, 300);
+
+        utterance.onend = () => {
+          if (progressIntervalRef.current) clearInterval(progressIntervalRef.current);
+          setSpeechProgress(100);
+          setIsPlayingAudio(false);
+          if (isAutoTourActive && activeStopIndex < activeTour.stops.length - 1) {
+            setTimeout(() => {
+              setActiveStopIndex((prev) => prev + 1);
+            }, 1200);
+          }
+        };
+
+        utterance.onerror = () => {
+          if (progressIntervalRef.current) clearInterval(progressIntervalRef.current);
+          setIsPlayingAudio(false);
+        };
+
         setIsPlayingAudio(true);
         window.speechSynthesis.speak(utterance);
       }
@@ -61,8 +96,26 @@ export const VirtualTourGuide: React.FC<VirtualTourGuideProps> = ({
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
     }
+    if (progressIntervalRef.current) clearInterval(progressIntervalRef.current);
     setIsPlayingAudio(false);
+    setSpeechProgress(0);
+
+    if (isAutoTourActive) {
+      const timer = setTimeout(() => {
+        handleToggleNarration();
+      }, 500);
+      return () => clearTimeout(timer);
+    }
   }, [selectedTourId, activeStopIndex]);
+
+  useEffect(() => {
+    return () => {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+      if (progressIntervalRef.current) clearInterval(progressIntervalRef.current);
+    };
+  }, []);
 
   const handleNextStop = () => {
     if (activeStopIndex < activeTour.stops.length - 1) {
@@ -73,6 +126,19 @@ export const VirtualTourGuide: React.FC<VirtualTourGuideProps> = ({
   const handlePrevStop = () => {
     if (activeStopIndex > 0) {
       setActiveStopIndex((prev) => prev - 1);
+    }
+  };
+
+  const handleToggleAutoTour = () => {
+    if (isAutoTourActive) {
+      setIsAutoTourActive(false);
+      if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+      setIsPlayingAudio(false);
+    } else {
+      setIsAutoTourActive(true);
+      if (!isPlayingAudio) {
+        handleToggleNarration();
+      }
     }
   };
 
@@ -94,9 +160,24 @@ export const VirtualTourGuide: React.FC<VirtualTourGuideProps> = ({
           </p>
         </div>
 
-        <div className="flex items-center space-x-2 text-xs font-mono text-stone-400 bg-stone-900 border border-stone-800 px-3.5 py-2 rounded-2xl">
-          <Clock className="w-4 h-4 text-amber-400" />
-          <span>Thời lượng: {activeTour.estimatedDuration}</span>
+        <div className="flex items-center space-x-3 shrink-0">
+          <button
+            id="btn-auto-tour-toggle"
+            onClick={handleToggleAutoTour}
+            className={`px-4 py-2 rounded-2xl text-xs font-mono font-bold flex items-center space-x-2 transition-all cursor-pointer border ${
+              isAutoTourActive
+                ? 'bg-amber-400 text-stone-950 border-amber-300 ring-2 ring-amber-400/50 shadow-lg'
+                : 'bg-stone-900 hover:bg-stone-850 text-stone-200 border-stone-700'
+            }`}
+          >
+            <Sparkles className={`w-4 h-4 ${isAutoTourActive ? 'animate-spin text-stone-950' : 'text-amber-400'}`} />
+            <span>{isAutoTourActive ? 'Đang Tự Động Thuyết Minh' : 'Bật Thuyết Minh Tự Động'}</span>
+          </button>
+
+          <div className="flex items-center space-x-2 text-xs font-mono text-stone-400 bg-stone-900 border border-stone-800 px-3.5 py-2 rounded-2xl">
+            <Clock className="w-4 h-4 text-amber-400" />
+            <span>{activeTour.estimatedDuration}</span>
+          </div>
         </div>
       </div>
 
@@ -114,7 +195,7 @@ export const VirtualTourGuide: React.FC<VirtualTourGuideProps> = ({
               }}
               className={`p-5 rounded-3xl transition-all border cursor-pointer flex flex-col justify-between space-y-3 ${
                 isSelected
-                  ? 'bg-stone-900 border-amber-500 ring-2 ring-amber-500/30 shadow-2xl'
+                  ? 'bg-amber-500/15 border-amber-500 ring-2 ring-amber-500/30 shadow-2xl scale-[1.01]'
                   : 'bg-stone-900/60 hover:bg-stone-900 border-stone-800 text-stone-400 hover:text-stone-200'
               }`}
             >
@@ -133,7 +214,7 @@ export const VirtualTourGuide: React.FC<VirtualTourGuideProps> = ({
               <div className="pt-2 border-t border-stone-800 flex items-center justify-between text-xs font-mono">
                 <span className="text-amber-400 font-semibold">{tour.stopsCount} Trạm Dừng</span>
                 {isSelected ? (
-                  <span className="text-emerald-400 flex items-center space-x-1">
+                  <span className="text-emerald-400 flex items-center space-x-1 font-semibold">
                     <CheckCircle2 className="w-3.5 h-3.5" />
                     <span>Đang tham quan</span>
                   </span>
@@ -151,10 +232,12 @@ export const VirtualTourGuide: React.FC<VirtualTourGuideProps> = ({
         
         {/* Stage Media & Narration Overlay Banner */}
         <div className="relative aspect-[16/9] sm:aspect-[21/9] w-full overflow-hidden bg-stone-950">
-          <img
+          <MuseumImage
             src={activeStop.image}
             alt={activeStop.title}
-            referrerPolicy="no-referrer"
+            title={activeStop.title}
+            category="Sacred Architecture"
+            period="Angkor & Pre-Angkor"
             className="w-full h-full object-cover object-center filter brightness-90"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-stone-900 via-stone-900/60 to-transparent" />
@@ -170,14 +253,24 @@ export const VirtualTourGuide: React.FC<VirtualTourGuideProps> = ({
               onClick={handleToggleNarration}
               className={`px-4 py-2 rounded-2xl font-mono text-xs flex items-center space-x-2 transition-all cursor-pointer backdrop-blur-md border ${
                 isPlayingAudio
-                  ? 'bg-amber-500 text-stone-950 border-amber-400 font-bold animate-pulse'
+                  ? 'bg-amber-400 text-stone-950 border-amber-300 font-bold animate-pulse shadow-lg'
                   : 'bg-stone-950/80 text-stone-200 border-stone-700 hover:bg-stone-850'
               }`}
             >
-              {isPlayingAudio ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4" />}
-              <span>{isPlayingAudio ? 'Đang thuyết minh âm thanh...' : 'Nghe Thuyết Minh (Audio)'}</span>
+              {isPlayingAudio ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
+              <span>{isPlayingAudio ? `Đang thuyết minh (${speechProgress}%)` : 'Nghe Thuyết Minh (Audio)'}</span>
             </button>
           </div>
+
+          {/* Progress bar on banner */}
+          {isPlayingAudio && (
+            <div className="absolute top-0 left-0 right-0 h-1 bg-stone-800">
+              <div 
+                className="h-full bg-amber-400 transition-all duration-300"
+                style={{ width: `${speechProgress}%` }}
+              />
+            </div>
+          )}
 
           {/* Bottom Title on Image */}
           <div className="absolute bottom-6 left-6 right-6 space-y-1">

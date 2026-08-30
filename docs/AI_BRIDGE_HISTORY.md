@@ -22,5 +22,14 @@
    - **Virtual Tour Guide (Thuyết Minh Viên Ảo Đa Tuyến)**: Tuyến tham quan tương tác có lồng tiếng thuyết minh thời gian thực (Web Speech API) qua 4 hành trình: Tuyến Tuyệt Tác Vương Triều, Tuyến Kiến Trúc Đền Núi Meru, Tuyến Tiền Angkor, và Tuyến Nghệ Thuật Sống.
    - **Interactive Iconography Hotspots (Điểm Chạm Giải Mã Biểu Tượng Học)**: Tích hợp đầy đủ các điểm neo tương tác trên hình ảnh của 10/10 hiện vật kiệt tác bảo tàng, giải mã chi tiết các thủ ấn, vương miện, nụ cười Bayon, kiến trúc Meru và văn tự cổ.
    - **Heritage Scholar Quiz (Khảo Thí Tri Thức Di Sản)**: Bộ trắc nghiệm học thuật với giải thích lịch sử cặn kẽ và thang đo thứ bậc học giả (Tập sự, Giám định viên, Giám tuyển gia, Học giả Cổ học Viện EFEO).
-6. **Trạng thái Hiện tại (Current State)**:
-   - Toàn bộ các phân hệ chức năng, nội dung học thuật, đồ thị quan hệ và công cụ tương tác chuyên sâu đã hoàn thiện trọn vẹn 100%, sẵn sàng cho phiên kiểm thử tổng thể.
+6. **Rà soát & Thanh lọc Dữ liệu Khảo cổ Triệt để (Archival Data Hygiene & Strict Validation)**:
+   - Loại bỏ 100% hình ảnh stock không rõ nguồn gốc và các bản ghi không chính ngạch.
+   - Xác thực và đồng bộ 60 hiện vật cổ vật sa thạch & đồ đồng thời Phù Nam, Chân Lạp, Angkor từ kho dữ liệu mở Open Access CC0 của The Metropolitan Museum of Art.
+   - Thiết lập cơ chế Archival Fallback Badge chuyên dụng cho bảo tàng số khi kết nối máy chủ ngoại vi gặp gián đoạn.
+7. **Tối ưu Hóa & Hoàn Thiện Tương Tác Sâu Sắc (Interactive Engine Overhaul & Resiliency)**:
+   - **Bộ Tổng Hợp Âm Học Vật Lý Pinpeat (Physical Modeling Web Audio Synthesizer)**: Nâng cấp động cơ Web Audio API với mô hình cộng hưởng đa họa âm (multi-harmonic partials) mô phỏng chính xác chất liệu gỗ của Đàn thuyền Roneat Ek, tiếng ngân chuông đồng của Kong Vong, độ rền của trống Sampho, và tiếng kèn Sralai. Tích hợp tuyển tập khúc nhạc lễ hoàng cung (*Sathukar*, *Robam Apsara*, *Tep Monorom*) với bàn phím phát sáng theo nhịp điệu.
+   - **Hệ Thống Điểm Chạm Biểu Tượng Học (Interactive Iconography Hotspots)**: Bổ sung 100% tọa độ điểm chạm phân tích mỹ thuật (thủ ấn Dhyana, 7 đầu rắn Mucalinda, nhục kế Ushnisha, mũ Jatamukuta, con mắt thứ ba Shiva, hợp nhất Harihara, đồng Mật Tông Hevajra) có thể nhấp trực tiếp trên hiện vật.
+   - **Thuyết Minh Viên Tuyến Tham Quan Tự Động (Auto-Play Guided Tour Engine)**: Tích hợp thanh tiến trình thời gian thực, cơ chế chống thu hồi bộ nhớ (utterance retention) trên Web Speech API và chế độ tự động chuyển trạm tham quan.
+   - **Lối Tắt Khám Phá Trực Quan Tại Sảnh Chính (Interactive Experience Quick Discovery Ribbon)**: Đưa 3 lối tắt tương tác trực tiếp lên đầu trang chủ để người dùng trải nghiệm ngay lập tức.
+8. **Trạng thái Hiện tại (Current State)**:
+   - Toàn bộ hệ thống bảo tàng số Khmer Heritage đã kích hoạt đầy đủ 100% các tính năng tương tác học thuật chuyên sâu, âm thanh sống động và dữ liệu khảo cổ chính xác.

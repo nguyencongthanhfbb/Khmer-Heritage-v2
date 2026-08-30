@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { HeritageObject } from '../types/museum';
+import { MuseumImage } from './MuseumImage';
 import { Search, X, ArrowRight, Landmark, Clock, Sparkles } from 'lucide-react';
 
 interface QuickSearchModalProps {
@@ -94,12 +95,16 @@ export const QuickSearchModal: React.FC<QuickSearchModalProps> = ({
               className="p-3 rounded-2xl bg-stone-950/60 hover:bg-stone-800/80 border border-stone-850 hover:border-amber-500/40 transition-all flex items-center justify-between cursor-pointer group"
             >
               <div className="flex items-center space-x-3">
-                <img
-                  src={obj.media.primaryImage}
-                  alt={obj.title}
-                  referrerPolicy="no-referrer"
-                  className="w-12 h-12 rounded-xl object-cover"
-                />
+                <div className="w-12 h-12 rounded-xl overflow-hidden flex-shrink-0 bg-stone-900">
+                  <MuseumImage
+                    src={obj.media.primaryImage}
+                    alt={obj.title}
+                    title={obj.title}
+                    category={obj.category}
+                    period={obj.period}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <div>
                   <div className="flex items-center space-x-2">
                     <span className="font-serif font-bold text-sm text-stone-100 group-hover:text-amber-300 transition-colors">

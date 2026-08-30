@@ -1,5 +1,6 @@
 import React from 'react';
 import { HeritageObject, MuseumCollection, TimelineEpoch } from '../types/museum';
+import { MuseumImage } from './MuseumImage';
 import { 
   Compass, 
   ArrowRight, 
@@ -57,11 +58,13 @@ export const MuseumEntrance: React.FC<MuseumEntranceProps> = ({
         >
           {/* Background Image with Dark Overlay Gradient */}
           <div className="absolute inset-0 z-0">
-            <img
+            <MuseumImage
               src={heroMasterpiece.media.primaryImage}
               alt={heroMasterpiece.title}
-              referrerPolicy="no-referrer"
-              className="w-full h-full object-cover object-center scale-105 transform transition-transform duration-1000 hover:scale-100 opacity-40 filter brightness-90"
+              title={heroMasterpiece.title}
+              category={heroMasterpiece.category}
+              period={heroMasterpiece.period}
+              className="w-full h-full opacity-40 filter brightness-90"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#121316] via-[#121316]/75 to-transparent" />
             <div className="absolute inset-0 bg-gradient-to-r from-[#121316] via-[#121316]/60 to-transparent" />
@@ -151,6 +154,95 @@ export const MuseumEntrance: React.FC<MuseumEntranceProps> = ({
         </section>
       )}
 
+      {/* 1.5. INTERACTIVE EXPERIENCES QUICK DISCOVERY RIBBON */}
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-4" id="interactive-experiences-ribbon">
+        
+        {/* Experience 1: Pinpeat Audio Synth */}
+        <div
+          id="btn-quick-pinpeat"
+          onClick={() => onNavigateTab && onNavigateTab('pinpeat')}
+          className="group p-5 rounded-3xl bg-gradient-to-br from-amber-950/40 via-stone-900 to-stone-900 border border-amber-500/30 hover:border-amber-400/70 transition-all cursor-pointer space-y-3 shadow-xl hover:scale-[1.01]"
+        >
+          <div className="flex items-center justify-between">
+            <div className="w-10 h-10 rounded-2xl bg-amber-500/20 text-amber-300 flex items-center justify-center border border-amber-500/40 group-hover:scale-110 transition-transform">
+              <Music className="w-5 h-5" />
+            </div>
+            <span className="text-[10px] font-mono uppercase px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
+              Web Audio Synthesizer
+            </span>
+          </div>
+          <div>
+            <h3 className="font-serif font-bold text-base text-stone-100 group-hover:text-amber-300 transition-colors">
+              Dàn Nhạc Lễ Pinpeat
+            </h3>
+            <p className="text-xs font-serif text-stone-400 line-clamp-2 pt-1">
+              Trực tiếp gõ thử 5 nhạc cụ nghi lễ cổ truyền và nghe tự động tấu các điệu nhạc cung đình Sathukar & Robam Apsara.
+            </p>
+          </div>
+          <div className="text-xs font-mono text-amber-400 font-semibold flex items-center space-x-1 pt-1">
+            <span>Mở Bàn Phím Âm Nhạc</span>
+            <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+          </div>
+        </div>
+
+        {/* Experience 2: Virtual Tour with Voice Narration */}
+        <div
+          id="btn-quick-virtual-tour"
+          onClick={() => onNavigateTab && onNavigateTab('tours')}
+          className="group p-5 rounded-3xl bg-gradient-to-br from-emerald-950/30 via-stone-900 to-stone-900 border border-emerald-500/30 hover:border-emerald-400/70 transition-all cursor-pointer space-y-3 shadow-xl hover:scale-[1.01]"
+        >
+          <div className="flex items-center justify-between">
+            <div className="w-10 h-10 rounded-2xl bg-emerald-500/20 text-emerald-300 flex items-center justify-center border border-emerald-500/40 group-hover:scale-110 transition-transform">
+              <Footprints className="w-5 h-5" />
+            </div>
+            <span className="text-[10px] font-mono uppercase px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+              Thuyết Minh Âm Thanh AI
+            </span>
+          </div>
+          <div>
+            <h3 className="font-serif font-bold text-base text-stone-100 group-hover:text-emerald-300 transition-colors">
+              Tuyến Tham Quan Bảo Tàng
+            </h3>
+            <p className="text-xs font-serif text-stone-400 line-clamp-2 pt-1">
+              Khám phá các trạm dừng học thuật chuyên sâu theo chủ đề thần quyền và điêu khắc thiêng có thuyết minh tự động.
+            </p>
+          </div>
+          <div className="text-xs font-mono text-emerald-400 font-semibold flex items-center space-x-1 pt-1">
+            <span>Bắt Đầu Tuyến Tham Quan</span>
+            <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+          </div>
+        </div>
+
+        {/* Experience 3: Epigraphy Inscription Decipherer */}
+        <div
+          id="btn-quick-epigraphy"
+          onClick={() => onNavigateTab && onNavigateTab('epigraphy')}
+          className="group p-5 rounded-3xl bg-gradient-to-br from-indigo-950/30 via-stone-900 to-stone-900 border border-indigo-500/30 hover:border-indigo-400/70 transition-all cursor-pointer space-y-3 shadow-xl hover:scale-[1.01]"
+        >
+          <div className="flex items-center justify-between">
+            <div className="w-10 h-10 rounded-2xl bg-indigo-500/20 text-indigo-300 flex items-center justify-center border border-indigo-500/40 group-hover:scale-110 transition-transform">
+              <Layers className="w-5 h-5" />
+            </div>
+            <span className="text-[10px] font-mono uppercase px-2.5 py-1 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+              Khảo Cứu EFEO
+            </span>
+          </div>
+          <div>
+            <h3 className="font-serif font-bold text-base text-stone-100 group-hover:text-indigo-300 transition-colors">
+              Giải Mã Văn Bia Cổ Đại
+            </h3>
+            <p className="text-xs font-serif text-stone-400 line-clamp-2 pt-1">
+              Đối chiếu văn khắc chữ Phạn (Sanskrit) và chữ Khmer Cổ trên các bia đá hoàng triều Angkor với bản dập lưu trữ.
+            </p>
+          </div>
+          <div className="text-xs font-mono text-indigo-400 font-semibold flex items-center space-x-1 pt-1">
+            <span>Giải Mã Bản Khắc</span>
+            <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+          </div>
+        </div>
+
+      </section>
+
       {/* 2. HISTORICAL EPOCHS QUICK BAR */}
       <section className="space-y-4" id="epochs-navigation-section">
         <div className="flex items-center justify-between">
@@ -215,10 +307,12 @@ export const MuseumEntrance: React.FC<MuseumEntranceProps> = ({
             >
               {/* Media Thumbnail with Badges */}
               <div className="relative aspect-[4/3] w-full overflow-hidden bg-stone-950">
-                <img
+                <MuseumImage
                   src={obj.media.primaryImage}
                   alt={obj.title}
-                  referrerPolicy="no-referrer"
+                  title={obj.title}
+                  category={obj.category}
+                  period={obj.period}
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-transparent to-transparent opacity-80" />
@@ -427,10 +521,12 @@ export const MuseumEntrance: React.FC<MuseumEntranceProps> = ({
               className="group relative rounded-2xl overflow-hidden border border-stone-800 bg-stone-900 hover:border-amber-500/50 transition-all cursor-pointer shadow-md flex flex-col sm:flex-row"
             >
               <div className="sm:w-2/5 aspect-[4/3] sm:aspect-auto overflow-hidden bg-stone-950">
-                <img
+                <MuseumImage
                   src={col.representativeImage}
                   alt={col.title}
-                  referrerPolicy="no-referrer"
+                  title={col.title}
+                  period={col.period}
+                  category={col.category}
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
