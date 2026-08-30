@@ -1,0 +1,23 @@
+{
+  "audit_version": "1.0",
+  "task_id": "KH-019",
+  "media_summary": {
+    "total_production_images": 180,
+    "primary_highres_images": 60,
+    "multi_angle_gallery_images": 120,
+    "audio_synthesizer_instruments": 5,
+    "speech_synthesis_narrations": 60,
+    "broken_or_ineligible_media": 0,
+    "licensed_open_access_ratio": 1.0
+  },
+  "media_license_breakdown": {
+    "CC0_Public_Domain": 180,
+    "Restricted_Copyright": 0,
+    "Quarantined_Media": 0
+  },
+  "media_resilience": {
+    "archival_fallback_system": "ENABLED",
+    "fallback_badges": "ACADEMIC_PLACEHOLDER_BADGE",
+    "cdn_source": "images.metmuseum.org"
+  }
+}

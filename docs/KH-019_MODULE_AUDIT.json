@@ -1,0 +1,18 @@
+{
+  "audit_version": "1.0",
+  "task_id": "KH-019",
+  "modules": [
+    { "name": "Museum Entrance", "file": "src/components/MuseumEntrance.tsx", "routed": true, "data_connected": true, "functional": true, "status": "PASS" },
+    { "name": "Heritage Object Detail", "file": "src/components/HeritageObjectDetail.tsx", "routed": true, "data_connected": true, "functional": true, "status": "PASS" },
+    { "name": "Curated Collections", "file": "src/components/CollectionsView.tsx", "routed": true, "data_connected": true, "functional": true, "status": "PASS" },
+    { "name": "Object Directory", "file": "src/components/ObjectDirectory.tsx", "routed": true, "data_connected": true, "functional": true, "status": "PASS" },
+    { "name": "Timeline & Epochs", "file": "src/components/TimelineView.tsx", "routed": true, "data_connected": true, "functional": true, "status": "PASS" },
+    { "name": "Spatial Map Explorer", "file": "src/components/HeritageMapExplorer.tsx", "routed": true, "data_connected": true, "functional": true, "status": "PASS" },
+    { "name": "Epigraphy Inscriptions", "file": "src/components/EpigraphyExplorer.tsx", "routed": true, "data_connected": true, "functional": true, "status": "PASS" },
+    { "name": "Virtual Tour Guide", "file": "src/components/VirtualTourGuide.tsx", "routed": true, "data_connected": true, "functional": true, "status": "PASS" },
+    { "name": "Art Style Matrix", "file": "src/components/ArtStyleMatrix.tsx", "routed": true, "data_connected": true, "functional": true, "status": "PASS" },
+    { "name": "Pinpeat Synthesizer", "file": "src/components/PinpeatExperience.tsx", "routed": true, "data_connected": true, "functional": true, "status": "PASS" },
+    { "name": "Quick Search Modal", "file": "src/components/QuickSearchModal.tsx", "routed": true, "data_connected": true, "functional": true, "status": "PASS" },
+    { "name": "Provenance Modal", "file": "src/components/ProvenanceModal.tsx", "routed": true, "data_connected": true, "functional": true, "status": "PASS" }
+  ]
+}

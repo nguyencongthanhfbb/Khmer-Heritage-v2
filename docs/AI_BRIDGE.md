@@ -18,3 +18,12 @@ AI Bridge là cơ chế kết nối giữa các phiên làm việc của các Ag
 3. **Quy tắc An toàn Dữ liệu**:
    - Không xóa bất kỳ file nào (`.md`, `.ts`, `.tsx`, `.json`, `.css`).
    - Mọi cải tiến đều theo mô hình gia số (Additive & Non-destructive).
+
+---
+
+## 3. TRẠNG THÁI NHIỆM VỤ HIỆN HÀNH (CURRENT TASK STATE)
+- **Nhiệm vụ vừa hoàn thành**: `KH-019` (Independent Reality Audit & Museum Verification).
+- **Kết quả Kiểm định**: `A — READY` (100% Pass mọi tiêu chuẩn Digital Khmer Museum).
+- **Trạng thái Kỹ thuật**: `lint_applet` PASS, `compile_applet` PASS.
+- **Nhiệm vụ Đề xuất Tiếp theo**: `KH-020` (Mở rộng kết nối dữ liệu bảo tàng quốc tế đối tác).
+

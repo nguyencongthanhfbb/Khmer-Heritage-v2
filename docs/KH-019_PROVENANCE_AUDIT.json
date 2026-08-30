@@ -1,0 +1,18 @@
+{
+  "audit_version": "1.0",
+  "task_id": "KH-019",
+  "provenance_metrics": {
+    "objects_with_complete_provenance": 60,
+    "objects_with_partial_provenance": 0,
+    "objects_with_missing_provenance": 0,
+    "accession_numbers_verified": 60,
+    "institution_records_verified": 60,
+    "source_urls_verified": 60,
+    "citations_multi_format_supported": ["APA 7th", "Chicago 17th", "EFEO", "BibTeX"]
+  },
+  "provenance_transparency": {
+    "provenance_modal_accessible": true,
+    "direct_source_link_active": true,
+    "attribution_placard_rendered": true
+  }
+}

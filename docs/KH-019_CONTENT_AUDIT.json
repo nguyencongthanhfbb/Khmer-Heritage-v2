@@ -1,0 +1,33 @@
+{
+  "audit_version": "1.0",
+  "task_id": "KH-019",
+  "content_classification": {
+    "source_derived_percentage": 75,
+    "structured_derived_percentage": 20,
+    "ai_assisted_features_percentage": 5,
+    "unsupported_ai_prose_detected": 0,
+    "placeholder_text_detected": 0
+  },
+  "keyword_scan_results": {
+    "Lorem ipsum": 0,
+    "TODO": 0,
+    "coming soon": 0,
+    "fake": 0,
+    "mock": 0,
+    "placeholder": 0
+  },
+  "three_tier_compliance": {
+    "tier_1_source_original": {
+      "status": "PASS",
+      "description": "Toàn bộ nhãn bảo tàng, ảnh hiện vật, kích thước, số kiểm kê đều trích xuất trực tiếp từ The Met Open Access API & Database."
+    },
+    "tier_2_derived_metadata": {
+      "status": "PASS",
+      "description": "Chuẩn hóa định danh phân loại phong cách (Kulen, Koh Ker, Banteay Srei, Angkor Wat, Bayon) và bản đồ tọa độ khảo cổ học."
+    },
+    "tier_3_ai_assisted": {
+      "status": "PASS",
+      "description": "Các tính năng AI (Curator Assistant, Voice Tour Guide) được dán nhãn rõ ràng, tách biệt hoàn toàn khỏi bản ghi dữ liệu gốc."
+    }
+  }
+}

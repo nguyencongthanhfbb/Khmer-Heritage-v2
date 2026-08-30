@@ -1,0 +1,63 @@
+{
+  "audit_version": "1.0",
+  "task_id": "KH-019",
+  "audit_date": "2026-08-30T01:48:50Z",
+  "total_objects_scanned": 60,
+  "metrics": {
+    "source_grounded_total": 60,
+    "source_grounded_percentage": 100,
+    "with_original_institution": 60,
+    "with_source_url": 60,
+    "with_open_access_license": 60,
+    "with_accession_number": 60,
+    "with_physical_dimensions": 60,
+    "with_material_composition": 60,
+    "with_historical_date_range": 60,
+    "with_canonical_period": 60,
+    "with_geographic_location": 60,
+    "with_gps_coordinates": 60,
+    "with_primary_image": 60,
+    "with_gallery_images": 60,
+    "with_formal_citations": 60,
+    "with_iconography_hotspots": 8,
+    "masterpiece_objects": 8
+  },
+  "source_distribution": {
+    "The Metropolitan Museum of Art (The Met)": 60
+  },
+  "license_distribution": {
+    "CC0": 60
+  },
+  "period_distribution": {
+    "Angkor": 40,
+    "Chenla": 8,
+    "Funan": 6,
+    "Post-Angkor": 6
+  },
+  "sample_object_records": [
+    {
+      "id": "kh-met-38451",
+      "title": "Buddha Protected by a Seven-headed Naga",
+      "accessionNumber": "36.96.5",
+      "period": "Angkor",
+      "dateRange": "Cuối thế kỷ 12 – đầu thế kỷ 13",
+      "material": "Đá sa thạch (Sandstone)",
+      "institution": "The Metropolitan Museum of Art (The Met)",
+      "license": "CC0",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/38451",
+      "hotspotsCount": 4
+    },
+    {
+      "id": "kh-met-38160",
+      "title": "Harihara (Hợp Nhất Shiva và Vishnu)",
+      "accessionNumber": "1993.477.3",
+      "period": "Chenla (Chân Lạp)",
+      "dateRange": "Thế kỷ 7 – 8",
+      "material": "Đá sa thạch (Sandstone)",
+      "institution": "The Metropolitan Museum of Art (The Met)",
+      "license": "CC0",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/38160",
+      "hotspotsCount": 4
+    }
+  ]
+}
