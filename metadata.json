@@ -1,6 +1,10 @@
 {
   "name": "Khmer Heritage",
   "description": "Bảo tàng kỹ thuật số và nền tảng khám phá di sản văn hóa, khảo cổ và di tích lịch sử Campuchia.",
-  "requestFramePermissions": ["geolocation"],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
