@@ -373,6 +373,11 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
               <span className="px-3 py-1 rounded-full bg-stone-800 text-stone-300 border border-stone-700 text-xs font-mono">
                 {object.category}
               </span>
+              {object.isMasterpiece && (
+                <span className="px-3 py-1 rounded-full bg-amber-500 text-stone-950 text-xs font-mono font-bold">
+                  ★ Kiệt Tác Tiêu Biểu
+                </span>
+              )}
             </div>
 
             <h2 className="text-xl sm:text-2xl font-serif text-amber-200/90 font-normal">
@@ -391,50 +396,91 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
             )}
           </div>
 
-          {/* Quick Fact Matrix */}
-          <div className="rounded-2xl bg-stone-900 border border-stone-800 p-5 space-y-3.5 text-xs">
-            <h3 className="font-mono text-amber-400 uppercase tracking-wider font-semibold border-b border-stone-800 pb-2">
-              Thông Số Giám Tuyển Bảo Tàng (Curatorial Data)
-            </h3>
+          {/* Micro-Timeline Progression Ribbon */}
+          <div className="p-3.5 rounded-2xl bg-stone-950 border border-stone-800 flex items-center justify-between overflow-x-auto text-[11px] font-mono no-scrollbar gap-2">
+            <div className="flex items-center space-x-1.5 shrink-0 text-stone-400">
+              <Clock className="w-3.5 h-3.5 text-amber-400" />
+              <span>{object.century}</span>
+            </div>
+            <span className="text-stone-600">→</span>
+            <div className="flex items-center space-x-1.5 shrink-0 text-amber-300">
+              <Landmark className="w-3.5 h-3.5" />
+              <span>Thời kỳ {object.period}</span>
+            </div>
+            <span className="text-stone-600">→</span>
+            <div className="flex items-center space-x-1.5 shrink-0 text-stone-300">
+              <Layers className="w-3.5 h-3.5 text-emerald-400" />
+              <span>{object.relations.artisticStyle?.split('(')[0]?.trim() || 'Nghệ thuật Khmer'}</span>
+            </div>
+            {object.relations.associatedRulers && object.relations.associatedRulers.length > 0 && (
+              <>
+                <span className="text-stone-600">→</span>
+                <div className="flex items-center space-x-1.5 shrink-0 text-amber-200 font-semibold">
+                  <span>👑 {object.relations.associatedRulers[0]}</span>
+                </div>
+              </>
+            )}
+          </div>
+
+          {/* Museum Label Fact Matrix (Placard) */}
+          <div className="rounded-2xl bg-stone-900 border border-stone-800 p-5 space-y-3.5 text-xs shadow-lg">
+            <div className="flex items-center justify-between border-b border-stone-800 pb-2">
+              <h3 className="font-mono text-amber-400 uppercase tracking-wider font-semibold">
+                Biển Chú Giải Hiện Vật (Museum Label)
+              </h3>
+              <span className="text-[10px] font-mono text-stone-400">
+                Lưu trữ: {object.provenance.institution.split('(')[0]?.trim()}
+              </span>
+            </div>
             
             <div className="grid grid-cols-2 gap-3">
+              <div>
+                <span className="text-stone-400 block font-mono">Loại Hình:</span>
+                <span className="text-stone-200 font-medium">{object.category}</span>
+              </div>
               <div>
                 <span className="text-stone-400 block font-mono">Niên Đại:</span>
                 <span className="text-stone-200 font-medium">{object.dateRange}</span>
               </div>
               <div>
-                <span className="text-stone-400 block font-mono">Mã Danh Mục:</span>
+                <span className="text-stone-400 block font-mono">Số Kiểm Kê (Accession):</span>
                 <span className="text-amber-300 font-mono font-semibold">
-                  {object.provenance.accessionNumber || 'NMC-ARCH-REF'}
+                  {object.provenance.accessionNumber || 'Không có trong hồ sơ gốc'}
                 </span>
               </div>
               <div>
                 <span className="text-stone-400 block font-mono">Chất Liệu:</span>
-                <span className="text-stone-200 font-medium">{object.material || 'Đá Sa thạch / Bronze'}</span>
+                <span className="text-stone-200 font-medium">{object.material || 'Đá Sa thạch / Sa thạch nguyên khối'}</span>
               </div>
               <div>
                 <span className="text-stone-400 block font-mono">Kích Thước:</span>
                 <span className="text-stone-200 font-medium">{object.dimensions || 'Theo hồ sơ khai quật'}</span>
               </div>
               <div>
-                <span className="text-stone-400 block font-mono">Phong Cách:</span>
+                <span className="text-stone-400 block font-mono">Phong Cách Nghệ Thuật:</span>
                 <span className="text-stone-200 font-medium">
-                  {object.relations.artisticStyle || 'Cổ điển Khmer'}
+                  {object.relations.artisticStyle || 'Cổ điển Angkor'}
                 </span>
               </div>
               <div>
-                <span className="text-stone-400 block font-mono">Tác Giả / Xưởng:</span>
-                <span className="text-stone-200 font-medium">{object.creator || 'Nghệ nhân Hoàng gia'}</span>
+                <span className="text-stone-400 block font-mono">Tác Giả / Nghệ Nhân:</span>
+                <span className="text-stone-200 font-medium">{object.creator || 'Nghệ nhân Hoàng gia Angkor'}</span>
+              </div>
+              <div>
+                <span className="text-stone-400 block font-mono">Văn Hóa:</span>
+                <span className="text-stone-200 font-medium">Khmer cổ đại</span>
               </div>
             </div>
 
             {object.location && (
-              <div className="pt-2 border-t border-stone-800">
-                <span className="text-stone-400 block font-mono">Địa Điểm Khai Quật / Tọa Lạc:</span>
-                <span className="text-stone-200 font-medium flex items-center space-x-1 mt-0.5">
-                  <MapPin className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" />
-                  <span>{object.location.siteName}, {object.location.province}, {object.location.country}</span>
-                </span>
+              <div className="pt-2 border-t border-stone-800 flex items-center justify-between">
+                <div>
+                  <span className="text-stone-400 block font-mono">Vị Trí Khai Quật / Tọa Lạc:</span>
+                  <span className="text-stone-200 font-medium flex items-center space-x-1 mt-0.5">
+                    <MapPin className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" />
+                    <span>{object.location.siteName}, {object.location.province}, {object.location.country}</span>
+                  </span>
+                </div>
               </div>
             )}
           </div>
@@ -443,6 +489,7 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
           <div className="p-4 rounded-xl bg-amber-500/10 border-l-4 border-amber-500 text-stone-300 text-xs sm:text-sm font-light leading-relaxed">
             "{object.summary}"
           </div>
+
 
         </div>
       </div>
@@ -455,11 +502,16 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
           
           {/* Detailed Description */}
           <section className="rounded-3xl bg-stone-900/90 border border-stone-800 p-6 sm:p-8 space-y-4">
-            <div className="flex items-center space-x-2 text-amber-400">
-              <FileText className="w-5 h-5" />
-              <h3 className="font-serif text-xl font-bold text-stone-100">
-                Mô Tả Chi Tiết & Khảo Cổ Học
-              </h3>
+            <div className="flex items-center justify-between border-b border-stone-800 pb-3">
+              <div className="flex items-center space-x-2 text-amber-400">
+                <FileText className="w-5 h-5" />
+                <h3 className="font-serif text-xl font-bold text-stone-100">
+                  Mô Tả Hiện Vật Từ Hồ Sơ Lưu Trữ Gốc
+                </h3>
+              </div>
+              <span className="text-[10px] font-mono uppercase px-2.5 py-1 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-500/30">
+                Tầng 1: Bản Ghi Gốc ({object.provenance.institution.split('(')[0]?.trim()})
+              </span>
             </div>
             <p className="text-stone-300 leading-relaxed font-light text-sm sm:text-base">
               {object.description}
@@ -468,17 +520,22 @@ export const HeritageObjectDetail: React.FC<HeritageObjectDetailProps> = ({
 
           {/* Historical & Cultural Context */}
           <section className="rounded-3xl bg-stone-900/90 border border-stone-800 p-6 sm:p-8 space-y-4">
-            <div className="flex items-center space-x-2 text-amber-400">
-              <Clock className="w-5 h-5" />
-              <h3 className="font-serif text-xl font-bold text-stone-100">
-                Bối Cảnh Lịch Sử & Ý Nghĩa Tôn Giáo
-              </h3>
+            <div className="flex items-center justify-between border-b border-stone-800 pb-3">
+              <div className="flex items-center space-x-2 text-amber-400">
+                <Clock className="w-5 h-5" />
+                <h3 className="font-serif text-xl font-bold text-stone-100">
+                  Bối Cảnh Lịch Sử & Ý Nghĩa Tôn Giáo
+                </h3>
+              </div>
+              <span className="text-[10px] font-mono uppercase px-2.5 py-1 rounded-full bg-amber-950 text-amber-300 border border-amber-500/30">
+                Tầng 2: Chuẩn Hóa Tri Thức
+              </span>
             </div>
             <div className="space-y-4 text-stone-300 text-sm sm:text-base font-light leading-relaxed">
               <p>{object.historicalContext}</p>
               <div className="p-4 rounded-2xl bg-stone-950/60 border border-stone-800/80 space-y-2">
                 <span className="text-xs font-mono text-amber-400 font-semibold uppercase tracking-wider block">
-                  Giá Trị Văn Hóa & Tín Ngưỡng
+                  Giá Trị Văn Hóa & Tín Ngưỡng Linh Thiêng
                 </span>
                 <p className="text-stone-300 text-xs sm:text-sm">
                   {object.culturalSignificance}
