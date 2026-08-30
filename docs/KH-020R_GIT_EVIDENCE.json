@@ -1,0 +1,47 @@
+{
+  "task": "KH-020R",
+  "auditDate": "2026-08-30T09:22:00Z",
+  "environment": {
+    "runtime": "Google AI Studio Container / Cloud Run Sandboxed Environment",
+    "gitRepositoryStatus": "Non-git directory inside container workspace (filesystem-tracked)",
+    "workingDirectory": "/app/applet",
+    "upstreamRepository": "nguyencongthanhfbb/Khmer-Heritage-v2",
+    "lastVerifiedUpstreamCommit": "e590269e9a7139f4734fe43aacff8c5b8fe5494c (feat: complete KH-019 independent reality audit)"
+  },
+  "fileVerification": {
+    "docs/AI_BRIDGE.md": { "exists": true, "status": "TRACKED" },
+    "docs/AI_BRIDGE_HISTORY.md": { "exists": true, "status": "TRACKED" },
+    "docs/KH-020_INGESTION_REPORT.md": { "exists": true, "status": "EXISTS_CREATED_KH020" },
+    "content/discovery/discovery_log.json": { "exists": true, "status": "EXISTS_GENERATED" },
+    "content/inventory/master_inventory.json": { "exists": true, "status": "EXISTS_GENERATED" },
+    "content/manifests/corpus_manifest.json": { "exists": true, "status": "EXISTS_GENERATED" },
+    "src/data/crawledMuseumData.json": { "exists": true, "status": "EXISTS_73_OBJECTS" },
+    "server/crawler/smithsonianAdapter.ts": { "exists": true, "status": "EXISTS_CODE" },
+    "server/crawler/locAdapter.ts": { "exists": true, "status": "EXISTS_CODE" },
+    "server/crawler/wikimediaAdapter.ts": { "exists": true, "status": "EXISTS_CODE" },
+    "server/crawler/archiveAdapter.ts": { "exists": true, "status": "EXISTS_CODE" },
+    "server/crawler/multiSourceManager.ts": { "exists": true, "status": "EXISTS_CODE" }
+  },
+  "codeImplementationVerification": {
+    "multiInstitutionFilterInObjectDirectory": {
+      "verified": true,
+      "filePath": "src/components/ObjectDirectory.tsx",
+      "options": ["all", "Metropolitan", "Smithsonian", "Library of Congress", "Wikimedia", "National Museum of Cambodia", "Internet Archive"]
+    },
+    "quickSearchEnhancement": {
+      "verified": true,
+      "filePath": "src/components/QuickSearchModal.tsx",
+      "fieldsIndexed": ["title", "titleEnglish", "summary", "category", "period", "institution", "accessionNumber"]
+    },
+    "collectionsGraphSync": {
+      "verified": true,
+      "filePath": "src/data/collectionsData.ts",
+      "syncedCollectionsCount": 6
+    },
+    "timelineGraphSync": {
+      "verified": true,
+      "filePath": "src/data/timelineData.ts",
+      "syncedEpochsCount": 5
+    }
+  }
+}

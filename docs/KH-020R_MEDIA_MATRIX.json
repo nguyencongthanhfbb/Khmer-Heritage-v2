@@ -1,0 +1,1956 @@
+{
+  "totalMediaItems": 243,
+  "remoteCount": 182,
+  "localCount": 61,
+  "byType": {
+    "primaryImage": 73,
+    "gallery": 109,
+    "audio": 61
+  },
+  "items": [
+    {
+      "objectId": "kh-met-38451",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/36_96_5_F.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38451",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/36_96_5_F.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38451",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/36_96_5_TQ.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38451",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/36_96_5_B.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38451",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38451.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38304",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT5215.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38304",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT5215.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38304",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38304.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-65095",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/2003.142.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-65095",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/2003.142.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-65095",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-65095.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38450",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/1987_311.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38450",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1987_311.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38450",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38450.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38297",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP701415.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38297",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP701415.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38297",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP701417.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38297",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP701418.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38297",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP701416.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38297",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38297.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38160",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/LK.1993.477.3_DP310135r1_25F.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38160",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/LK.1993.477.3_DP310135r1_25F.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38160",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP310135.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38160",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP310114.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38160",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38160.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38158",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/LK.1987.17_DP310113R1_25W.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38158",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/LK.1987.17_DP310113R1_25W.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38158",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP310113.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38158",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP310134.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38158",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38158.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38295",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP212332.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38295",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP212332.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38295",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38295.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38162",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/LK.1977.241_DP310109R2_25W.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38162",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/LK.1977.241_DP310109R2_25W.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38162",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP310109.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38162",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP310116.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38162",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38162.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38303",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-23063-001.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38303",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-23063-001.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38303",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/36_96_2_F.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38303",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/36_96_2_S1.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38303",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/36_96_2_S2.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38303",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38303.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38620",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT7088.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38620",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT7088.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38620",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38620.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-57343",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/h1_2000.531.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-57343",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/h1_2000.531.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-57343",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/268397.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-57343",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/268396.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-57343",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-57343.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-44965",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT4331.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-44965",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT4331.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-44965",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-44965.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39772",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT4234.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39772",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT4234.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39772",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-39772.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39544",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/1996_466.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39544",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1996_466.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39544",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-39544.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-53341",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/2001_433_319–320.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-53341",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/2001_433_319–320.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-53341",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-53341.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39162",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP702313.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39162",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP702313.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39162",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP702314.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39162",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP702315.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39162",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-39162.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39601",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/1996_467.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39601",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1996_467.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39601",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-39601.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39221",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP145422.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39221",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP145422.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39221",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP145421.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39221",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-39221.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-53292",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP145425.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-53292",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP145425.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-53292",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-53292.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39131",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/1987_142_3.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39131",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1987_142_3.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39131",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-39131.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-78429",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP702336.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-78429",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP702336.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-78429",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP702337.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-78429",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP702338.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-78429",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-78429.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38550",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/1978_525_F.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38550",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1978_525_F.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38550",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1978_525_L.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38550",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1978_525_R.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38550",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1978_525_B.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38550",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38550.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38875",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_3_F.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38875",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_3_F.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38875",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_3_B.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38875",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38875.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38879",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_8.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38879",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_8.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38879",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38879.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38874",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_2.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38874",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_2.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38874",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38874.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38878",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_7.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38878",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_7.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38878",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38878.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38880",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_9_F.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38880",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_9_F.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38880",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_9_B.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38880",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_9_L.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38880",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_9_R.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38880",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38880.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38877",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_5.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38877",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_5.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38877",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38877.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38886",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_16.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38886",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_16.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38886",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38886.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38881",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_10_51438.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38881",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_10_51438.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38881",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38881.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38882",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_12.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38882",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_12.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38882",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38882.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38916",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_11.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38916",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_11.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38916",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38916.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38909",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/1991_391_8.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38909",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1991_391_8.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38909",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38909.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38885",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_15.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38885",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_15.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38885",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38885.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38884",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_14.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38884",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_14.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38884",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38884.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39274",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_18.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39274",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_18.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39274",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-39274.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39273",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_17.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39273",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_17.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39273",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-39273.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38161",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/1987_411_F.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38161",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1987_411_F.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38161",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1987_411_B.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38161",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38161.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38911",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/1991_391_10.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38911",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1991_391_10.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38911",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38911.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38910",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/1991_391_9.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38910",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1991_391_9.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38910",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38910.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39104",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/1995_570_1.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39104",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1995_570_1.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-39104",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-39104.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38455",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/42_152_7.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38455",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/42_152_7.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38455",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38455.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38896",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-38234-001.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38896",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-38234-001.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38896",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-38234-002.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38896",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-38234-003.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38896",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-38234-004.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38896",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38896.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38890",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/28_33.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38890",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/28_33.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38890",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38890.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38888",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/23_54_1_O1.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38888",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/23_54_1_O1.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38888",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38888.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38889",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-37742-001.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38889",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-37742-001.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38889",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-37742-002.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38889",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-37742-003.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38889",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-37742-004.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38889",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38889.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38298",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT6014.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38298",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT6014.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38298",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38298.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38454",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/1984_128.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38454",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1984_128.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38454",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38454.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38904",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1993.387.2.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38904",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1993.387.2.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38904",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38904.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38901",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1990.83.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38901",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1990.83.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38901",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38901.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38902",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1994.489.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38902",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1994.489.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38902",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38902.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38903",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-38771-001.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38903",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-38771-001.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38903",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38903.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38905",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP291638.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38905",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP291638.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38905",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP291713.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38905",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38905.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38906",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/85_11_6.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38906",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/85_11_6.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38906",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38906.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38907",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-39156-001.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38907",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-39156-001.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38907",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38907.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38908",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/60_97.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38908",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/60_97.JPG",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38908",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38908.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38891",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1975.268.153.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38891",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/1975.268.153.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38891",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38891.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38892",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/42.151.4a-f.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38892",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/42.151.4a-f.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38892",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38892.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38893",
+      "mediaType": "primaryImage",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/30.76.110.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38893",
+      "mediaType": "gallery",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/30.76.110.jpg",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-met-38893",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38893.mp3",
+      "isRemote": false,
+      "license": "CC0",
+      "source": "The Metropolitan Museum of Art (The Met)"
+    },
+    {
+      "objectId": "kh-si-f1992-51",
+      "mediaType": "primaryImage",
+      "url": "https://ids.si.edu/ids/deliveryService?id=FS-7208_02",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)"
+    },
+    {
+      "objectId": "kh-si-f1992-51",
+      "mediaType": "gallery",
+      "url": "https://ids.si.edu/ids/deliveryService?id=FS-7208_02",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)"
+    },
+    {
+      "objectId": "kh-si-f1993-18",
+      "mediaType": "primaryImage",
+      "url": "https://ids.si.edu/ids/deliveryService?id=FS-7288_01",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)"
+    },
+    {
+      "objectId": "kh-si-f1993-18",
+      "mediaType": "gallery",
+      "url": "https://ids.si.edu/ids/deliveryService?id=FS-7288_01",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)"
+    },
+    {
+      "objectId": "kh-si-f1998-74",
+      "mediaType": "primaryImage",
+      "url": "https://ids.si.edu/ids/deliveryService?id=FS-7782_02",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)"
+    },
+    {
+      "objectId": "kh-si-f1998-74",
+      "mediaType": "gallery",
+      "url": "https://ids.si.edu/ids/deliveryService?id=FS-7782_02",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)"
+    },
+    {
+      "objectId": "kh-si-f1992-52",
+      "mediaType": "primaryImage",
+      "url": "https://ids.si.edu/ids/deliveryService?id=FS-7209_01",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)"
+    },
+    {
+      "objectId": "kh-si-f1992-52",
+      "mediaType": "gallery",
+      "url": "https://ids.si.edu/ids/deliveryService?id=FS-7209_01",
+      "isRemote": true,
+      "license": "CC0",
+      "source": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)"
+    },
+    {
+      "objectId": "kh-loc-2004667825",
+      "mediaType": "primaryImage",
+      "url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/09800/09845_150px.jpg",
+      "isRemote": true,
+      "license": "Public Domain",
+      "source": "Library of Congress (Washington, D.C.)"
+    },
+    {
+      "objectId": "kh-loc-2004667825",
+      "mediaType": "gallery",
+      "url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/09800/09845_150px.jpg",
+      "isRemote": true,
+      "license": "Public Domain",
+      "source": "Library of Congress (Washington, D.C.)"
+    },
+    {
+      "objectId": "kh-loc-2017648325",
+      "mediaType": "primaryImage",
+      "url": "https://tile.loc.gov/storage-services/service/pnp/cph/3c20000/3c28000/3c28900/3c28965_150px.jpg",
+      "isRemote": true,
+      "license": "Public Domain",
+      "source": "Library of Congress (Washington, D.C.)"
+    },
+    {
+      "objectId": "kh-loc-2017648325",
+      "mediaType": "gallery",
+      "url": "https://tile.loc.gov/storage-services/service/pnp/cph/3c20000/3c28000/3c28900/3c28965_150px.jpg",
+      "isRemote": true,
+      "license": "Public Domain",
+      "source": "Library of Congress (Washington, D.C.)"
+    },
+    {
+      "objectId": "kh-loc-2021669412",
+      "mediaType": "primaryImage",
+      "url": "https://tile.loc.gov/storage-services/service/asian/2021/2021669412/2021669412_0001_150px.jpg",
+      "isRemote": true,
+      "license": "Public Domain",
+      "source": "Library of Congress (Washington, D.C.)"
+    },
+    {
+      "objectId": "kh-loc-2021669412",
+      "mediaType": "gallery",
+      "url": "https://tile.loc.gov/storage-services/service/asian/2021/2021669412/2021669412_0001_150px.jpg",
+      "isRemote": true,
+      "license": "Public Domain",
+      "source": "Library of Congress (Washington, D.C.)"
+    },
+    {
+      "objectId": "kh-nmc-west-mebon-vishnu",
+      "mediaType": "primaryImage",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/West_Mebon_Vishnu.JPG/480px-West_Mebon_Vishnu.JPG",
+      "isRemote": true,
+      "license": "CC BY-SA",
+      "source": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia, Phnom Penh)"
+    },
+    {
+      "objectId": "kh-nmc-west-mebon-vishnu",
+      "mediaType": "gallery",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/West_Mebon_Vishnu.JPG/480px-West_Mebon_Vishnu.JPG",
+      "isRemote": true,
+      "license": "CC BY-SA",
+      "source": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia, Phnom Penh)"
+    },
+    {
+      "objectId": "kh-art-roneat-ek-pinpeat",
+      "mediaType": "primaryImage",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Roneat_ek.jpg/480px-Roneat_ek.jpg",
+      "isRemote": true,
+      "license": "CC BY-SA",
+      "source": "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia"
+    },
+    {
+      "objectId": "kh-art-roneat-ek-pinpeat",
+      "mediaType": "gallery",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Roneat_ek.jpg/480px-Roneat_ek.jpg",
+      "isRemote": true,
+      "license": "CC BY-SA",
+      "source": "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia"
+    },
+    {
+      "objectId": "kh-tex-khmer-silk-pidan",
+      "mediaType": "primaryImage",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Khmer_silk_ikat.jpg/480px-Khmer_silk_ikat.jpg",
+      "isRemote": true,
+      "license": "CC BY",
+      "source": "Bảo tàng Dệt May Truyền Thống Châu Á (Siem Reap)"
+    },
+    {
+      "objectId": "kh-tex-khmer-silk-pidan",
+      "mediaType": "gallery",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Khmer_silk_ikat.jpg/480px-Khmer_silk_ikat.jpg",
+      "isRemote": true,
+      "license": "CC BY",
+      "source": "Bảo tàng Dệt May Truyền Thống Châu Á (Siem Reap)"
+    },
+    {
+      "objectId": "kh-ins-stele-k904",
+      "mediaType": "primaryImage",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg",
+      "isRemote": true,
+      "license": "Public Domain",
+      "source": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)"
+    },
+    {
+      "objectId": "kh-ins-stele-k904",
+      "mediaType": "gallery",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg",
+      "isRemote": true,
+      "license": "Public Domain",
+      "source": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)"
+    },
+    {
+      "objectId": "kh-ia-audio-pinpeat-sathukar",
+      "mediaType": "primaryImage",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Cambodian_Pinpeat_ensemble.jpg/480px-Cambodian_Pinpeat_ensemble.jpg",
+      "isRemote": true,
+      "license": "Public Domain",
+      "source": "Internet Archive & EFEO Heritage Documentation"
+    },
+    {
+      "objectId": "kh-ia-audio-pinpeat-sathukar",
+      "mediaType": "gallery",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Cambodian_Pinpeat_ensemble.jpg/480px-Cambodian_Pinpeat_ensemble.jpg",
+      "isRemote": true,
+      "license": "Public Domain",
+      "source": "Internet Archive & EFEO Heritage Documentation"
+    },
+    {
+      "objectId": "kh-ia-audio-pinpeat-sathukar",
+      "mediaType": "audio",
+      "url": "/audio/guides/kh-met-38451.mp3",
+      "isRemote": false,
+      "license": "Public Domain",
+      "source": "Internet Archive & EFEO Heritage Documentation"
+    },
+    {
+      "objectId": "kh-ia-manuscript-coedes-inscriptions",
+      "mediaType": "primaryImage",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg",
+      "isRemote": true,
+      "license": "Public Domain",
+      "source": "Internet Archive & EFEO Heritage Documentation"
+    },
+    {
+      "objectId": "kh-ia-manuscript-coedes-inscriptions",
+      "mediaType": "gallery",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Khmer_inscription_stele.jpg/480px-Khmer_inscription_stele.jpg",
+      "isRemote": true,
+      "license": "Public Domain",
+      "source": "Internet Archive & EFEO Heritage Documentation"
+    }
+  ]
+}

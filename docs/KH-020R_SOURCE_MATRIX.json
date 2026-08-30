@@ -1,0 +1,192 @@
+[
+  {
+    "institution": "The Metropolitan Museum of Art (The Met)",
+    "claimedCount": 0,
+    "actualCount": 60,
+    "verifiedSourceRecords": 0,
+    "licenses": [
+      "CC0"
+    ],
+    "sampleRecords": [
+      {
+        "id": "kh-met-38451",
+        "title": "Tượng Phật Thích Ca Ngự Tòa Rắn Thần Mucalinda (Phật Naga)",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38451",
+        "license": "CC0"
+      },
+      {
+        "id": "kh-met-38304",
+        "title": "Tượng Bán Thân Vị Thần Hộ Pháp Mật Tông Hevajra",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/38304",
+        "license": "CC0"
+      },
+      {
+        "id": "kh-met-65095",
+        "title": "Chóp Mái Đền Chạm Khắc Thần Hộ Vệ Quỳ (Antefix)",
+        "sourceUrl": "https://www.metmuseum.org/art/collection/search/65095",
+        "license": "CC0"
+      }
+    ]
+  },
+  {
+    "institution": "Smithsonian National Museum of Asian Art (Freer & Sackler Galleries)",
+    "claimedCount": 0,
+    "actualCount": 4,
+    "verifiedSourceRecords": 4,
+    "licenses": [
+      "CC0"
+    ],
+    "sampleRecords": [
+      {
+        "id": "kh-si-f1992-51",
+        "title": "Tượng Thần Ganesha Tọa Thiền Phong Cách Bakong",
+        "sourceRecordId": "F1992.51",
+        "sourceUrl": "https://asia.si.edu/object/F1992.51/",
+        "license": "CC0"
+      },
+      {
+        "id": "kh-si-f1993-18",
+        "title": "Tượng Nữ Thần Devi / Uma Phong Cách Baphuon",
+        "sourceRecordId": "F1993.18",
+        "sourceUrl": "https://asia.si.edu/object/F1993.18/",
+        "license": "CC0"
+      },
+      {
+        "id": "kh-si-f1998-74",
+        "title": "Bộ Tam Tôn Phật Giáo Đại Thừa Thời Vua Jayavarman VII",
+        "sourceRecordId": "F1998.74",
+        "sourceUrl": "https://asia.si.edu/object/F1998.74/",
+        "license": "CC0"
+      }
+    ]
+  },
+  {
+    "institution": "Library of Congress (Washington, D.C.)",
+    "claimedCount": 0,
+    "actualCount": 3,
+    "verifiedSourceRecords": 3,
+    "licenses": [
+      "Public Domain"
+    ],
+    "sampleRecords": [
+      {
+        "id": "kh-loc-2004667825",
+        "title": "Bản Đồ Học & Khảo Sát Bình Đồ Kiến Trúc Đền Angkor Wat (1900)",
+        "sourceRecordId": "2004667825",
+        "sourceUrl": "https://www.loc.gov/item/2004667825/",
+        "license": "Public Domain"
+      },
+      {
+        "id": "kh-loc-2017648325",
+        "title": "Ảnh Tư Liệu Lịch Sử: Tháp Mặt Phật Đền Bayon (Khoảng 1910)",
+        "sourceRecordId": "2017648325",
+        "sourceUrl": "https://www.loc.gov/item/2017648325/",
+        "license": "Public Domain"
+      },
+      {
+        "id": "kh-loc-2021669412",
+        "title": "Bản Thảo Kinh Lá Buông Khmer Cổ (Sastra Slek Reit)",
+        "sourceRecordId": "2021669412",
+        "sourceUrl": "https://www.loc.gov/item/2021669412/",
+        "license": "Public Domain"
+      }
+    ]
+  },
+  {
+    "institution": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia, Phnom Penh)",
+    "claimedCount": 0,
+    "actualCount": 1,
+    "verifiedSourceRecords": 1,
+    "licenses": [
+      "CC BY-SA"
+    ],
+    "sampleRecords": [
+      {
+        "id": "kh-nmc-west-mebon-vishnu",
+        "title": "Đầu Tượng Thần Vishnu Nằm Đền West Mebon (Đồng Đúc Khổng Lồ)",
+        "sourceRecordId": "File:West_Mebon_Vishnu_National_Museum_of_Cambodia.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_Mebon_Vishnu.JPG",
+        "license": "CC BY-SA"
+      }
+    ]
+  },
+  {
+    "institution": "Kho Tư Liệu Âm Nhạc & Nhạc Cụ Truyền Thống Campuchia",
+    "claimedCount": 0,
+    "actualCount": 1,
+    "verifiedSourceRecords": 1,
+    "licenses": [
+      "CC BY-SA"
+    ],
+    "sampleRecords": [
+      {
+        "id": "kh-art-roneat-ek-pinpeat",
+        "title": "Đàn Roneat Ek — Nhạc Cụ Chủ Đạo Dàn Nhạc Cung Đình Pinpeat",
+        "sourceRecordId": "File:Roneat_ek_Cambodian_xylophone.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roneat_ek.jpg",
+        "license": "CC BY-SA"
+      }
+    ]
+  },
+  {
+    "institution": "Bảo tàng Dệt May Truyền Thống Châu Á (Siem Reap)",
+    "claimedCount": 0,
+    "actualCount": 1,
+    "verifiedSourceRecords": 1,
+    "licenses": [
+      "CC BY"
+    ],
+    "sampleRecords": [
+      {
+        "id": "kh-tex-khmer-silk-pidan",
+        "title": "Tranh Vải Lụa Dệt Ikat Đền Thờ (Pidan Hol) Huyền Thoại Vessantara",
+        "sourceRecordId": "File:Khmer_silk_pidan_temple_hanging.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khmer_silk_ikat.jpg",
+        "license": "CC BY"
+      }
+    ]
+  },
+  {
+    "institution": "Bảo tàng Quốc gia Campuchia (National Museum of Cambodia)",
+    "claimedCount": 0,
+    "actualCount": 1,
+    "verifiedSourceRecords": 1,
+    "licenses": [
+      "Public Domain"
+    ],
+    "sampleRecords": [
+      {
+        "id": "kh-ins-stele-k904",
+        "title": "Bia Ký Khắc Đá Cổ K.904 (Chữ Phạn & Tiếng Khmer Cổ Thế Kỷ 7)",
+        "sourceRecordId": "File:Stele_Inscription_K904_Sanskrit_Khmer.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khmer_inscription_stele.jpg",
+        "license": "Public Domain"
+      }
+    ]
+  },
+  {
+    "institution": "Internet Archive & EFEO Heritage Documentation",
+    "claimedCount": 0,
+    "actualCount": 2,
+    "verifiedSourceRecords": 2,
+    "licenses": [
+      "Public Domain"
+    ],
+    "sampleRecords": [
+      {
+        "id": "kh-ia-audio-pinpeat-sathukar",
+        "title": "Khúc Nhạc Thiêng Sathukar — Khởi Nhạc Đại Lễ Cung Đình Khmer",
+        "sourceRecordId": "unesco-cambodia-traditional-music-pinpeat-1968",
+        "sourceUrl": "https://archive.org/details/unesco-cambodia-traditional-music",
+        "license": "Public Domain"
+      },
+      {
+        "id": "kh-ia-manuscript-coedes-inscriptions",
+        "title": "Tuyển Tập Khảo Khắc & Dịch Thuật Văn Bia Campuchia (George Cœdès)",
+        "sourceRecordId": "inscriptions-du-cambodge-coedes-efeo",
+        "sourceUrl": "https://archive.org/details/inscriptionsducambodge01coed",
+        "license": "Public Domain"
+      }
+    ]
+  }
+]
