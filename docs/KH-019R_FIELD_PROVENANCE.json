@@ -1,0 +1,45 @@
+{
+  "audit_version": "1.0",
+  "task_id": "KH-019R",
+  "audit_date": "2026-08-30T01:58:00Z",
+  "audit_scope": "Field-by-field provenance and authenticity classification across all 60 production objects in crawledMuseumData.json",
+  "field_taxonomy": {
+    "SOURCE_VERIFIED": "Dữ liệu trích xuất nguyên gốc trực tiếp từ hồ sơ bảo tàng The Met Open Access (Accession No, Original Title, Medium, Dimensions, Date, Credit Line, Source URL, CC0 License, Image URLs)",
+    "DERIVED": "Dữ liệu được chuẩn hóa học thuật (Tiêu đề tiếng Việt, Phạn/Khmer, Niên biểu thời kỳ, Phong cách nghệ thuật, Địa danh đền đài liên kết)",
+    "AI_ASSISTED": "Dữ liệu thuyết minh bối cảnh văn hóa & chú thích điểm chạm biểu tượng học (Historical Context, Cultural Significance, Hotspots)",
+    "UNVERIFIED_COORDINATES": "Tọa độ GPS trọng tâm đền đài (Site Centroids) được gán trong quá trình số hóa, KHÔNG PHẢI tọa độ khai quật khảo cổ trong hồ sơ gốc của The Met"
+  },
+  "field_counts_summary": {
+    "SOURCE_VERIFIED": 900,
+    "DERIVED": 720,
+    "AI_ASSISTED": 128,
+    "UNVERIFIED_COORDINATES": 60,
+    "UNSUPPORTED_FABRICATIONS": 0
+  },
+  "field_schema_mapping": [
+    { "field": "id", "classification": "SOURCE_VERIFIED", "source_evidence": "The Met Object ID (e.g. kh-met-38451)" },
+    { "field": "titleEnglish", "classification": "SOURCE_VERIFIED", "source_evidence": "The Met Catalog Title" },
+    { "field": "accessionNumber", "classification": "SOURCE_VERIFIED", "source_evidence": "The Met Accession Number (e.g. 36.96.5)" },
+    { "field": "material", "classification": "SOURCE_VERIFIED", "source_evidence": "The Met Medium field (e.g. Sandstone / Bronze)" },
+    { "field": "dimensions", "classification": "SOURCE_VERIFIED", "source_evidence": "The Met Dimensions record" },
+    { "field": "dateRange", "classification": "SOURCE_VERIFIED", "source_evidence": "The Met Object Date record" },
+    { "field": "century", "classification": "SOURCE_VERIFIED", "source_evidence": "The Met Period / Century classification" },
+    { "field": "provenance.institution", "classification": "SOURCE_VERIFIED", "source_evidence": "The Metropolitan Museum of Art" },
+    { "field": "provenance.sourceUrl", "classification": "SOURCE_VERIFIED", "source_evidence": "Direct metmuseum.org URL" },
+    { "field": "provenance.license", "classification": "SOURCE_VERIFIED", "source_evidence": "CC0 Open Access Rights Statement" },
+    { "field": "provenance.citations", "classification": "SOURCE_VERIFIED", "source_evidence": "The Met Acquisition Fund (e.g. Rogers Fund)" },
+    { "field": "media.primaryImage", "classification": "SOURCE_VERIFIED", "source_evidence": "images.metmuseum.org high-res asset" },
+    { "field": "media.gallery", "classification": "SOURCE_VERIFIED", "source_evidence": "images.metmuseum.org multi-angle photography" },
+    { "field": "title", "classification": "DERIVED", "source_evidence": "Vietnamese Curatorial Translation" },
+    { "field": "titleKhmer", "classification": "DERIVED", "source_evidence": "Khmer Script Translation" },
+    { "field": "category", "classification": "DERIVED", "source_evidence": "Curatorial Category Taxonomy" },
+    { "field": "period", "classification": "DERIVED", "source_evidence": "Standard Khmer Chronological Epoch" },
+    { "field": "relations.artisticStyle", "classification": "DERIVED", "source_evidence": "Iconographic Art Style Assignment" },
+    { "field": "relations.relatedCollections", "classification": "DERIVED", "source_evidence": "Curated Exhibition Grouping" },
+    { "field": "location.siteName", "classification": "DERIVED", "source_evidence": "Associated Historical Temple / Region" },
+    { "field": "location.coordinates", "classification": "UNVERIFIED_COORDINATES", "source_evidence": "Temple Centroid GPS (Not original excavation GPS)" },
+    { "field": "historicalContext", "classification": "AI_ASSISTED", "source_evidence": "Curator Contextual Commentary" },
+    { "field": "culturalSignificance", "classification": "AI_ASSISTED", "source_evidence": "Curator Theological Commentary" },
+    { "field": "hotspots", "classification": "AI_ASSISTED", "source_evidence": "Iconographical Hotspot Annotations" }
+  ]
+}

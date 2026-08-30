@@ -22,8 +22,8 @@ AI Bridge là cơ chế kết nối giữa các phiên làm việc của các Ag
 ---
 
 ## 3. TRẠNG THÁI NHIỆM VỤ HIỆN HÀNH (CURRENT TASK STATE)
-- **Nhiệm vụ vừa hoàn thành**: `KH-019` (Independent Reality Audit & Museum Verification).
-- **Kết quả Kiểm định**: `A — READY` (100% Pass mọi tiêu chuẩn Digital Khmer Museum).
+- **Nhiệm vụ vừa hoàn thành**: `KH-019R` (Evidence-Level Corpus Audit & Source Purification).
+- **Kết quả Kiểm định Cấp Trường**: `B — NEEDS CONTENT / DATA EXPANSION` (60/60 hiện vật có nền tảng hồ sơ bảo tàng The Met Open Access CC0; 100% tọa độ GPS là vị trí tâm đền đài được gán trong số hóa; 0 hiện vật hư cấu).
 - **Trạng thái Kỹ thuật**: `lint_applet` PASS, `compile_applet` PASS.
-- **Nhiệm vụ Đề xuất Tiếp theo**: `KH-020` (Mở rộng kết nối dữ liệu bảo tàng quốc tế đối tác).
+- **Nhiệm vụ Đề xuất Tiếp theo**: `KH-020 — Multi-Institution Authentic Corpus Expansion` (Mở rộng kết nối đa nguồn bảo tàng quốc tế).
 

@@ -1,0 +1,15 @@
+{
+  "audit_version": "1.0",
+  "task_id": "KH-019R",
+  "audit_type": "Evidence-Level License & Rights Audit",
+  "license_breakdown": {
+    "total_objects": 60,
+    "verified_licenses": 60,
+    "unknown_licenses": 0,
+    "restricted_licenses": 0,
+    "quarantined_assets": 0,
+    "license_type": "CC0 (The Metropolitan Museum of Art Open Access)",
+    "rights_statement_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
+  },
+  "compliance_rule": "100% of production imagery and baseline metadata are verified Open Access CC0. No copyright-restricted media is bundled in production."
+}

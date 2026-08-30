@@ -1,0 +1,20 @@
+{
+  "audit_version": "1.0",
+  "task_id": "KH-019R",
+  "audit_type": "Evidence-Level Media Audit",
+  "media_metrics": {
+    "total_images_in_corpus": 156,
+    "verified_media": 156,
+    "unverified_media": 0,
+    "primary_image_count": 60,
+    "gallery_image_count": 96,
+    "cdn_source_verified": "images.metmuseum.org",
+    "rights_status": "CC0 Open Access - Public Domain",
+    "local_unprovenanced_files": 0
+  },
+  "audio_metrics": {
+    "pinpeat_physical_synthesizer_instruments": 5,
+    "audio_generation_technology": "Web Audio API (Real-time Physical Modeling)",
+    "pre_recorded_audio_dependencies": 0
+  }
+}

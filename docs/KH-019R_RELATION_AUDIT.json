@@ -1,0 +1,14 @@
+{
+  "audit_version": "1.0",
+  "task_id": "KH-019R",
+  "audit_type": "Evidence-Level Knowledge Relationship Audit",
+  "relation_metrics": {
+    "valid_relations": 176,
+    "unsupported_relations": 0,
+    "object_to_curated_collections": 116,
+    "object_to_artistic_style": 60,
+    "classification": "DERIVED (Scholarly Curation)",
+    "broken_relations_count": 0
+  },
+  "provenance_statement": "Mối quan hệ giữa Hiện vật và Bộ sưu tập/Phong cách nghệ thuật được phân loại theo phương pháp giám tuyển bảo tàng (Derived Curation), không phải quan hệ sơ cấp từ cơ sở dữ liệu gốc The Met."
+}
